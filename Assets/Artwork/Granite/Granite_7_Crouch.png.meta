@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,1183 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Granite_7_Crouch_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1917
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd198f225f69c7740902f5c07cdce0fd
+      internalID: 1989987469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1916
+        width: 96
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce4459ba65d9d54aaab8c9ce9cd4d78
+      internalID: 1753616671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1916
+        width: 94
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59598e28677c2e143b09fa3c83766b8b
+      internalID: -1376353968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_3
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1916
+        width: 90
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739887dcbc0b89744916174a29f628ad
+      internalID: -436270186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_4
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1915
+        width: 84
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c500de208887a4293bf45c6338496b
+      internalID: -819111188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_5
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1914
+        width: 83
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e545dcfd1cfe049b8f41b114b3f441
+      internalID: 73794280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_6
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1914
+        width: 82
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13ee1168eda7fb42ad46e9ada15dd08
+      internalID: 2012962227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_7
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1914
+        width: 82
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a80e0b1c7d8034f8c612b8172ad3ff
+      internalID: -487025875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1658
+        width: 82
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064ce26d3cfad6047b0e964ca9e5b20a
+      internalID: 1400000426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_9
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1658
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d406337690381a4fbe8c8bdc549ff7c
+      internalID: 1170386657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1658
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dc487c4d8a6be458994ff961fb5ecd
+      internalID: -1142630930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_11
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1658
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b32c606ccea56a4b8417c0d7a163efa
+      internalID: -1157259030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_12
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1658
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b3293187d3b0e419835d09a2f1fa5d
+      internalID: -1712610700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_13
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1658
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebf9f0c64fed794fa8ef25accafaf96
+      internalID: -129957003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_14
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1658
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89013acd382ab6748baa46586af6ddb5
+      internalID: 1650219325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_15
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1658
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3832a0be8b16a5f48a5a8e113e9ab8c3
+      internalID: 1612286620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1402
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a64dd5e6ac73944896dbbf9a0f4e7b5
+      internalID: -1154127543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1402
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4204980376d63349958ff573dd3e554
+      internalID: 1433455298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_18
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1402
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd816e3e0a96194ab71f418f283e567
+      internalID: -1782465373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_19
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1402
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4556a74ae6b8cf46b9a4bf18c0e3e09
+      internalID: -132766897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_20
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1402
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b193e8f058eeb15478c7b25215376a11
+      internalID: -1754613568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_21
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1402
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289be053ab1a2e448b5c435bbe517d01
+      internalID: -1415071789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_22
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1402
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92197916e0fd2d84eb91d289d18cf9bf
+      internalID: -26371344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_23
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1402
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb64730e62be8648aa4dab0ce60b2a6
+      internalID: 1969947120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1146
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b1e20f7441e994e83aac61a40ee052
+      internalID: 1214838678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1146
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4bd6a5689ed534d82556255592a0a4
+      internalID: 173769857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_26
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1146
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e947448446a8b4194e7f138b0c9ce4
+      internalID: 1289381256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_27
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1146
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e156c2df5092d41a0b6f868b051f7c
+      internalID: -972351285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_28
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1147
+        width: 80
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64905bde276cd84448bb6ec1d7fd9c08
+      internalID: 2020327125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_29
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1147
+        width: 80
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca2de7dee59d9145907f9c6d39e79af
+      internalID: 1902621955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_30
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1147
+        width: 80
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640ef0f8bf0d84342b3930bf646689ef
+      internalID: 2089967137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_31
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1146
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b86fbd22d6aa804b9d67428c2ed8881
+      internalID: -155943765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 890
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92c42376d3816f439fb5fa17a871166
+      internalID: -1608333056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_33
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 890
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b977db2783d8339418794dc1abb62512
+      internalID: -1738854328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_34
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 890
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d071502181d3754ab4a5d18e6593954
+      internalID: 79181590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_35
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 890
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e3fa07c6c5f544396429fb11f37c64
+      internalID: -1351773284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_36
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 890
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6b00d34d8ff1645a8432ceaa4b9050
+      internalID: -412082425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_37
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 890
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fe1bc6cdc5708459961ebd787cfcbf
+      internalID: -1396203398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_38
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 890
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683431a00eea9d94482e413d7e8e9fbd
+      internalID: -1621731763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_39
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 890
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2296f4f87034a764e947be19e60016dc
+      internalID: -198588363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 634
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34db73ed05fff694ca85953dcbdd8a3f
+      internalID: 44900359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_41
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 634
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0085c8bbd2fc67469b7d46c0a0f1600
+      internalID: 1062464343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_42
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 634
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2affffbbebdd506458223f8925c68569
+      internalID: -625183569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_43
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 634
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20e6209669b4d444a2a97a77b83a895
+      internalID: -1695055572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_44
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 634
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6f3f2313aa801478b987c95acbd358
+      internalID: -833139206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_45
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 634
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b43e29f3ca1104ba666d9377c6ba6c
+      internalID: -758931199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_46
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 634
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7bab80a2b720f4fa3aef1bdc00a0a2
+      internalID: 614686370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_47
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 634
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc49e7472fdc68643bf540062aac910c
+      internalID: -1736251008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 378
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1193fc3907ef5a4bb849623212c3407
+      internalID: -2129575098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_49
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 378
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2d69fd7a8aa834a8a1d8c6aed23f21
+      internalID: -1200762325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_50
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 378
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152643f379bcf7447a6906907595a3f9
+      internalID: 1531722550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_51
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 378
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc85558c8040204fa663d9ff2e13388
+      internalID: 282560328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_52
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 378
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155bcb41e528a2e47879ce458a3fdb09
+      internalID: 1036044232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_53
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 378
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d32d7564b7d714ea15b368356d8e20
+      internalID: -1483753243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_54
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 378
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2ff3aaf7d0b524195838de7de8dca1
+      internalID: 1666758587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_7_Crouch_55
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 378
+        width: 81
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e3f737d1f69e04397a0275c66ea060
+      internalID: -415730081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1295,63 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granite_7_Crouch_0: 1989987469
+      Granite_7_Crouch_1: 1753616671
+      Granite_7_Crouch_10: -1142630930
+      Granite_7_Crouch_11: -1157259030
+      Granite_7_Crouch_12: -1712610700
+      Granite_7_Crouch_13: -129957003
+      Granite_7_Crouch_14: 1650219325
+      Granite_7_Crouch_15: 1612286620
+      Granite_7_Crouch_16: -1154127543
+      Granite_7_Crouch_17: 1433455298
+      Granite_7_Crouch_18: -1782465373
+      Granite_7_Crouch_19: -132766897
+      Granite_7_Crouch_2: -1376353968
+      Granite_7_Crouch_20: -1754613568
+      Granite_7_Crouch_21: -1415071789
+      Granite_7_Crouch_22: -26371344
+      Granite_7_Crouch_23: 1969947120
+      Granite_7_Crouch_24: 1214838678
+      Granite_7_Crouch_25: 173769857
+      Granite_7_Crouch_26: 1289381256
+      Granite_7_Crouch_27: -972351285
+      Granite_7_Crouch_28: 2020327125
+      Granite_7_Crouch_29: 1902621955
+      Granite_7_Crouch_3: -436270186
+      Granite_7_Crouch_30: 2089967137
+      Granite_7_Crouch_31: -155943765
+      Granite_7_Crouch_32: -1608333056
+      Granite_7_Crouch_33: -1738854328
+      Granite_7_Crouch_34: 79181590
+      Granite_7_Crouch_35: -1351773284
+      Granite_7_Crouch_36: -412082425
+      Granite_7_Crouch_37: -1396203398
+      Granite_7_Crouch_38: -1621731763
+      Granite_7_Crouch_39: -198588363
+      Granite_7_Crouch_4: -819111188
+      Granite_7_Crouch_40: 44900359
+      Granite_7_Crouch_41: 1062464343
+      Granite_7_Crouch_42: -625183569
+      Granite_7_Crouch_43: -1695055572
+      Granite_7_Crouch_44: -833139206
+      Granite_7_Crouch_45: -758931199
+      Granite_7_Crouch_46: 614686370
+      Granite_7_Crouch_47: -1736251008
+      Granite_7_Crouch_48: -2129575098
+      Granite_7_Crouch_49: -1200762325
+      Granite_7_Crouch_5: 73794280
+      Granite_7_Crouch_50: 1531722550
+      Granite_7_Crouch_51: 282560328
+      Granite_7_Crouch_52: 1036044232
+      Granite_7_Crouch_53: -1483753243
+      Granite_7_Crouch_54: 1666758587
+      Granite_7_Crouch_55: -415730081
+      Granite_7_Crouch_6: 2012962227
+      Granite_7_Crouch_7: -487025875
+      Granite_7_Crouch_8: 1400000426
+      Granite_7_Crouch_9: 1170386657
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

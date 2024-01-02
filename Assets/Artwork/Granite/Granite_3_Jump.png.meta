@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,847 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Granite_3_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1917
+        width: 96
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da49eb27cf807174c8e1139fffcccd6b
+      internalID: 715987046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1910
+        width: 95
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd40232294aa2a948b0d87b0dd846b22
+      internalID: 279501555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1904
+        width: 90
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d76c6b19213da4ba96bf059ebcac30
+      internalID: -1091714160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1899
+        width: 85
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cf1ab703feb2b47be80490a09b30a5
+      internalID: -1328722122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1901
+        width: 84
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a557f97e0872746b9c892b33aa1c56
+      internalID: 1439686271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1904
+        width: 87
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a540fbf5c3e5dc149a58843f348f6eee
+      internalID: 903630768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1906
+        width: 89
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6775dc6dfaee8984287103b081a3c322
+      internalID: -1891180277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1908
+        width: 91
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23abed1db9490be4d9d6e41b0f176b6d
+      internalID: 1780681776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1655
+        width: 92
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c76b57b15801b4f9fc5d43c4d458e4
+      internalID: -2101309109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1657
+        width: 94
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc893c4e7da45ba4e8939aebc2ea6ca4
+      internalID: -1824716636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1659
+        width: 93
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8613488890b0b2a4eaea21f1aebbf0c1
+      internalID: -16284819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_11
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1661
+        width: 92
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6b3078681b6304c82090922bf1e48f
+      internalID: 1327164669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_12
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1663
+        width: 92
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29337a856853a7c4fa78e952cdec5ec5
+      internalID: -1166690197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_13
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1665
+        width: 90
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6089eeabe237da47ac117f3409f5bbc
+      internalID: 1024531810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_14
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1667
+        width: 88
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5927a403e803999458c7a0b4285d63a6
+      internalID: -498810724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_15
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1667
+        width: 89
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e0d41c9fe7d2841a639d18cf7bf5d8
+      internalID: 1426559602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1410
+        width: 89
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb573df72e8b47d478c9ce1a9dc45d80
+      internalID: 1700018955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_17
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1410
+        width: 90
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc983fd5e4403b4b9f7bf2800faf8bd
+      internalID: -558468764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_18
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1410
+        width: 90
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95becdf08b5526d4b9447907d83d0e9f
+      internalID: -473794281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_19
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1410
+        width: 90
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddc154f6b93b774bae6cb4b5ff70b56
+      internalID: 1982147649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_20
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1410
+        width: 90
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257ae6e330d50b842a0302ec27f58f8f
+      internalID: -1066727367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_21
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1410
+        width: 91
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb354374a542f448ae6a00e4cf426da
+      internalID: 1304316543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_22
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1410
+        width: 91
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644337ee24a9a43448d57e20b8c502fa
+      internalID: -1174894221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_23
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1409
+        width: 90
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ff50f0fd2cc72438aff4670e37f32c
+      internalID: -1338141385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1153
+        width: 90
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db075aab4fb20b547af079054684f526
+      internalID: -1895853774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_25
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1153
+        width: 90
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59aa7c7b98b38d4b9ee0ab4c77d88b1
+      internalID: -908808289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_26
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1153
+        width: 90
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c3501c52fc8e14f804d78699bbba7e
+      internalID: -328643227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_27
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1153
+        width: 90
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ec41a8af8591b49a690af56e5d5923
+      internalID: 1981340559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_28
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1152
+        width: 90
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d22421db556a954a998b931de40ee45
+      internalID: 1722540312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_29
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1152
+        width: 90
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c01196ca9970c64181253a138bdc351
+      internalID: 632681256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_30
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1152
+        width: 89
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f277193e218b45428656ae2231cf8a5
+      internalID: 1574602098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_31
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1152
+        width: 89
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc58bc0ca3daf441a84330f93e6db38
+      internalID: 1592101557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_32
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 895
+        width: 89
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7ba81f3385caa4da79bae5ee521267
+      internalID: -382870456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 895
+        width: 88
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6357d24f33a20e4448a3fdb8b40f0d9c
+      internalID: -1458473086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_34
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 895
+        width: 87
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83f22d6dfbbf7d4dbd7dfc7b2dd13c3
+      internalID: 950552379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_35
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 895
+        width: 87
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54ec42b61fda97469cf9119ebc61c75
+      internalID: 1271574585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_36
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 895
+        width: 85
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886af39e18cac0447a6402c2ed1e1920
+      internalID: 1345800468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_37
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 894
+        width: 85
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985cd9eb2f7768e409425b736965259e
+      internalID: 1913506649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_38
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 894
+        width: 84
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6b54f937ac63046b03d6c73517d52b
+      internalID: -2111239669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_3_Jump_39
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 894
+        width: 83
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7f01f7bf3b78f46bca733ff6aea7f8
+      internalID: 206135392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +959,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granite_3_Jump_0: 715987046
+      Granite_3_Jump_1: 279501555
+      Granite_3_Jump_10: -16284819
+      Granite_3_Jump_11: 1327164669
+      Granite_3_Jump_12: -1166690197
+      Granite_3_Jump_13: 1024531810
+      Granite_3_Jump_14: -498810724
+      Granite_3_Jump_15: 1426559602
+      Granite_3_Jump_16: 1700018955
+      Granite_3_Jump_17: -558468764
+      Granite_3_Jump_18: -473794281
+      Granite_3_Jump_19: 1982147649
+      Granite_3_Jump_2: -1091714160
+      Granite_3_Jump_20: -1066727367
+      Granite_3_Jump_21: 1304316543
+      Granite_3_Jump_22: -1174894221
+      Granite_3_Jump_23: -1338141385
+      Granite_3_Jump_24: -1895853774
+      Granite_3_Jump_25: -908808289
+      Granite_3_Jump_26: -328643227
+      Granite_3_Jump_27: 1981340559
+      Granite_3_Jump_28: 1722540312
+      Granite_3_Jump_29: 632681256
+      Granite_3_Jump_3: -1328722122
+      Granite_3_Jump_30: 1574602098
+      Granite_3_Jump_31: 1592101557
+      Granite_3_Jump_32: -382870456
+      Granite_3_Jump_33: -1458473086
+      Granite_3_Jump_34: 950552379
+      Granite_3_Jump_35: 1271574585
+      Granite_3_Jump_36: 1345800468
+      Granite_3_Jump_37: 1913506649
+      Granite_3_Jump_38: -2111239669
+      Granite_3_Jump_39: 206135392
+      Granite_3_Jump_4: 1439686271
+      Granite_3_Jump_5: 903630768
+      Granite_3_Jump_6: -1891180277
+      Granite_3_Jump_7: 1780681776
+      Granite_3_Jump_8: -2101309109
+      Granite_3_Jump_9: -1824716636
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
