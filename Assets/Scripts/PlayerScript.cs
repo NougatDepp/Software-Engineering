@@ -13,13 +13,17 @@ public class PlayerScript : MonoBehaviour
     private Animator anim;
     private bool isGrounded;
     private SpriteRenderer spriteRen;
+    private BoxCollider2D boxCollider;
+
 
     private PlayerControls controls;
+
 
     private void Awake()
     {
         controls = new PlayerControls();
         controls.Gameplay.Jump.performed += ctx => Jump();
+        controls.Gameplay.Attack1.performed += ctx => Attack1();
     }
 
     void Start()
@@ -27,6 +31,8 @@ public class PlayerScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriteRen = GetComponent<SpriteRenderer>();
+        boxCollider = GetComponent<BoxCollider2D>();
+
     }
 
     private void OnEnable()
@@ -64,7 +70,6 @@ public class PlayerScript : MonoBehaviour
 
     void Move(float horizontal)
     {
-
         Vector2 movement = new Vector2(horizontal * moveSpeed, rb.velocity.y);
         rb.velocity = movement;
     }
@@ -76,6 +81,13 @@ public class PlayerScript : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             anim.SetTrigger("Jump");
         }
+    }
+
+    void Attack1()
+    {
+        anim.SetInteger("AttackState",1);
+        anim.SetTrigger("Attack1");
+
     }
 
     void AnimationUpdate()
@@ -96,6 +108,11 @@ public class PlayerScript : MonoBehaviour
             anim.SetInteger("AnimState", 2);
         }
 
+    }
+
+    void UpdateOnIdle()
+    {
+        anim.SetInteger("AttackState",0);
     }
 }
 

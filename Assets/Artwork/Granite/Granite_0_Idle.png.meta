@@ -1,0 +1,1447 @@
+fileFormatVersion: 2
+guid: 0a3937af3ddcccb4bac2023c6c055562
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Granite_0_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1917
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236e6e6953a518e4cb7fbf86626d843e
+      internalID: 1728004581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1917
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bbedf6d77b6f345834f138c6509c21
+      internalID: 279374544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1917
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1994074428f0fb340ac1bb3c1256b356
+      internalID: -1779500810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1917
+        width: 99
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6cc83cc9c4bb5478e90af89fefec56
+      internalID: 2124982869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1917
+        width: 98
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d25150a9b520374494386c064be424d
+      internalID: -827741493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1917
+        width: 98
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fe4ae85a0c2774195f0fd410075640
+      internalID: 141668923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1917
+        width: 98
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db73b6ebd8140f47b96d4329d6f4c65
+      internalID: 451291964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1917
+        width: 98
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2720dd4301fbcd4194e70a6c64b39bb
+      internalID: 2068448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1661
+        width: 98
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5427310a9b2cf49a17605f016129a3
+      internalID: -306018592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1661
+        width: 97
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f42b923a63ef84393afbbd610d06f6
+      internalID: -1413129626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1661
+        width: 97
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70b1cef7ad36fa4b8dabadb016535e0
+      internalID: -67255161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1661
+        width: 96
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6d77e47acd17b46ad29ac7089c2afa
+      internalID: 838692129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1661
+        width: 96
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1521e0401502b44bbb4f53f1e04a287
+      internalID: -1154579465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1661
+        width: 96
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462ccc93343b0ac48aeb18f78d484b95
+      internalID: 1606552895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1661
+        width: 96
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7907ffefef4804b9f2ea1875888da2
+      internalID: 87457661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1661
+        width: 96
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305215276d469cb428a99dbe35e21452
+      internalID: -1658865568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1405
+        width: 95
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22216be48a0359488183c15fb838ed3
+      internalID: 772717829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1405
+        width: 95
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf7659f84b6b384aab611b8adad2bd8
+      internalID: -1549506280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1405
+        width: 94
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c993001c29edc6749aa4c2819c00cd94
+      internalID: 1639591626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1405
+        width: 93
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91104daa99af9545b9773988859bdbe
+      internalID: 1359030925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1405
+        width: 94
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4287887b4e5834cbdec5099b343672
+      internalID: -343069980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1405
+        width: 94
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef69478f15c60d4a89c52332a678124
+      internalID: -1272064668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1405
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b138066c3197d4ab04fdc5353f17e1
+      internalID: -1288246143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1405
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77806c62c4efea2498bea9c49dd41e00
+      internalID: 1775351091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1149
+        width: 93
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091cfdc854038dd4394db09b7d66ecf9
+      internalID: -1189143091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1149
+        width: 93
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d3d450974bd46469f2fed4a4a94914
+      internalID: 2060693555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1149
+        width: 93
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b44825dadaad1499b03b6bf5ab2043
+      internalID: 279451662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1149
+        width: 93
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae945742797f644791a8a66f54534d7
+      internalID: -167542121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1149
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bdfdfd1c248c64c88060bf150d980d
+      internalID: 1836716934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1149
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a5c6427a33dee448d92fab51b7d64d
+      internalID: -879675401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1149
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d45b1b7b23d6404ab3fe682dc7ba66f
+      internalID: 47534028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1149
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9269c3154e85b4196e1dd42a0386bd
+      internalID: 85082482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 893
+        width: 94
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f73c11f3228b442894ccc200d9539b
+      internalID: 1520895680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 893
+        width: 94
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e70b062156c47343a93fd95c3c6a89f
+      internalID: 1824632677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 893
+        width: 95
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d588c2b409ff01488ae02061726ec66
+      internalID: 1595336564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 893
+        width: 95
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e4fc2110f59d148839d9deb66bb6b4
+      internalID: 1325116154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 893
+        width: 95
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8729e4c4bcb00c4c8f9b6a0af41aa29
+      internalID: 1948584420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 893
+        width: 95
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0285bc5791bbf645bcf387151d83e87
+      internalID: -961997982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 893
+        width: 95
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bef6ad2ea6d5fe41b0b960f099beaa0
+      internalID: 720132672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 893
+        width: 96
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f603b99981cc6646b7c0446d87186e8
+      internalID: 1956197008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 637
+        width: 96
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fbee0392ecc8a43b3a3930282736b8
+      internalID: 7941021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_41
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 637
+        width: 96
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf46dacd44bc2ca4ebdf712bead18bab
+      internalID: 689016611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_42
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 637
+        width: 96
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fef24a79bd0294787ea2f4977c723c
+      internalID: 558290321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_43
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 637
+        width: 96
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccee00f09e758b64693127808142d410
+      internalID: 1985763939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_44
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 637
+        width: 97
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f316c5a8ed5db419590b1bd2e4eab7
+      internalID: 63742239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_45
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 637
+        width: 97
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85f17873984d7146916672c51799efa
+      internalID: 359192922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_46
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 637
+        width: 97
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7dbd84cee40cd4cb2eaa27e03a6314
+      internalID: 458395281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_47
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 637
+        width: 97
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f32174ea9ca1ec4483bf523f570bf2f
+      internalID: 355839958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_48
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 381
+        width: 98
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a74952c3c752f47af4743ad88a8d99
+      internalID: -1286064686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_49
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 381
+        width: 98
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377509ce7fc33684098236c72be0202c
+      internalID: -608782526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_50
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 381
+        width: 98
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c21616c2da3bd4aaf70bef5ba3df4f
+      internalID: -1590198919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_51
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 381
+        width: 99
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd63175e13692e419bc83bdd1e54a67
+      internalID: 1861186748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_52
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 381
+        width: 99
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b7e7740294ae44893c971eeda50fdc
+      internalID: -105416475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_53
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 381
+        width: 99
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de656e9a010b64842993fed84c1586c6
+      internalID: -1250192977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_54
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 381
+        width: 99
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81be5eeecc5220d45b345344a37f5858
+      internalID: -275079385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_55
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 381
+        width: 99
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee69f347c1b5f5340b8f57ff3a6e6962
+      internalID: -1157064151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_56
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 125
+        width: 99
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad26b7b4685313b44a23ebc9b5d30d75
+      internalID: 1976612091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_57
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 125
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5948039ba9127429d5b5b67a479b14
+      internalID: 1451497348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_58
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 125
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49138348d5fcaff4abb392b4849f6c6a
+      internalID: -11541765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_0_Idle_59
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 125
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938fb9b8ce258654f820575c5e89af8c
+      internalID: 1155827543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Granite_0_Idle_0: 1728004581
+      Granite_0_Idle_1: 279374544
+      Granite_0_Idle_10: -67255161
+      Granite_0_Idle_11: 838692129
+      Granite_0_Idle_12: -1154579465
+      Granite_0_Idle_13: 1606552895
+      Granite_0_Idle_14: 87457661
+      Granite_0_Idle_15: -1658865568
+      Granite_0_Idle_16: 772717829
+      Granite_0_Idle_17: -1549506280
+      Granite_0_Idle_18: 1639591626
+      Granite_0_Idle_19: 1359030925
+      Granite_0_Idle_2: -1779500810
+      Granite_0_Idle_20: -343069980
+      Granite_0_Idle_21: -1272064668
+      Granite_0_Idle_22: -1288246143
+      Granite_0_Idle_23: 1775351091
+      Granite_0_Idle_24: -1189143091
+      Granite_0_Idle_25: 2060693555
+      Granite_0_Idle_26: 279451662
+      Granite_0_Idle_27: -167542121
+      Granite_0_Idle_28: 1836716934
+      Granite_0_Idle_29: -879675401
+      Granite_0_Idle_3: 2124982869
+      Granite_0_Idle_30: 47534028
+      Granite_0_Idle_31: 85082482
+      Granite_0_Idle_32: 1520895680
+      Granite_0_Idle_33: 1824632677
+      Granite_0_Idle_34: 1595336564
+      Granite_0_Idle_35: 1325116154
+      Granite_0_Idle_36: 1948584420
+      Granite_0_Idle_37: -961997982
+      Granite_0_Idle_38: 720132672
+      Granite_0_Idle_39: 1956197008
+      Granite_0_Idle_4: -827741493
+      Granite_0_Idle_40: 7941021
+      Granite_0_Idle_41: 689016611
+      Granite_0_Idle_42: 558290321
+      Granite_0_Idle_43: 1985763939
+      Granite_0_Idle_44: 63742239
+      Granite_0_Idle_45: 359192922
+      Granite_0_Idle_46: 458395281
+      Granite_0_Idle_47: 355839958
+      Granite_0_Idle_48: -1286064686
+      Granite_0_Idle_49: -608782526
+      Granite_0_Idle_5: 141668923
+      Granite_0_Idle_50: -1590198919
+      Granite_0_Idle_51: 1861186748
+      Granite_0_Idle_52: -105416475
+      Granite_0_Idle_53: -1250192977
+      Granite_0_Idle_54: -275079385
+      Granite_0_Idle_55: -1157064151
+      Granite_0_Idle_56: 1976612091
+      Granite_0_Idle_57: 1451497348
+      Granite_0_Idle_58: -11541765
+      Granite_0_Idle_59: 1155827543
+      Granite_0_Idle_6: 451291964
+      Granite_0_Idle_7: 2068448
+      Granite_0_Idle_8: -306018592
+      Granite_0_Idle_9: -1413129626
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

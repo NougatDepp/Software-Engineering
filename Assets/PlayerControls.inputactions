@@ -1,5 +1,5 @@
 {
-    "name": "Controller Inputs",
+    "name": "PlayerControls",
     "maps": [
         {
             "name": "Gameplay",
@@ -27,6 +27,15 @@
                     "name": "Right",
                     "type": "Button",
                     "id": "0c81cb9f-6a6a-4a8e-aa06-1eac89de9649",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack1",
+                    "type": "Button",
+                    "id": "96cfd7a5-e7d9-4b21-9ee1-16967c9129ce",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -86,6 +95,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4edec309-77f5-4eb7-bb7c-b7b1eece76d1",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
