@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,1078 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_0
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1941
+        width: 64
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b502b7a9ccac84e9e53eaa26ed9148
+      internalID: -1409569079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_1
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1956
+        width: 62
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ff08bb6a039f648a722152edef1bb0
+      internalID: -1783365265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_2
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1965
+        width: 70
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b5194394e5a154f8611e613ad4378b
+      internalID: 1632632105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_3
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1983
+        width: 66
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6add87fc5fdc6a44386df6fbfeccac9e
+      internalID: 978342595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_4
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1982
+        width: 63
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db170ff2d539ae41a44260e548af134
+      internalID: -34439776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1895
+        width: 66
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe9c953553ba704b8ebc20c6573a614
+      internalID: -1781264212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_6
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1905
+        width: 74
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ac1cbc19318024cb2f7209e3b2242b
+      internalID: -322106259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_7
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1918
+        width: 69
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0aff58cd64dd240b069632ac7107af
+      internalID: 859352382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1721
+        width: 63
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c31436a7e132a438cc72961691591e
+      internalID: 1757656966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1720
+        width: 70
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fb460d0ca1cd547b54fad5378980f4
+      internalID: 1015323524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_10
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1727
+        width: 67
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f2c5f99f09d054ab1b38cfc6feb130
+      internalID: 126699867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_11
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1711
+        width: 59
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f8e46f8aa25304fbc321fc964e16b8
+      internalID: -70602246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_12
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1708
+        width: 62
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a27c7cc741b524d9aaa7a721297a4c
+      internalID: 1639950539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_13
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1702
+        width: 84
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d44f13de24228547966d611810724a5
+      internalID: -1139797952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_14
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1694
+        width: 89
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5cefcb482245840af4ce283fb84196
+      internalID: 1680565046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_15
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1673
+        width: 104
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151e09cefd511ed45a5cd2cdd2a3e6ed
+      internalID: 1130450270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1406
+        width: 113
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4917c16b2d0978349a8537c973f9dcef
+      internalID: -1383893700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_17
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1406
+        width: 113
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63af045c48a4dd641ab37127e6689927
+      internalID: 1509375449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_18
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1406
+        width: 113
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f9b4f98406b6447810db0fd3924311
+      internalID: 464930168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_19
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1406
+        width: 114
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3532c9d3e0601d4e9da7e397dd05ee3
+      internalID: -907273532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_20
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1406
+        width: 115
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8aadeac9572fb74e9c8e75674ea4266
+      internalID: 1379727771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_21
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1405
+        width: 112
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b404f4dec270c141b42e555f3e83c6a
+      internalID: -795168071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_22
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1405
+        width: 109
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb84821c210ccd14587eb3f835691ea2
+      internalID: -1438740994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_23
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 1406
+        width: 107
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5dace55e5f9874eae9a0c3200904e4
+      internalID: -2034775648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1149
+        width: 107
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b565d720a130f4f9eb3b65f98e2da2
+      internalID: -1142874000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_25
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1150
+        width: 107
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9091a05d8d4d1634782cfa3b44acbbc8
+      internalID: -1889476686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_26
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1151
+        width: 105
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ab32a06809eac4184500d3df8059de
+      internalID: 2042785939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_27
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1151
+        width: 106
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1feb67d3c4807c42ae97d7d14c254c1
+      internalID: 1762821175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_28
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1151
+        width: 106
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826ff00ceeea9f34dbfb2e4e3eab4353
+      internalID: 2019647636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_29
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1150
+        width: 108
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b1ee3652f50c94887005dc08a35d85
+      internalID: 1933883353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_30
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1150
+        width: 108
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4561f0abec9f54e911fdc574197867
+      internalID: -189555651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_31
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1149
+        width: 82
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1ac9e534b4a294996f4d678cdfaf7a
+      internalID: 57091151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 894
+        width: 80
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aeecafa5c4ee1442b39a2ad95115758
+      internalID: 1248811808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_33
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 894
+        width: 80
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0b3c78dbd389f4e971faac6f068daf
+      internalID: -1223449650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_34
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 894
+        width: 80
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8a2e2fe1791604c8237cf7b48418c2
+      internalID: 1103272381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_35
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 894
+        width: 80
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce67a64c1a039c24580bdd465366ad30
+      internalID: -1020505927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_36
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 894
+        width: 78
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea5ea68148c4c04286ef53c9a6fd43e
+      internalID: 872689610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_37
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 894
+        width: 77
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dfb67d3d65b2e43a530f91333ea34f
+      internalID: 1272093224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_38
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 894
+        width: 77
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f5c2775ffb12b4882721bf7826fbcf
+      internalID: -806335398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_39
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 894
+        width: 76
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0f9b7334e0e5b4a9301e9080f13da9
+      internalID: -1402628258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_40
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 638
+        width: 76
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89db394bb42022744abc7a0bfc68d5a9
+      internalID: -113549928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_41
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 638
+        width: 76
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a91e3bd299509f48bfea5dd90b07802
+      internalID: 1546937094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_42
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 638
+        width: 77
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b81b9aaf11d8f4fb939c77f7b26076
+      internalID: -187511031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_43
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 638
+        width: 79
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b2ccbe9164acd4b9e6c214e2b8ac39
+      internalID: 1983549622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_44
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 638
+        width: 80
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b766e932c522274faf656f5a6e697e9
+      internalID: 937085964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_45
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 638
+        width: 83
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72a156b07ff50b4c9da616bc6fe2d87
+      internalID: -379973607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_46
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 638
+        width: 86
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b250130ed91ccbd49a30074ad4ea4c5f
+      internalID: 1492558858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_47
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 637
+        width: 90
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff28123d4b9e7d44abca9e1274a6ddaf
+      internalID: -1076931222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_48
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 381
+        width: 93
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5035a8e55a8f54fa27427cc20b01b3
+      internalID: 674883022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_49
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 381
+        width: 97
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d135f021b65484286f268321445025
+      internalID: 565370169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_57_Match entrance_50
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 381
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867aeb2e58903f349a1ee1673678262c
+      internalID: -1908326109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1190,58 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granite_57_Match entrance_0: -1409569079
+      Granite_57_Match entrance_1: -1783365265
+      Granite_57_Match entrance_10: 126699867
+      Granite_57_Match entrance_11: -70602246
+      Granite_57_Match entrance_12: 1639950539
+      Granite_57_Match entrance_13: -1139797952
+      Granite_57_Match entrance_14: 1680565046
+      Granite_57_Match entrance_15: 1130450270
+      Granite_57_Match entrance_16: -1383893700
+      Granite_57_Match entrance_17: 1509375449
+      Granite_57_Match entrance_18: 464930168
+      Granite_57_Match entrance_19: -907273532
+      Granite_57_Match entrance_2: 1632632105
+      Granite_57_Match entrance_20: 1379727771
+      Granite_57_Match entrance_21: -795168071
+      Granite_57_Match entrance_22: -1438740994
+      Granite_57_Match entrance_23: -2034775648
+      Granite_57_Match entrance_24: -1142874000
+      Granite_57_Match entrance_25: -1889476686
+      Granite_57_Match entrance_26: 2042785939
+      Granite_57_Match entrance_27: 1762821175
+      Granite_57_Match entrance_28: 2019647636
+      Granite_57_Match entrance_29: 1933883353
+      Granite_57_Match entrance_3: 978342595
+      Granite_57_Match entrance_30: -189555651
+      Granite_57_Match entrance_31: 57091151
+      Granite_57_Match entrance_32: 1248811808
+      Granite_57_Match entrance_33: -1223449650
+      Granite_57_Match entrance_34: 1103272381
+      Granite_57_Match entrance_35: -1020505927
+      Granite_57_Match entrance_36: 872689610
+      Granite_57_Match entrance_37: 1272093224
+      Granite_57_Match entrance_38: -806335398
+      Granite_57_Match entrance_39: -1402628258
+      Granite_57_Match entrance_4: -34439776
+      Granite_57_Match entrance_40: -113549928
+      Granite_57_Match entrance_41: 1546937094
+      Granite_57_Match entrance_42: -187511031
+      Granite_57_Match entrance_43: 1983549622
+      Granite_57_Match entrance_44: 937085964
+      Granite_57_Match entrance_45: -379973607
+      Granite_57_Match entrance_46: 1492558858
+      Granite_57_Match entrance_47: -1076931222
+      Granite_57_Match entrance_48: 674883022
+      Granite_57_Match entrance_49: 565370169
+      Granite_57_Match entrance_5: -1781264212
+      Granite_57_Match entrance_50: -1908326109
+      Granite_57_Match entrance_6: -322106259
+      Granite_57_Match entrance_7: 859352382
+      Granite_57_Match entrance_8: 1757656966
+      Granite_57_Match entrance_9: 1015323524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

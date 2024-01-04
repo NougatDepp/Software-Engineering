@@ -134,13 +134,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fee599a8fba6c784595ccd6d0252c9c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitpoint: 10
-  maxHitpoint: 10
+  hitpoint: 0
+  maxHitpoint: 999
   pushRecoverySpeed: 0.2
-  moveSpeed: 9.99
-  movementForce: 1
   jumpForce: 10
   maxSpeed: 5
+  text: {fileID: 1041621501683839292, guid: b4c34b6d6f2d46a4d8da7f386a48a52e, type: 3}
 --- !u!50 &1806780237033645723
 Rigidbody2D:
   serializedVersion: 4

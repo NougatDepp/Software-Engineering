@@ -3,8 +3,8 @@ using UnityEngine;
 public class Fighter : MonoBehaviour
 {
     //Public Fields
-    public float hitpoint = 10;
-    public int maxHitpoint = 10;
+    public float hitpoint = 0;
+    public int maxHitpoint = 999;
     public float pushRecoverySpeed = 0.2f;
     
     //Immunity
@@ -19,14 +19,16 @@ public class Fighter : MonoBehaviour
         {
             
             lastImmune = Time.time; 
-            hitpoint -= dmg.damageAmount; 
+            hitpoint += dmg.damageAmount; 
             pushDirection = (transform.position - dmg.origin).normalized * dmg.pushForce;
 
+            /**
             if (hitpoint <= 0)
             {
                 hitpoint = 0;
                 Death();
             }
+            **/
 
             this.GetComponent<Rigidbody2D>().velocity = pushDirection + new Vector3(0,3);
             

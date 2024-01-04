@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
+using UnityEditor.IMGUI.Controls;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -19,18 +21,29 @@ public class PlayerScript : Fighter
 
     private Animator anim;
     private bool isGrounded;
-    private SpriteRenderer spriteRen;
 
     private int currentDamage = 0;
+
+    [SerializeField]
+    private TMP_Text text;
+
+    private TMP_Text health;
+    
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        spriteRen = GetComponent<SpriteRenderer>();
 
         inputAsset = this.GetComponent<PlayerInput>().actions;
         player = inputAsset.FindActionMap("Player");
+
+        health = Instantiate(text);
+        Debug.Log(health);
+        
+
+        health.transform.SetParent(GameObject.FindWithTag("PlayerDamage").transform);
+
 
     }
 
@@ -52,12 +65,13 @@ public class PlayerScript : Fighter
 
     void Update()
     {
-        isGrounded = Physics2D.OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Ground"));
+        isGrounded = Physics2D.OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Ground")); 
     }
 
     void FixedUpdate()
     {
-
+        health.text = hitpoint.ToString() + "%";
+        
         forceDirection += new Vector2(move.ReadValue<Vector2>().x,0);
         rb.AddForce(forceDirection,ForceMode2D.Impulse);
         
@@ -83,6 +97,7 @@ public class PlayerScript : Fighter
         }
         
         AnimationUpdate();
+
     }
 
     void Jump(InputAction.CallbackContext callbackContext)
