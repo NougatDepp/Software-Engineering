@@ -1,41 +1,41 @@
 {
-    "name": "PlayerControls",
+    "name": "ControllerActionsAsset",
     "maps": [
         {
-            "name": "Gameplay",
-            "id": "3364aeea-dfa3-4036-8561-fa4ae2e2754d",
+            "name": "Player",
+            "id": "c360fa72-7cb2-406a-a72d-45aab9e5ae17",
             "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "914a8c48-5851-4548-90fc-4b8b378494a7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
                 {
                     "name": "Jump",
                     "type": "Button",
-                    "id": "9c5ec154-9a74-433e-a9c7-1b9003cf045e",
+                    "id": "e0eee2cd-37f1-4185-aeb0-074059c23fae",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Left",
+                    "name": "Attack",
                     "type": "Button",
-                    "id": "20385c82-4e2c-4e59-a522-2faa80fe8305",
+                    "id": "dd9fa307-83ef-4478-9eed-e94533bcf7dc",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Right",
+                    "name": "Join",
                     "type": "Button",
-                    "id": "0c81cb9f-6a6a-4a8e-aa06-1eac89de9649",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Attack1",
-                    "type": "Button",
-                    "id": "96cfd7a5-e7d9-4b21-9ee1-16967c9129ce",
+                    "id": "c5340a52-f650-40d5-acf9-91537feeb712",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -45,8 +45,19 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "9ae6ccac-1112-4243-97cf-f24e2db84007",
-                    "path": "<XInputController>/buttonSouth",
+                    "id": "18f7329d-7f35-4731-9e5b-88d011df6f44",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "37808515-5c0f-4149-9194-439070c968f1",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -56,56 +67,56 @@
                 },
                 {
                     "name": "",
-                    "id": "87a5398c-6513-4b58-89a7-c4eac908ac5a",
-                    "path": "<XInputController>/leftStick/left",
+                    "id": "bb01e678-6411-411e-aed6-134312536b7b",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Left",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "d15e60c7-0e74-4b7d-a0e9-a7799108473b",
-                    "path": "<XInputController>/dpad/left",
+                    "id": "7de869d6-0e23-48b9-95d7-e108ccc8643e",
+                    "path": "<Gamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Left",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "36910736-0b76-4a6c-9458-9f900dc72a68",
-                    "path": "<XInputController>/dpad/right",
+                    "id": "992938ac-c121-41ef-905f-3eb310746e74",
+                    "path": "<Keyboard>/leftCtrl",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Right",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "da61a4c4-3425-49b9-9e62-08a7ebf9ed9b",
-                    "path": "<XInputController>/rightStick/right",
+                    "id": "e0243e4f-21e9-49d7-8ce9-9b8f58423ab7",
+                    "path": "<Gamepad>/start",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Right",
+                    "action": "Join",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "4edec309-77f5-4eb7-bb7c-b7b1eece76d1",
-                    "path": "<XInputController>/buttonEast",
+                    "id": "634a75e4-d659-49d9-90e3-9b7b47d35792",
+                    "path": "<Keyboard>/anyKey",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Attack1",
+                    "action": "Join",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

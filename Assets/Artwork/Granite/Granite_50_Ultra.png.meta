@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,952 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Granite_50_Ultra_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1917
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5138a6cf6548d4fb73a0ab14db08e6
+      internalID: -2126833417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1921
+        width: 87
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c534a37d1566654aa62d788165aa338
+      internalID: 634116056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1926
+        width: 78
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c84a6e800a0a147a061d1ad82d359d
+      internalID: 1365805071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1932
+        width: 116
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7cd81f277f36144b1b09bf2549158c
+      internalID: -1149713772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_4
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1934
+        width: 114
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4badf2815bc324bb230437a6ede1c8
+      internalID: -1291651699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_5
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1936
+        width: 99
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195f7763b5d33c545a2eebdda7b6c9bf
+      internalID: -68136555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_6
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1925
+        width: 93
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfe2b083f1ad6a4db406b2dd8805152
+      internalID: -1497120320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_7
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 1926
+        width: 93
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6560dc791ad4fb4ba4f69ce54f95c5c
+      internalID: 1377215808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1670
+        width: 90
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349e9dfe364b0e04db610f31fcc0d0c4
+      internalID: 1028049722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_9
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1670
+        width: 90
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fd49ec7126c8142b56ea120c8caf85
+      internalID: 1737523128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_10
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1682
+        width: 112
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c93dcd48418ba488886cbfc986cd2e
+      internalID: -859449670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_11
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1675
+        width: 110
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f2ac849c726f34aa035d7679ce368a
+      internalID: -951055126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_12
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1660
+        width: 110
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604e3fdf48e4a684893529c0bacbdd91
+      internalID: -1958074951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_13
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1659
+        width: 100
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d900f568611bc49b135c0d95a2e725
+      internalID: -965574885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_14
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1659
+        width: 72
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b83cd21b74221940a9b4d85aa5eecc8
+      internalID: 1132083152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_15
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1657
+        width: 89
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d3ecce9404e1347a6095687b480fcb
+      internalID: -1129015587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1402
+        width: 107
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddb785d6d4fbb542baeeb0b4e4ea77d
+      internalID: -1377255056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_17
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1389
+        width: 115
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd101d7b36ffcf4ca506c8990120942
+      internalID: -526630544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_18
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1397
+        width: 103
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786a2425dc3044c429031408de567ffe
+      internalID: -536648847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_19
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1397
+        width: 103
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a08f4092fa463498338cd2a972023e
+      internalID: 630335372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_20
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1398
+        width: 102
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8842311f8b4bd46bdf61efa4a043d0
+      internalID: -1487989633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_21
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1398
+        width: 101
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6832e4fd324774683db01ff84eb33b
+      internalID: 409721431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_22
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1399
+        width: 99
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4af4f9e1a8e97443b0c8fc0538b6b08
+      internalID: 1065957777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_23
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1400
+        width: 99
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa31fa2b91f339049bc9fe7372ad56a9
+      internalID: -1934299991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1145
+        width: 98
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bcff21b1dbb454db0bad2ec2ebc8ff
+      internalID: -960244106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_25
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1147
+        width: 93
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919813f5788f69d45933672f0761920e
+      internalID: -266694285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_26
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1148
+        width: 85
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190365fee41238e428bf3d1109fc3134
+      internalID: 737319905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_27
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1148
+        width: 82
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141e3b7aecc029d47b8b239f15502231
+      internalID: 1674075265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_28
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1148
+        width: 82
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c94fc6ade20a274c8fc2dd69be5e9d0
+      internalID: 458947845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_29
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1148
+        width: 83
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46373e40bb97d724b9cc907e2455c51a
+      internalID: 643694554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_30
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1148
+        width: 86
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc5aa84da864ea4f843d2a2bfcf70aa
+      internalID: -1052609514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_31
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1148
+        width: 86
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbde600a0cf12e4cbeb162193b03bf8
+      internalID: -44970251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_32
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 892
+        width: 96
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bc73c1ec6523340b3b8aacdc953772
+      internalID: 537860832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_33
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 892
+        width: 99
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c1590f315974847970e14b8ea59693
+      internalID: 236223228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_34
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 892
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36af0f09e63d3ca429554a3a33034b83
+      internalID: 274016424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_35
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 892
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9e6aaa55225f3489ff2b5aa78bec39
+      internalID: -2023473872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_36
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 892
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afc1c43e2df2ff438921aaf190ab64b
+      internalID: -2141223843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_37
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 892
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2376ad3b9ab71642b050adfbf8fc8b2
+      internalID: 968981571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_38
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 636
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ca93abb35c1554d980e33f96ec4fda
+      internalID: 1327346371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_39
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 636
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c8a854cf62cc44fadc3318e372c15a
+      internalID: -258474480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_40
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 637
+        width: 96
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ebfbd3df37ded46a52c3bff86082b5
+      internalID: -1267618715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_41
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 637
+        width: 96
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affe5cf025d362b40ab1cc64f1f9689d
+      internalID: 1686948319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_42
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 636
+        width: 62
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b665c604cf51c6d4e9bf7776850a0278
+      internalID: -1190229747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_43
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 636
+        width: 67
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196160c4e85f87a4fbacfbf91ce89dd8
+      internalID: -291470423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_50_Ultra_44
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 636
+        width: 67
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edc8ad94703a56458a42e8f327bde15
+      internalID: -1265022418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1064,52 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granite_50_Ultra_0: -2126833417
+      Granite_50_Ultra_1: 634116056
+      Granite_50_Ultra_10: -859449670
+      Granite_50_Ultra_11: -951055126
+      Granite_50_Ultra_12: -1958074951
+      Granite_50_Ultra_13: -965574885
+      Granite_50_Ultra_14: 1132083152
+      Granite_50_Ultra_15: -1129015587
+      Granite_50_Ultra_16: -1377255056
+      Granite_50_Ultra_17: -526630544
+      Granite_50_Ultra_18: -536648847
+      Granite_50_Ultra_19: 630335372
+      Granite_50_Ultra_2: 1365805071
+      Granite_50_Ultra_20: -1487989633
+      Granite_50_Ultra_21: 409721431
+      Granite_50_Ultra_22: 1065957777
+      Granite_50_Ultra_23: -1934299991
+      Granite_50_Ultra_24: -960244106
+      Granite_50_Ultra_25: -266694285
+      Granite_50_Ultra_26: 737319905
+      Granite_50_Ultra_27: 1674075265
+      Granite_50_Ultra_28: 458947845
+      Granite_50_Ultra_29: 643694554
+      Granite_50_Ultra_3: -1149713772
+      Granite_50_Ultra_30: -1052609514
+      Granite_50_Ultra_31: -44970251
+      Granite_50_Ultra_32: 537860832
+      Granite_50_Ultra_33: 236223228
+      Granite_50_Ultra_34: 274016424
+      Granite_50_Ultra_35: -2023473872
+      Granite_50_Ultra_36: -2141223843
+      Granite_50_Ultra_37: 968981571
+      Granite_50_Ultra_38: 1327346371
+      Granite_50_Ultra_39: -258474480
+      Granite_50_Ultra_4: -1291651699
+      Granite_50_Ultra_40: -1267618715
+      Granite_50_Ultra_41: 1686948319
+      Granite_50_Ultra_42: -1190229747
+      Granite_50_Ultra_43: -291470423
+      Granite_50_Ultra_44: -1265022418
+      Granite_50_Ultra_5: -68136555
+      Granite_50_Ultra_6: -1497120320
+      Granite_50_Ultra_7: 1377215808
+      Granite_50_Ultra_8: 1028049722
+      Granite_50_Ultra_9: 1737523128
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
