@@ -29,8 +29,9 @@ public class Fighter : MonoBehaviour
                 Death();
             }
             **/
+            
 
-            this.GetComponent<Rigidbody2D>().velocity = pushDirection + new Vector3(0,3);
+            this.GetComponent<Rigidbody2D>().velocity = (pushDirection*hitpoint/30 + new Vector3(0,1));
             
         }
 

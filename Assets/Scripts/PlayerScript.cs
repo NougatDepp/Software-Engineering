@@ -70,6 +70,9 @@ public class PlayerScript : Fighter
 
     void FixedUpdate()
     {
+        health.GetComponent<TextScript>().GetAnim().SetTrigger("OnHit");
+        health.GetComponent<TextScript>().GetAnim().ResetTrigger("OnHit");
+
         health.text = hitpoint.ToString() + "%";
         
         forceDirection += new Vector2(move.ReadValue<Vector2>().x,0);
