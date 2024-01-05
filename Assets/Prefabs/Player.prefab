@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 3707888832539433295}
   - component: {fileID: 3224759615411012713}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Granite
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,11 +63,12 @@ Transform:
   m_GameObject: {fileID: 3246725051154332404}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9363596, y: -2.2351367, z: -0.031311408}
+  m_LocalPosition: {x: 0.821, y: -3.050014, z: -0.031311408}
   m_LocalScale: {x: 2.5, y: 2.5298805, z: 2.5298805}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3742321548313985238}
+  - {fileID: 203692383165063705}
   m_Father: {fileID: 1497226161716069175}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3262036177896715363
@@ -137,7 +138,7 @@ MonoBehaviour:
   hitpoint: 0
   maxHitpoint: 999
   pushRecoverySpeed: 0.2
-  jumpForce: 10
+  jumpForce: 10.53
   maxSpeed: 5
   text: {fileID: 1041621501683839292, guid: b4c34b6d6f2d46a4d8da7f386a48a52e, type: 3}
 --- !u!50 &1806780237033645723
@@ -274,11 +275,103 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: c5340a52-f650-40d5-acf9-91537feeb712
     m_ActionName: Player/New action
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5b98f689-1d15-4eaf-a45f-3b64fe0668cb
+    m_ActionName: Player/A + Right[/XInputControllerWindows1/leftStick/right,/XInputControllerWindows1/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 28c4ece7-df55-4095-8ea6-c924148960ab
+    m_ActionName: Player/Sprint[/XInputControllerWindows/dpad,/XInputControllerWindows2/dpad]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!1 &4208374738784505254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 203692383165063705}
+  - component: {fileID: 3265666359035299121}
+  m_Layer: 0
+  m_Name: Triangle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &203692383165063705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4208374738784505254}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.009824999, y: 0.9657123, z: 0}
+  m_LocalScale: {x: 0.52, y: -0.11858268, z: 0.3952756}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6761739737577747868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3265666359035299121
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4208374738784505254}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_Color: {r: 1, g: 0, b: 0, a: 0.09019608}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &7554098028747846279
 GameObject:
   m_ObjectHideFlags: 0

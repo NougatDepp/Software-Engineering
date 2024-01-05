@@ -22,16 +22,15 @@ public class Fighter : MonoBehaviour
             hitpoint += dmg.damageAmount; 
             pushDirection = (transform.position - dmg.origin).normalized * dmg.pushForce;
 
-            /**
-            if (hitpoint <= 0)
-            {
-                hitpoint = 0;
-                Death();
-            }
-            **/
             
-
-            this.GetComponent<Rigidbody2D>().velocity = (pushDirection*hitpoint/30 + new Vector3(0,1));
+            if (hitpoint >= 999)
+            {
+                hitpoint = 999;
+            }
+            
+            
+            
+            this.GetComponent<Rigidbody2D>().velocity = (pushDirection*hitpoint/10 + new Vector3(0,3));
             
         }
 

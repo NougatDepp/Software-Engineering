@@ -10,10 +10,6 @@ public class TextScript : MonoBehaviour
     {
         anim = GetComponent<Animator>();
     }
-    void Update()
-    {
-        
-    }
 
     public Animator GetAnim()
     {

@@ -8,16 +8,17 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerScript : Fighter
-{
+{ 
+    private int ID;
+
     private InputActionAsset inputAsset;
     private InputActionMap player;
     private InputAction move;
+    private InputAction sprint;
 
     private Rigidbody2D rb;
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private float maxSpeed = 5f;
-    private Vector2 forceDirection = Vector2.zero;
-
 
     private Animator anim;
     private bool isGrounded;
@@ -32,6 +33,7 @@ public class PlayerScript : Fighter
 
     private void Awake()
     {
+        ID = GameObject.FindGameObjectsWithTag("Player").Length;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
@@ -50,16 +52,23 @@ public class PlayerScript : Fighter
     private void OnEnable()
     {
         player.FindAction("Jump").started += Jump;
-        inputAsset.FindAction("Attack").started += Attack;
+        player.FindAction("Attack").started += Attack;
+        player.FindAction("A + Right").started += AttackRight;
+        
         move = inputAsset.FindAction("Move");
+        sprint = inputAsset.FindAction("Sprint");
+
         player.Enable();
 
     }
+    
 
     private void OnDisable()
     {
         player.FindAction("Jump").started -= Jump;
         inputAsset.FindAction("Attack").started -= Attack;
+        inputAsset.FindAction("A + Right").started -= AttackRight;
+
         player.Disable();
     }
 
@@ -70,26 +79,65 @@ public class PlayerScript : Fighter
 
     void FixedUpdate()
     {
-        health.GetComponent<TextScript>().GetAnim().SetTrigger("OnHit");
-        health.GetComponent<TextScript>().GetAnim().ResetTrigger("OnHit");
-
-        health.text = hitpoint.ToString() + "%";
+        if (Math.Abs(rb.velocity.x) < maxSpeed)
+        {
+            rb.velocity += new Vector2(move.ReadValue<Vector2>().x,0);
+        }
         
-        forceDirection += new Vector2(move.ReadValue<Vector2>().x,0);
-        rb.AddForce(forceDirection,ForceMode2D.Impulse);
+        if (Math.Abs(rb.velocity.x) < maxSpeed*2)
+        {
+            rb.velocity += new Vector2(sprint.ReadValue<Vector2>().x,0);
+        }
         
-        forceDirection = Vector2.zero;
-
-        if (rb.velocity.y < 0f)
+        if (rb.velocity.y < 0f )
         {
             rb.velocity += Vector2.down*Physics.gravity.y *Time.fixedDeltaTime;
         }
 
-        Vector2 horizontalVelocity = rb.velocity;
-        horizontalVelocity.y = 0;
-        if (horizontalVelocity.sqrMagnitude > maxSpeed * maxSpeed)
-            rb.velocity = horizontalVelocity.normalized * maxSpeed + Vector2.up * rb.velocity.y;
+        
 
+
+        
+        AnimationUpdate();
+        DamageTextChange();
+
+    }
+
+    private void DamageTextChange()
+    {
+        health.GetComponent<TextScript>().GetAnim().SetTrigger("OnHit");
+        health.GetComponent<TextScript>().GetAnim().ResetTrigger("OnHit");
+        Color newColor = new Color(1, 1 - hitpoint / 999, 1 - hitpoint / 333, 1);
+        health.CrossFadeColor(newColor, 0.1f, true, false);
+        health.text = hitpoint.ToString() + "%";
+    }
+
+    void Jump(InputAction.CallbackContext callbackContext)
+    {
+        if (IsGrounded())
+        {
+            rb.velocity += Vector2.up * jumpForce;
+        }
+    }
+    
+    private void Attack(InputAction.CallbackContext obj)
+    {
+        anim.SetTrigger("Attack1");
+    }
+    
+    private void AttackRight(InputAction.CallbackContext obj)
+    {
+        anim.SetTrigger("Side A");
+
+    }
+
+    private bool IsGrounded()
+    {
+        return Physics2D.OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Ground"));
+    }
+    
+    void AnimationUpdate()
+    {
         if (isGrounded)
         {
             anim.SetTrigger("Grounded");
@@ -99,36 +147,6 @@ public class PlayerScript : Fighter
             anim.ResetTrigger("Grounded");
         }
         
-        AnimationUpdate();
-
-    }
-
-    void Jump(InputAction.CallbackContext callbackContext)
-    {
-        if (IsGrounded())
-        {
-            forceDirection += Vector2.up * jumpForce;
-        }
-    }
-    
-    private void Attack(InputAction.CallbackContext obj)
-    {
-        anim.SetTrigger("Attack1");
-    }
-
-    private bool IsGrounded()
-    {
-        return Physics2D.OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Ground"));
-    }
-
-    void Attack1()
-    {
-        
-
-    }
-
-    void AnimationUpdate()
-    {
         anim.SetFloat("AirSpeedY",rb.velocity.y);
         if (Mathf.Floor(rb.velocity.x) > 0)
         {
@@ -150,7 +168,7 @@ public class PlayerScript : Fighter
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.tag == "DamageBox")
+        if (coll.tag != "Player")
         {
             return;
         }
@@ -164,11 +182,6 @@ public class PlayerScript : Fighter
         };
             
         coll.SendMessage("ReceiveDamage",dmg); 
-    }
-
-    void UpdateOnIdle()
-    {
-        anim.SetInteger("AttackState",0);
     }
 
     void UpdateDamage(int dmg)
