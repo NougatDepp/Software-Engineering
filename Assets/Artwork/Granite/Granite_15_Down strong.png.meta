@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Granite_15_Down strong_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1917
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2270ec5d27bcaf44c80e7030d611af9a
+      internalID: -1447079623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1917
+        width: 128
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ade156560aed6741a298910e2b8bb31
+      internalID: -1671295760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1917
+        width: 129
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed159e708c1c054e95dcf66d66c2353
+      internalID: -439926970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_3
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1917
+        width: 82
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e9edb5ddd355f44933c3373b2914e6
+      internalID: -1133420815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_4
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1917
+        width: 53
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5be364810d39ff46b66785479dc07a5
+      internalID: -42993541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_5
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1916
+        width: 122
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec37cf3e5447cf4e916aed5d64e9b2b
+      internalID: 647976635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_6
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1909
+        width: 138
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c441ff00064e0eb4eb4a104829195223
+      internalID: 732935192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_7
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1916
+        width: 135
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474f650bfa6e3c6469a1f7c9592b785b
+      internalID: 1753828624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1656
+        width: 118
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06ad35a283ba624e9818045ecac4442
+      internalID: -530736324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1655
+        width: 118
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb860df08f4fe942baa316bbe611f79
+      internalID: -1121296614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_10
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1655
+        width: 118
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e382ceddb5018b41a560715b424634a
+      internalID: 898816414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_11
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1654
+        width: 117
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f792c84ca89b07478ec4899b71a479f
+      internalID: 378642397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_12
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1654
+        width: 116
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845399b517c6cbd4183b93e41c1dec23
+      internalID: 575654133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_13
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1654
+        width: 117
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aa36cf8ef6606428ff07c116194c85
+      internalID: -1621928631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_14
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1654
+        width: 116
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5f3061d8631954a86534c711c6705f
+      internalID: -390399235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_15
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1654
+        width: 115
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c04fd4053319b4cbfc462eeda783e6
+      internalID: 922917921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1399
+        width: 114
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677310d1008bbea49a3abd41642940b6
+      internalID: -1108217403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_17
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1399
+        width: 113
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb2e9d2470846a409138dfb97047acb
+      internalID: 375044319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_18
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1399
+        width: 111
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e3ba6d6230bfb4cac111a18a593dc7
+      internalID: 1032703118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_19
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1400
+        width: 110
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb54f8675976abe47bb06abf9d4b154b
+      internalID: 1097897096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_20
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1404
+        width: 108
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50c656d43c2e1b4097dfcfab01b80e3
+      internalID: -1016280595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_21
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1405
+        width: 103
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2515e11175f307d48acb0fad4433c227
+      internalID: 2125127801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_22
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1405
+        width: 99
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa94d38a82e734840b19d735a596a2d9
+      internalID: -1393645488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_15_Down strong_23
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1405
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e701edd20984274dbaeea02944254b5
+      internalID: 1228379313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +623,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granite_15_Down strong_0: -1447079623
+      Granite_15_Down strong_1: -1671295760
+      Granite_15_Down strong_10: 898816414
+      Granite_15_Down strong_11: 378642397
+      Granite_15_Down strong_12: 575654133
+      Granite_15_Down strong_13: -1621928631
+      Granite_15_Down strong_14: -390399235
+      Granite_15_Down strong_15: 922917921
+      Granite_15_Down strong_16: -1108217403
+      Granite_15_Down strong_17: 375044319
+      Granite_15_Down strong_18: 1032703118
+      Granite_15_Down strong_19: 1097897096
+      Granite_15_Down strong_2: -439926970
+      Granite_15_Down strong_20: -1016280595
+      Granite_15_Down strong_21: 2125127801
+      Granite_15_Down strong_22: -1393645488
+      Granite_15_Down strong_23: 1228379313
+      Granite_15_Down strong_3: -1133420815
+      Granite_15_Down strong_4: -42993541
+      Granite_15_Down strong_5: 647976635
+      Granite_15_Down strong_6: 732935192
+      Granite_15_Down strong_7: 1753828624
+      Granite_15_Down strong_8: -530736324
+      Granite_15_Down strong_9: -1121296614
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

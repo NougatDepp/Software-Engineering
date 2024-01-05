@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,994 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Granite_12_Running A_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1916
+        width: 60
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7188aef3397232a4c8235dfd0eb08942
+      internalID: 165390756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1916
+        width: 64
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb24664da3949484aac05fa15c96ef4b
+      internalID: 1808026262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_2
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1916
+        width: 67
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de53f9e1a4db0049bd6bc5b18492945
+      internalID: -226817523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_3
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1916
+        width: 72
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbaf0a8fb3cdd74eaa840b3ec9360da
+      internalID: -865873239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_4
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1916
+        width: 76
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8211249cab666f46b0f0ebd33bbf8c6
+      internalID: 1680679970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_5
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1916
+        width: 76
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17e11a5c30a8cf49b076f6848494de1
+      internalID: -2103284190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_6
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1916
+        width: 78
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a4b3ab7ca2961439774ebf3c81e170
+      internalID: 881206006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_7
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1913
+        width: 128
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b78f9ec5fae007479fd59c8b2acecd6
+      internalID: 1369560873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1657
+        width: 114
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c33a9d44f2a0ef4dbb05939e3d9d74f
+      internalID: -23552260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_9
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1658
+        width: 67
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd691e575fdef14ba9a427739429f83
+      internalID: 1852933948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1659
+        width: 69
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170e761897f8883488f992a5e0f49c3e
+      internalID: 597806018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_11
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1659
+        width: 97
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fd7e5217bd9e348b920abbf39e7f68
+      internalID: -1812080842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_12
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1659
+        width: 126
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76b3e0f0e6ef484f82455ec5e3b1704
+      internalID: 1721810728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_13
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1659
+        width: 136
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a958a5aaa13c00f409bf3707dd38aecf
+      internalID: 141644165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_14
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1659
+        width: 122
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaeaa4667cddaa47a1dd88537792909
+      internalID: 404783144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_15
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1659
+        width: 90
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5437811d833a4ed4fbde6fb3f25e180d
+      internalID: -902774979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1403
+        width: 67
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc61ff37a9a30624dbae879a16259066
+      internalID: -1819342461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_17
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1403
+        width: 67
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c42606b732bb14eb5aaef8b1687995
+      internalID: -1697769293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_18
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1402
+        width: 83
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99322b69b5174794ba112a160bb4a63a
+      internalID: 871112825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_19
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1402
+        width: 116
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a1a32addfb6e44aa3f3faabf84af48
+      internalID: -699300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_20
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1401
+        width: 128
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb485d411e03ff469f6fd9a784a4698
+      internalID: -1380363532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_21
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1401
+        width: 123
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8b7121a8aa77846b13b0ac86e46d2d
+      internalID: -547164571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_22
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1401
+        width: 100
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06120f8a849219d4ab7d0f3d40e8ec72
+      internalID: 1934271118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_23
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1402
+        width: 67
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67581f0af28f9304d9f5d9321816372c
+      internalID: -2064523519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1146
+        width: 70
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0160fb882a439b24ebf396f31c8af90a
+      internalID: 48725029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_25
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1147
+        width: 66
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6dceab219aa7b4a932bb1845c3d5bf
+      internalID: 1118008129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_26
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1147
+        width: 97
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df47ca00765a94b4c8a170648daa740e
+      internalID: -1987780486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_27
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1147
+        width: 126
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8521534e278a5bf4cb835c8eb69fcdb8
+      internalID: 618060877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_28
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1147
+        width: 136
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b54c63b75ca73941a6765254f19d06a
+      internalID: 1384600539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_29
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1147
+        width: 123
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6057ec48ce842841bf1eb3084ee3d26
+      internalID: 1165640462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_30
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1147
+        width: 89
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421c4cb25ebcffe46bb6e76f86167bb8
+      internalID: 300102695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_31
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1147
+        width: 67
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045386332a2764041a1a9b57c59a4b40
+      internalID: -1509411389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_32
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 891
+        width: 67
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb985f53373cea49ad743aed6820f11
+      internalID: -2099775748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_33
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 891
+        width: 65
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf18a2c3cb6d05499586d6d6803fcff
+      internalID: -649194887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_34
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 891
+        width: 63
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672bf39d64e498048afa0eb6275c04da
+      internalID: -824212158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_35
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 891
+        width: 66
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32100c04645df134ba52b2ded35df7c2
+      internalID: -1086391853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_36
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 891
+        width: 79
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f98f2267639e24585308e85ede83d1
+      internalID: 567549715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_37
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 891
+        width: 91
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb1cc54fd4b228418836e2912f3a61b
+      internalID: 2013035940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_38
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 891
+        width: 102
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e5de35584c67548b5ed1012269a565
+      internalID: -786991831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_39
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 891
+        width: 108
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40222495f0cced4f9e9dd2dbe8f8b64
+      internalID: -1057334942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_40
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 635
+        width: 111
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab535dae18d1b7643b4569e764fcfe99
+      internalID: -1228712878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_41
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 636
+        width: 112
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe544e03a8a5b4641bc76ac3156f0fa3
+      internalID: 167528837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_42
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 636
+        width: 112
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb30a914137cf4e43b73d2d9349333fb
+      internalID: -1982362794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_43
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 636
+        width: 110
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeab5cd6b59ee74caee76b7512a6dbd
+      internalID: -737681146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_44
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 637
+        width: 105
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c8f98118446944d9130617b856a959
+      internalID: -271445383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_45
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 637
+        width: 102
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6852155bfa863cf4cba68136810bd332
+      internalID: -1450121211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_12_Running A_46
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 637
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccf3f6af0a7526479e6e0bb44580951
+      internalID: 1847291598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1106,54 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granite_12_Running A_0: 165390756
+      Granite_12_Running A_1: 1808026262
+      Granite_12_Running A_10: 597806018
+      Granite_12_Running A_11: -1812080842
+      Granite_12_Running A_12: 1721810728
+      Granite_12_Running A_13: 141644165
+      Granite_12_Running A_14: 404783144
+      Granite_12_Running A_15: -902774979
+      Granite_12_Running A_16: -1819342461
+      Granite_12_Running A_17: -1697769293
+      Granite_12_Running A_18: 871112825
+      Granite_12_Running A_19: -699300032
+      Granite_12_Running A_2: -226817523
+      Granite_12_Running A_20: -1380363532
+      Granite_12_Running A_21: -547164571
+      Granite_12_Running A_22: 1934271118
+      Granite_12_Running A_23: -2064523519
+      Granite_12_Running A_24: 48725029
+      Granite_12_Running A_25: 1118008129
+      Granite_12_Running A_26: -1987780486
+      Granite_12_Running A_27: 618060877
+      Granite_12_Running A_28: 1384600539
+      Granite_12_Running A_29: 1165640462
+      Granite_12_Running A_3: -865873239
+      Granite_12_Running A_30: 300102695
+      Granite_12_Running A_31: -1509411389
+      Granite_12_Running A_32: -2099775748
+      Granite_12_Running A_33: -649194887
+      Granite_12_Running A_34: -824212158
+      Granite_12_Running A_35: -1086391853
+      Granite_12_Running A_36: 567549715
+      Granite_12_Running A_37: 2013035940
+      Granite_12_Running A_38: -786991831
+      Granite_12_Running A_39: -1057334942
+      Granite_12_Running A_4: 1680679970
+      Granite_12_Running A_40: -1228712878
+      Granite_12_Running A_41: 167528837
+      Granite_12_Running A_42: -1982362794
+      Granite_12_Running A_43: -737681146
+      Granite_12_Running A_44: -271445383
+      Granite_12_Running A_45: -1450121211
+      Granite_12_Running A_46: 1847291598
+      Granite_12_Running A_5: -2103284190
+      Granite_12_Running A_6: 881206006
+      Granite_12_Running A_7: 1369560873
+      Granite_12_Running A_8: -23552260
+      Granite_12_Running A_9: 1852933948
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

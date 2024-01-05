@@ -138,9 +138,10 @@ MonoBehaviour:
   hitpoint: 0
   maxHitpoint: 999
   pushRecoverySpeed: 0.2
-  jumpForce: 10.53
-  maxSpeed: 5
+  jumpForce: 26.2
+  maxSpeed: 5.13
   text: {fileID: 1041621501683839292, guid: b4c34b6d6f2d46a4d8da7f386a48a52e, type: 3}
+  jumpCounter: 0
 --- !u!50 &1806780237033645723
 Rigidbody2D:
   serializedVersion: 4
@@ -232,8 +233,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.55, y: 0.70324796}
-  m_EdgeRadius: 0.15
+  m_Size: {x: 0.56, y: 0.7}
+  m_EdgeRadius: 0.09
 --- !u!114 &3224759615411012713
 MonoBehaviour:
   m_ObjectHideFlags: 0

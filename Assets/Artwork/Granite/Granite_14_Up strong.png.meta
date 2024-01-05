@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,616 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Granite_14_Up strong_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1917
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f62513e5b071404f89b4babdd4ed746
+      internalID: 1264789675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1917
+        width: 90
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb06480f6b086614db1a63c015737fef
+      internalID: -277018979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1913
+        width: 88
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4d3b4f2d1788c4096fc98629eefa4e
+      internalID: 1451992752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_3
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1913
+        width: 104
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea944a141722ec64191a9b2e41e3e62a
+      internalID: -156060298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_4
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1915
+        width: 106
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04c2a4c19834f44985f73ac38732d19
+      internalID: 751855973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_5
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1917
+        width: 138
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9625c6394d55e47a3bc60b56059314
+      internalID: 509943277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_6
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1915
+        width: 63
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba20bb5a4a4b58f498ef2afded601d37
+      internalID: -239807600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_7
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1915
+        width: 53
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41306f021f05f054e81254b447fffaa2
+      internalID: -1365613689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1659
+        width: 53
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792f11aaced822744bf3254e7eb38bff
+      internalID: 1717046532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1659
+        width: 53
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394ab6fd06c731f418d948dfc7cafdcb
+      internalID: -836831266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_10
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1659
+        width: 53
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f74f7cfffcda2e419cd6cdaeec7493b
+      internalID: -363969761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_11
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1659
+        width: 54
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5b90cbdfdaa4844b4052ed6d1fe3a8
+      internalID: 739893019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_12
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1659
+        width: 55
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e69945a8fc3a9428f62a55442fbbe8
+      internalID: 216863620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_13
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1660
+        width: 59
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5ed326cc592b94a9b8c606ae29e029
+      internalID: -333526769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_14
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1660
+        width: 63
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc1dbd365163724996586d84806e9dd
+      internalID: -98927208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_15
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1660
+        width: 67
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485c432efc39b3b4c8ed0afd1e6e67e9
+      internalID: -723875850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1404
+        width: 73
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5d972c8ddcb7449869bd019780a290
+      internalID: 1067112878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_17
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1404
+        width: 78
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005a5e88834014a40aaf9c582c0d7300
+      internalID: 127382490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_18
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1404
+        width: 86
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9110e2ec477454b8a34f353e7dd4eb
+      internalID: 1121221805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_19
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1404
+        width: 91
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db30cf00c61a8145a734042fba254ee
+      internalID: -291274226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_20
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1404
+        width: 98
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5ee6539fd1e654885102da90d02aad
+      internalID: -1843987027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_21
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1405
+        width: 106
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e4861954164de4eb5b5ed2398e7d5c
+      internalID: 1224266333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_22
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1405
+        width: 111
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7253fafcf09fd5a47aa287656d0d3ae3
+      internalID: -1264013263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_23
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1405
+        width: 112
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2540bb8cfbdff4a83280c74688ecf5
+      internalID: 52030254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1149
+        width: 119
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994969047ec0f1f40a1b550d73a23f43
+      internalID: -2089638427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_25
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1149
+        width: 123
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0494ea5801399694d9648d1e2ffd6ccc
+      internalID: -1044964261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_26
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1149
+        width: 117
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55ca74db5b21554c9906830e927c24e
+      internalID: -1698280437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_27
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1149
+        width: 107
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3a562250c53bd4fa97681b4e36d299
+      internalID: -1993449376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_14_Up strong_28
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1149
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b5c615e554189478560697c6c715df
+      internalID: -1393444365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +728,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granite_14_Up strong_0: 1264789675
+      Granite_14_Up strong_1: -277018979
+      Granite_14_Up strong_10: -363969761
+      Granite_14_Up strong_11: 739893019
+      Granite_14_Up strong_12: 216863620
+      Granite_14_Up strong_13: -333526769
+      Granite_14_Up strong_14: -98927208
+      Granite_14_Up strong_15: -723875850
+      Granite_14_Up strong_16: 1067112878
+      Granite_14_Up strong_17: 127382490
+      Granite_14_Up strong_18: 1121221805
+      Granite_14_Up strong_19: -291274226
+      Granite_14_Up strong_2: 1451992752
+      Granite_14_Up strong_20: -1843987027
+      Granite_14_Up strong_21: 1224266333
+      Granite_14_Up strong_22: -1264013263
+      Granite_14_Up strong_23: 52030254
+      Granite_14_Up strong_24: -2089638427
+      Granite_14_Up strong_25: -1044964261
+      Granite_14_Up strong_26: -1698280437
+      Granite_14_Up strong_27: -1993449376
+      Granite_14_Up strong_28: -1393444365
+      Granite_14_Up strong_3: -156060298
+      Granite_14_Up strong_4: 751855973
+      Granite_14_Up strong_5: 509943277
+      Granite_14_Up strong_6: -239807600
+      Granite_14_Up strong_7: -1365613689
+      Granite_14_Up strong_8: 1717046532
+      Granite_14_Up strong_9: -836831266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

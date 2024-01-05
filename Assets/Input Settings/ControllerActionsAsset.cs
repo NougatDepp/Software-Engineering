@@ -46,9 +46,18 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Attack"",
+                    ""name"": ""Hold A"",
                     ""type"": ""Button"",
                     ""id"": ""dd9fa307-83ef-4478-9eed-e94533bcf7dc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Hold B"",
+                    ""type"": ""Button"",
+                    ""id"": ""de90d163-591c-40ba-b4ea-7920928247d2"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -64,21 +73,66 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""A + Right"",
-                    ""type"": ""Button"",
-                    ""id"": ""5b98f689-1d15-4eaf-a45f-3b64fe0668cb"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
                     ""name"": ""Sprint"",
                     ""type"": ""Button"",
                     ""id"": ""28c4ece7-df55-4095-8ea6-c924148960ab"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": ""MultiTap,Hold"",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Side B"",
+                    ""type"": ""Button"",
+                    ""id"": ""85f88e70-2f8b-4902-9419-554a12bd21dc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Side A"",
+                    ""type"": ""Button"",
+                    ""id"": ""728f5d35-e852-460e-85ee-0e2ad6489b18"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Up B"",
+                    ""type"": ""Button"",
+                    ""id"": ""07f37e35-8d26-44c2-85e0-87600c3c45ad"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Up A"",
+                    ""type"": ""Button"",
+                    ""id"": ""986c95ab-c6bc-4b22-9c5d-7b7146fd1ba3"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Down B"",
+                    ""type"": ""Button"",
+                    ""id"": ""b8309dbe-c403-431c-a7ed-81a122a2fabd"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Down A"",
+                    ""type"": ""Button"",
+                    ""id"": ""a243113e-1c23-455a-a1f1-8b160de20f79"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
                     ""initialStateCheck"": false
                 }
             ],
@@ -97,7 +151,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                 {
                     ""name"": """",
                     ""id"": ""37808515-5c0f-4149-9194-439070c968f1"",
-                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -119,22 +173,11 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                 {
                     ""name"": """",
                     ""id"": ""7de869d6-0e23-48b9-95d7-e108ccc8643e"",
-                    ""path"": ""<Gamepad>/buttonEast"",
-                    ""interactions"": """",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": ""Hold(duration=1)"",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Attack"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""992938ac-c121-41ef-905f-3eb310746e74"",
-                    ""path"": ""<Keyboard>/leftCtrl"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Attack"",
+                    ""action"": ""Hold A"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -161,39 +204,6 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""One Modifier"",
-                    ""id"": ""51fae84d-c400-42f7-915f-49ed0eabe3f3"",
-                    ""path"": ""OneModifier"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""A + Right"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""modifier"",
-                    ""id"": ""70599bca-673a-4513-8e0d-4425c1083c58"",
-                    ""path"": ""<Gamepad>/buttonEast"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""A + Right"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""binding"",
-                    ""id"": ""05f40ce6-9a34-4a56-aeda-c350abb455d7"",
-                    ""path"": ""<Gamepad>/leftStick/right"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""A + Right"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
                     ""name"": """",
                     ""id"": ""5f1f8208-952c-4c99-bcb4-218cb62978b8"",
                     ""path"": ""<Gamepad>/dpad"",
@@ -203,6 +213,237 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""action"": ""Sprint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Side B"",
+                    ""id"": ""70a9fd0d-c416-492a-8f55-4aefb99ed641"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Side B"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""ed14d69d-acaf-4bfd-8338-b9646e62282d"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Side B"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""4d2e8e7f-7c1e-4bbf-8f40-9bf03804666a"",
+                    ""path"": ""<Gamepad>/leftStick/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Side B"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""a6bff189-1492-4b35-b539-753061014cc4"",
+                    ""path"": ""<Gamepad>/leftStick/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Side B"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Up B"",
+                    ""id"": ""99573ccf-b20c-4799-817f-56707fbe856e"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Up B"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""e6cf2620-5476-4869-a4f0-0ba60a8702e1"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Up B"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""6656233e-b02f-4827-a602-6e8e15a8d853"",
+                    ""path"": ""<Gamepad>/leftStick/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Up B"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Down A"",
+                    ""id"": ""ec5bd91b-9352-41eb-99fe-343f57751a58"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Down B"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""b5eb6892-a5d2-445f-92ec-eb7055ccb761"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Down B"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""1e7b6b71-3229-4d2f-8703-01e2a3074f6a"",
+                    ""path"": ""<Gamepad>/leftStick/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Down B"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2b82ae4d-6253-4e05-b8d0-fc29c0501ff9"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": ""Hold"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Hold B"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Side B"",
+                    ""id"": ""7c4160ad-2071-46be-b37a-509c6e50227b"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Side A"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""8215eb08-4897-499e-9d3d-2b2675d4a595"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Side A"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""6b05abf6-6f9a-41a2-889a-8460801a1a43"",
+                    ""path"": ""<Gamepad>/leftStick/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Side A"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""224737a7-66af-4c61-9a23-a0fbb385ff14"",
+                    ""path"": ""<Gamepad>/leftStick/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Side A"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Up A"",
+                    ""id"": ""18f64500-d36f-42a4-acfa-5b8c0208e320"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Up A"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""d13d1d15-bb55-4233-bea4-214574c35408"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Up A"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""dd3b020e-fc77-43e9-984b-c973cd1e69d2"",
+                    ""path"": ""<Gamepad>/leftStick/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Up A"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Down A"",
+                    ""id"": ""4b3be4de-a0c5-481d-8dd2-8ca27967ecb4"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Down A"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""e65864c4-2094-4360-9d6d-2d58cbe6ca14"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Down A"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""d6b8e83c-5cc2-4015-9c9b-1ce519ccc5ce"",
+                    ""path"": ""<Gamepad>/leftStick/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Down A"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -213,10 +454,16 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
-        m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
+        m_Player_HoldA = m_Player.FindAction("Hold A", throwIfNotFound: true);
+        m_Player_HoldB = m_Player.FindAction("Hold B", throwIfNotFound: true);
         m_Player_Join = m_Player.FindAction("Join", throwIfNotFound: true);
-        m_Player_ARight = m_Player.FindAction("A + Right", throwIfNotFound: true);
         m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
+        m_Player_SideB = m_Player.FindAction("Side B", throwIfNotFound: true);
+        m_Player_SideA = m_Player.FindAction("Side A", throwIfNotFound: true);
+        m_Player_UpB = m_Player.FindAction("Up B", throwIfNotFound: true);
+        m_Player_UpA = m_Player.FindAction("Up A", throwIfNotFound: true);
+        m_Player_DownB = m_Player.FindAction("Down B", throwIfNotFound: true);
+        m_Player_DownA = m_Player.FindAction("Down A", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -280,20 +527,32 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Jump;
-    private readonly InputAction m_Player_Attack;
+    private readonly InputAction m_Player_HoldA;
+    private readonly InputAction m_Player_HoldB;
     private readonly InputAction m_Player_Join;
-    private readonly InputAction m_Player_ARight;
     private readonly InputAction m_Player_Sprint;
+    private readonly InputAction m_Player_SideB;
+    private readonly InputAction m_Player_SideA;
+    private readonly InputAction m_Player_UpB;
+    private readonly InputAction m_Player_UpA;
+    private readonly InputAction m_Player_DownB;
+    private readonly InputAction m_Player_DownA;
     public struct PlayerActions
     {
         private @ControllerActionsAsset m_Wrapper;
         public PlayerActions(@ControllerActionsAsset wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
-        public InputAction @Attack => m_Wrapper.m_Player_Attack;
+        public InputAction @HoldA => m_Wrapper.m_Player_HoldA;
+        public InputAction @HoldB => m_Wrapper.m_Player_HoldB;
         public InputAction @Join => m_Wrapper.m_Player_Join;
-        public InputAction @ARight => m_Wrapper.m_Player_ARight;
         public InputAction @Sprint => m_Wrapper.m_Player_Sprint;
+        public InputAction @SideB => m_Wrapper.m_Player_SideB;
+        public InputAction @SideA => m_Wrapper.m_Player_SideA;
+        public InputAction @UpB => m_Wrapper.m_Player_UpB;
+        public InputAction @UpA => m_Wrapper.m_Player_UpA;
+        public InputAction @DownB => m_Wrapper.m_Player_DownB;
+        public InputAction @DownA => m_Wrapper.m_Player_DownA;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -309,18 +568,36 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             @Jump.started += instance.OnJump;
             @Jump.performed += instance.OnJump;
             @Jump.canceled += instance.OnJump;
-            @Attack.started += instance.OnAttack;
-            @Attack.performed += instance.OnAttack;
-            @Attack.canceled += instance.OnAttack;
+            @HoldA.started += instance.OnHoldA;
+            @HoldA.performed += instance.OnHoldA;
+            @HoldA.canceled += instance.OnHoldA;
+            @HoldB.started += instance.OnHoldB;
+            @HoldB.performed += instance.OnHoldB;
+            @HoldB.canceled += instance.OnHoldB;
             @Join.started += instance.OnJoin;
             @Join.performed += instance.OnJoin;
             @Join.canceled += instance.OnJoin;
-            @ARight.started += instance.OnARight;
-            @ARight.performed += instance.OnARight;
-            @ARight.canceled += instance.OnARight;
             @Sprint.started += instance.OnSprint;
             @Sprint.performed += instance.OnSprint;
             @Sprint.canceled += instance.OnSprint;
+            @SideB.started += instance.OnSideB;
+            @SideB.performed += instance.OnSideB;
+            @SideB.canceled += instance.OnSideB;
+            @SideA.started += instance.OnSideA;
+            @SideA.performed += instance.OnSideA;
+            @SideA.canceled += instance.OnSideA;
+            @UpB.started += instance.OnUpB;
+            @UpB.performed += instance.OnUpB;
+            @UpB.canceled += instance.OnUpB;
+            @UpA.started += instance.OnUpA;
+            @UpA.performed += instance.OnUpA;
+            @UpA.canceled += instance.OnUpA;
+            @DownB.started += instance.OnDownB;
+            @DownB.performed += instance.OnDownB;
+            @DownB.canceled += instance.OnDownB;
+            @DownA.started += instance.OnDownA;
+            @DownA.performed += instance.OnDownA;
+            @DownA.canceled += instance.OnDownA;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -331,18 +608,36 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             @Jump.started -= instance.OnJump;
             @Jump.performed -= instance.OnJump;
             @Jump.canceled -= instance.OnJump;
-            @Attack.started -= instance.OnAttack;
-            @Attack.performed -= instance.OnAttack;
-            @Attack.canceled -= instance.OnAttack;
+            @HoldA.started -= instance.OnHoldA;
+            @HoldA.performed -= instance.OnHoldA;
+            @HoldA.canceled -= instance.OnHoldA;
+            @HoldB.started -= instance.OnHoldB;
+            @HoldB.performed -= instance.OnHoldB;
+            @HoldB.canceled -= instance.OnHoldB;
             @Join.started -= instance.OnJoin;
             @Join.performed -= instance.OnJoin;
             @Join.canceled -= instance.OnJoin;
-            @ARight.started -= instance.OnARight;
-            @ARight.performed -= instance.OnARight;
-            @ARight.canceled -= instance.OnARight;
             @Sprint.started -= instance.OnSprint;
             @Sprint.performed -= instance.OnSprint;
             @Sprint.canceled -= instance.OnSprint;
+            @SideB.started -= instance.OnSideB;
+            @SideB.performed -= instance.OnSideB;
+            @SideB.canceled -= instance.OnSideB;
+            @SideA.started -= instance.OnSideA;
+            @SideA.performed -= instance.OnSideA;
+            @SideA.canceled -= instance.OnSideA;
+            @UpB.started -= instance.OnUpB;
+            @UpB.performed -= instance.OnUpB;
+            @UpB.canceled -= instance.OnUpB;
+            @UpA.started -= instance.OnUpA;
+            @UpA.performed -= instance.OnUpA;
+            @UpA.canceled -= instance.OnUpA;
+            @DownB.started -= instance.OnDownB;
+            @DownB.performed -= instance.OnDownB;
+            @DownB.canceled -= instance.OnDownB;
+            @DownA.started -= instance.OnDownA;
+            @DownA.performed -= instance.OnDownA;
+            @DownA.canceled -= instance.OnDownA;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -364,9 +659,15 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
     {
         void OnMove(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
-        void OnAttack(InputAction.CallbackContext context);
+        void OnHoldA(InputAction.CallbackContext context);
+        void OnHoldB(InputAction.CallbackContext context);
         void OnJoin(InputAction.CallbackContext context);
-        void OnARight(InputAction.CallbackContext context);
         void OnSprint(InputAction.CallbackContext context);
+        void OnSideB(InputAction.CallbackContext context);
+        void OnSideA(InputAction.CallbackContext context);
+        void OnUpB(InputAction.CallbackContext context);
+        void OnUpA(InputAction.CallbackContext context);
+        void OnDownB(InputAction.CallbackContext context);
+        void OnDownA(InputAction.CallbackContext context);
     }
 }
