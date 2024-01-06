@@ -426,13 +426,49 @@
             ]
         },
         {
+<<<<<<< Updated upstream
             "name": "UI",
             "id": "57d25555-b61f-40de-904e-8dafbf0651f8",
+=======
+<<<<<<< HEAD
+            "name": "Menu",
+            "id": "56a2f3e8-ab5d-4cd4-bb0c-83a9e2f41693",
+=======
+            "name": "UI",
+            "id": "57d25555-b61f-40de-904e-8dafbf0651f8",
+>>>>>>> 62850f970378caf6d4c6f9d76b83c888ffc14e0b
+>>>>>>> Stashed changes
             "actions": [
                 {
                     "name": "Move",
                     "type": "Button",
+<<<<<<< Updated upstream
                     "id": "f0a9a436-69d6-41b4-a63d-2a04bb643fe0",
+=======
+<<<<<<< HEAD
+                    "id": "0b164878-6cc1-4a1b-a5f5-5236c03054dc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "daff7521-c008-44e6-afb8-c8b088ad88b4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ready",
+                    "type": "Button",
+                    "id": "d81ee543-ad1f-4234-8de8-5ee50d622998",
+=======
+                    "id": "f0a9a436-69d6-41b4-a63d-2a04bb643fe0",
+>>>>>>> 62850f970378caf6d4c6f9d76b83c888ffc14e0b
+>>>>>>> Stashed changes
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -442,7 +478,15 @@
             "bindings": [
                 {
                     "name": "",
+<<<<<<< Updated upstream
                     "id": "4ddc9116-ce60-4939-819a-aeaf9ec5987b",
+=======
+<<<<<<< HEAD
+                    "id": "2ef3dc48-2280-438f-8c9e-308f72968bfd",
+=======
+                    "id": "4ddc9116-ce60-4939-819a-aeaf9ec5987b",
+>>>>>>> 62850f970378caf6d4c6f9d76b83c888ffc14e0b
+>>>>>>> Stashed changes
                     "path": "<Gamepad>/leftStick",
                     "interactions": "",
                     "processors": "",
@@ -450,6 +494,34 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+                },
+                {
+                    "name": "",
+                    "id": "a118fca2-6d97-4ac7-9688-6e8ebafb0f81",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f8a581f8-ef20-4c51-831d-bebc7252db5a",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ready",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+=======
+>>>>>>> 62850f970378caf6d4c6f9d76b83c888ffc14e0b
+>>>>>>> Stashed changes
                 }
             ]
         }

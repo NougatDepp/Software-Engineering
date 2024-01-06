@@ -107,10 +107,6 @@ public class PlayerScript : Fighter
         player.Disable();
     }
 
-    private void AttackB(InputAction.CallbackContext obj)
-    {
-        Debug.Log(obj.interaction);
-    }
     
     void Update()
     {

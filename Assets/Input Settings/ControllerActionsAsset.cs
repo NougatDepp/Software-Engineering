@@ -448,13 +448,49 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             ]
         },
         {
+<<<<<<< Updated upstream
             ""name"": ""UI"",
             ""id"": ""57d25555-b61f-40de-904e-8dafbf0651f8"",
+=======
+<<<<<<< HEAD
+            ""name"": ""Menu"",
+            ""id"": ""56a2f3e8-ab5d-4cd4-bb0c-83a9e2f41693"",
+=======
+            ""name"": ""UI"",
+            ""id"": ""57d25555-b61f-40de-904e-8dafbf0651f8"",
+>>>>>>> 62850f970378caf6d4c6f9d76b83c888ffc14e0b
+>>>>>>> Stashed changes
             ""actions"": [
                 {
                     ""name"": ""Move"",
                     ""type"": ""Button"",
+<<<<<<< Updated upstream
                     ""id"": ""f0a9a436-69d6-41b4-a63d-2a04bb643fe0"",
+=======
+<<<<<<< HEAD
+                    ""id"": ""0b164878-6cc1-4a1b-a5f5-5236c03054dc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Back"",
+                    ""type"": ""Button"",
+                    ""id"": ""daff7521-c008-44e6-afb8-c8b088ad88b4"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Ready"",
+                    ""type"": ""Button"",
+                    ""id"": ""d81ee543-ad1f-4234-8de8-5ee50d622998"",
+=======
+                    ""id"": ""f0a9a436-69d6-41b4-a63d-2a04bb643fe0"",
+>>>>>>> 62850f970378caf6d4c6f9d76b83c888ffc14e0b
+>>>>>>> Stashed changes
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -464,7 +500,15 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             ""bindings"": [
                 {
                     ""name"": """",
+<<<<<<< Updated upstream
                     ""id"": ""4ddc9116-ce60-4939-819a-aeaf9ec5987b"",
+=======
+<<<<<<< HEAD
+                    ""id"": ""2ef3dc48-2280-438f-8c9e-308f72968bfd"",
+=======
+                    ""id"": ""4ddc9116-ce60-4939-819a-aeaf9ec5987b"",
+>>>>>>> 62850f970378caf6d4c6f9d76b83c888ffc14e0b
+>>>>>>> Stashed changes
                     ""path"": ""<Gamepad>/leftStick"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -472,6 +516,34 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a118fca2-6d97-4ac7-9688-6e8ebafb0f81"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Back"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f8a581f8-ef20-4c51-831d-bebc7252db5a"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Ready"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+=======
+>>>>>>> 62850f970378caf6d4c6f9d76b83c888ffc14e0b
+>>>>>>> Stashed changes
                 }
             ]
         }
@@ -492,9 +564,23 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         m_Player_UpA = m_Player.FindAction("Up A", throwIfNotFound: true);
         m_Player_DownB = m_Player.FindAction("Down B", throwIfNotFound: true);
         m_Player_DownA = m_Player.FindAction("Down A", throwIfNotFound: true);
+<<<<<<< Updated upstream
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Move = m_UI.FindAction("Move", throwIfNotFound: true);
+=======
+<<<<<<< HEAD
+        // Menu
+        m_Menu = asset.FindActionMap("Menu", throwIfNotFound: true);
+        m_Menu_Move = m_Menu.FindAction("Move", throwIfNotFound: true);
+        m_Menu_Back = m_Menu.FindAction("Back", throwIfNotFound: true);
+        m_Menu_Ready = m_Menu.FindAction("Ready", throwIfNotFound: true);
+=======
+        // UI
+        m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
+        m_UI_Move = m_UI.FindAction("Move", throwIfNotFound: true);
+>>>>>>> 62850f970378caf6d4c6f9d76b83c888ffc14e0b
+>>>>>>> Stashed changes
     }
 
     public void Dispose()
@@ -687,6 +773,45 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
     }
     public PlayerActions @Player => new PlayerActions(this);
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    // Menu
+    private readonly InputActionMap m_Menu;
+    private List<IMenuActions> m_MenuActionsCallbackInterfaces = new List<IMenuActions>();
+    private readonly InputAction m_Menu_Move;
+    private readonly InputAction m_Menu_Back;
+    private readonly InputAction m_Menu_Ready;
+    public struct MenuActions
+    {
+        private @ControllerActionsAsset m_Wrapper;
+        public MenuActions(@ControllerActionsAsset wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Move => m_Wrapper.m_Menu_Move;
+        public InputAction @Back => m_Wrapper.m_Menu_Back;
+        public InputAction @Ready => m_Wrapper.m_Menu_Ready;
+        public InputActionMap Get() { return m_Wrapper.m_Menu; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(MenuActions set) { return set.Get(); }
+        public void AddCallbacks(IMenuActions instance)
+        {
+            if (instance == null || m_Wrapper.m_MenuActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_MenuActionsCallbackInterfaces.Add(instance);
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
+            @Back.started += instance.OnBack;
+            @Back.performed += instance.OnBack;
+            @Back.canceled += instance.OnBack;
+            @Ready.started += instance.OnReady;
+            @Ready.performed += instance.OnReady;
+            @Ready.canceled += instance.OnReady;
+        }
+
+        private void UnregisterCallbacks(IMenuActions instance)
+=======
+>>>>>>> Stashed changes
     // UI
     private readonly InputActionMap m_UI;
     private List<IUIActions> m_UIActionsCallbackInterfaces = new List<IUIActions>();
@@ -711,10 +836,42 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         }
 
         private void UnregisterCallbacks(IUIActions instance)
+<<<<<<< Updated upstream
+=======
+>>>>>>> 62850f970378caf6d4c6f9d76b83c888ffc14e0b
+>>>>>>> Stashed changes
         {
             @Move.started -= instance.OnMove;
             @Move.performed -= instance.OnMove;
             @Move.canceled -= instance.OnMove;
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+            @Back.started -= instance.OnBack;
+            @Back.performed -= instance.OnBack;
+            @Back.canceled -= instance.OnBack;
+            @Ready.started -= instance.OnReady;
+            @Ready.performed -= instance.OnReady;
+            @Ready.canceled -= instance.OnReady;
+        }
+
+        public void RemoveCallbacks(IMenuActions instance)
+        {
+            if (m_Wrapper.m_MenuActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(IMenuActions instance)
+        {
+            foreach (var item in m_Wrapper.m_MenuActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_MenuActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public MenuActions @Menu => new MenuActions(this);
+=======
+>>>>>>> Stashed changes
         }
 
         public void RemoveCallbacks(IUIActions instance)
@@ -732,6 +889,10 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         }
     }
     public UIActions @UI => new UIActions(this);
+<<<<<<< Updated upstream
+=======
+>>>>>>> 62850f970378caf6d4c6f9d76b83c888ffc14e0b
+>>>>>>> Stashed changes
     public interface IPlayerActions
     {
         void OnMove(InputAction.CallbackContext context);
@@ -747,8 +908,22 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         void OnDownB(InputAction.CallbackContext context);
         void OnDownA(InputAction.CallbackContext context);
     }
+<<<<<<< Updated upstream
     public interface IUIActions
     {
         void OnMove(InputAction.CallbackContext context);
+=======
+<<<<<<< HEAD
+    public interface IMenuActions
+    {
+        void OnMove(InputAction.CallbackContext context);
+        void OnBack(InputAction.CallbackContext context);
+        void OnReady(InputAction.CallbackContext context);
+=======
+    public interface IUIActions
+    {
+        void OnMove(InputAction.CallbackContext context);
+>>>>>>> 62850f970378caf6d4c6f9d76b83c888ffc14e0b
+>>>>>>> Stashed changes
     }
 }
