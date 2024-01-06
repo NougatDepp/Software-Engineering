@@ -448,7 +448,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             ]
         },
         {
-            ""name"": ""UI"",
+            ""name"": ""Menu"",
             ""id"": ""57d25555-b61f-40de-904e-8dafbf0651f8"",
             ""actions"": [
                 {
@@ -461,9 +461,18 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""New action"",
+                    ""name"": ""Back"",
                     ""type"": ""Button"",
                     ""id"": ""86733339-7dbd-4cc2-bc13-7089efd5a3c6"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Choose"",
+                    ""type"": ""Button"",
+                    ""id"": ""887d9351-7e6f-4dae-8346-196875209d92"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -485,11 +494,22 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                 {
                     ""name"": """",
                     ""id"": ""5acb4a8d-ac00-4a9b-b0f6-7061af97ffd9"",
-                    ""path"": """",
+                    ""path"": ""<Gamepad>/buttonEast"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""New action"",
+                    ""action"": ""Back"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""609b69ae-a94e-4c25-8379-86975f616f5b"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Choose"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -512,10 +532,11 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         m_Player_UpA = m_Player.FindAction("Up A", throwIfNotFound: true);
         m_Player_DownB = m_Player.FindAction("Down B", throwIfNotFound: true);
         m_Player_DownA = m_Player.FindAction("Down A", throwIfNotFound: true);
-        // UI
-        m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
-        m_UI_Move = m_UI.FindAction("Move", throwIfNotFound: true);
-        m_UI_Newaction = m_UI.FindAction("New action", throwIfNotFound: true);
+        // Menu
+        m_Menu = asset.FindActionMap("Menu", throwIfNotFound: true);
+        m_Menu_Move = m_Menu.FindAction("Move", throwIfNotFound: true);
+        m_Menu_Back = m_Menu.FindAction("Back", throwIfNotFound: true);
+        m_Menu_Choose = m_Menu.FindAction("Choose", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -708,59 +729,67 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
     }
     public PlayerActions @Player => new PlayerActions(this);
 
-    // UI
-    private readonly InputActionMap m_UI;
-    private List<IUIActions> m_UIActionsCallbackInterfaces = new List<IUIActions>();
-    private readonly InputAction m_UI_Move;
-    private readonly InputAction m_UI_Newaction;
-    public struct UIActions
+    // Menu
+    private readonly InputActionMap m_Menu;
+    private List<IMenuActions> m_MenuActionsCallbackInterfaces = new List<IMenuActions>();
+    private readonly InputAction m_Menu_Move;
+    private readonly InputAction m_Menu_Back;
+    private readonly InputAction m_Menu_Choose;
+    public struct MenuActions
     {
         private @ControllerActionsAsset m_Wrapper;
-        public UIActions(@ControllerActionsAsset wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Move => m_Wrapper.m_UI_Move;
-        public InputAction @Newaction => m_Wrapper.m_UI_Newaction;
-        public InputActionMap Get() { return m_Wrapper.m_UI; }
+        public MenuActions(@ControllerActionsAsset wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Move => m_Wrapper.m_Menu_Move;
+        public InputAction @Back => m_Wrapper.m_Menu_Back;
+        public InputAction @Choose => m_Wrapper.m_Menu_Choose;
+        public InputActionMap Get() { return m_Wrapper.m_Menu; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(UIActions set) { return set.Get(); }
-        public void AddCallbacks(IUIActions instance)
+        public static implicit operator InputActionMap(MenuActions set) { return set.Get(); }
+        public void AddCallbacks(IMenuActions instance)
         {
-            if (instance == null || m_Wrapper.m_UIActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_UIActionsCallbackInterfaces.Add(instance);
+            if (instance == null || m_Wrapper.m_MenuActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_MenuActionsCallbackInterfaces.Add(instance);
             @Move.started += instance.OnMove;
             @Move.performed += instance.OnMove;
             @Move.canceled += instance.OnMove;
-            @Newaction.started += instance.OnNewaction;
-            @Newaction.performed += instance.OnNewaction;
-            @Newaction.canceled += instance.OnNewaction;
+            @Back.started += instance.OnBack;
+            @Back.performed += instance.OnBack;
+            @Back.canceled += instance.OnBack;
+            @Choose.started += instance.OnChoose;
+            @Choose.performed += instance.OnChoose;
+            @Choose.canceled += instance.OnChoose;
         }
 
-        private void UnregisterCallbacks(IUIActions instance)
+        private void UnregisterCallbacks(IMenuActions instance)
         {
             @Move.started -= instance.OnMove;
             @Move.performed -= instance.OnMove;
             @Move.canceled -= instance.OnMove;
-            @Newaction.started -= instance.OnNewaction;
-            @Newaction.performed -= instance.OnNewaction;
-            @Newaction.canceled -= instance.OnNewaction;
+            @Back.started -= instance.OnBack;
+            @Back.performed -= instance.OnBack;
+            @Back.canceled -= instance.OnBack;
+            @Choose.started -= instance.OnChoose;
+            @Choose.performed -= instance.OnChoose;
+            @Choose.canceled -= instance.OnChoose;
         }
 
-        public void RemoveCallbacks(IUIActions instance)
+        public void RemoveCallbacks(IMenuActions instance)
         {
-            if (m_Wrapper.m_UIActionsCallbackInterfaces.Remove(instance))
+            if (m_Wrapper.m_MenuActionsCallbackInterfaces.Remove(instance))
                 UnregisterCallbacks(instance);
         }
 
-        public void SetCallbacks(IUIActions instance)
+        public void SetCallbacks(IMenuActions instance)
         {
-            foreach (var item in m_Wrapper.m_UIActionsCallbackInterfaces)
+            foreach (var item in m_Wrapper.m_MenuActionsCallbackInterfaces)
                 UnregisterCallbacks(item);
-            m_Wrapper.m_UIActionsCallbackInterfaces.Clear();
+            m_Wrapper.m_MenuActionsCallbackInterfaces.Clear();
             AddCallbacks(instance);
         }
     }
-    public UIActions @UI => new UIActions(this);
+    public MenuActions @Menu => new MenuActions(this);
     public interface IPlayerActions
     {
         void OnMove(InputAction.CallbackContext context);
@@ -776,9 +805,10 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         void OnDownB(InputAction.CallbackContext context);
         void OnDownA(InputAction.CallbackContext context);
     }
-    public interface IUIActions
+    public interface IMenuActions
     {
         void OnMove(InputAction.CallbackContext context);
-        void OnNewaction(InputAction.CallbackContext context);
+        void OnBack(InputAction.CallbackContext context);
+        void OnChoose(InputAction.CallbackContext context);
     }
 }

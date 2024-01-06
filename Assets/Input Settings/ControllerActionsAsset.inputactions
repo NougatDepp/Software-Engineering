@@ -426,7 +426,7 @@
             ]
         },
         {
-            "name": "UI",
+            "name": "Menu",
             "id": "57d25555-b61f-40de-904e-8dafbf0651f8",
             "actions": [
                 {
@@ -439,9 +439,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "New action",
+                    "name": "Back",
                     "type": "Button",
                     "id": "86733339-7dbd-4cc2-bc13-7089efd5a3c6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Choose",
+                    "type": "Button",
+                    "id": "887d9351-7e6f-4dae-8346-196875209d92",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -463,11 +472,22 @@
                 {
                     "name": "",
                     "id": "5acb4a8d-ac00-4a9b-b0f6-7061af97ffd9",
-                    "path": "",
+                    "path": "<Gamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "609b69ae-a94e-4c25-8379-86975f616f5b",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Choose",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

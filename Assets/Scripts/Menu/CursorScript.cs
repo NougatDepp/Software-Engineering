@@ -19,7 +19,7 @@ public class CursorScript : MonoBehaviour
         menu = inputAsset.FindActionMap("Menu");
     }
 
-    private void OnAnable(){
+    private void OnEnable(){
 
         menu.FindAction("Choose").started += Choose;
         menu.FindAction("Back").started += Back;
