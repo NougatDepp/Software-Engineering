@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,280 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Granite_35_Get up_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1907
+        width: 103
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3c6ec7879ee1c4b92ddc8dda8ab63e
+      internalID: -1707097088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_35_Get up_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1904
+        width: 90
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a254c2a61791a4ca37276d09850f58
+      internalID: 460851528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_35_Get up_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1902
+        width: 77
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784a893b8c366d94cada451de0d89c36
+      internalID: -1321061359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_35_Get up_3
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1901
+        width: 79
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32163547d04a4bf419dc953ccf1109e8
+      internalID: -804515509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_35_Get up_4
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1899
+        width: 78
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e35ecb79a4fd842ba706f0cfad99f9
+      internalID: 1827378322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_35_Get up_5
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1900
+        width: 74
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bb8186f7161a24f9e6cb33ad20af96
+      internalID: 690964092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_35_Get up_6
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1901
+        width: 66
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcd34947b120fd4fb88e74d7874c056
+      internalID: 1576732463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_35_Get up_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1906
+        width: 67
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f351c57bd0c4c848ae091b51ffb230d
+      internalID: -1798771649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_35_Get up_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1651
+        width: 68
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10723d8f05485eb43b801ecaea142461
+      internalID: 1929968684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_35_Get up_9
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1653
+        width: 69
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cdd31bbac58094a961e3c057900be5
+      internalID: -652652321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_35_Get up_10
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1655
+        width: 69
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4cc47865b8a024f8d4e9785be0893d
+      internalID: 1617622224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_35_Get up_11
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1658
+        width: 70
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21aa4f0a89eb22244b40740ef26d80f8
+      internalID: 1867689033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_35_Get up_12
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1662
+        width: 72
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108e6f4dcfdb41a42b3e6ed5b0aa5975
+      internalID: 1179396040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +392,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granite_35_Get up_0: -1707097088
+      Granite_35_Get up_1: 460851528
+      Granite_35_Get up_10: 1617622224
+      Granite_35_Get up_11: 1867689033
+      Granite_35_Get up_12: 1179396040
+      Granite_35_Get up_2: -1321061359
+      Granite_35_Get up_3: -804515509
+      Granite_35_Get up_4: 1827378322
+      Granite_35_Get up_5: 690964092
+      Granite_35_Get up_6: 1576732463
+      Granite_35_Get up_7: -1798771649
+      Granite_35_Get up_8: 1929968684
+      Granite_35_Get up_9: -652652321
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

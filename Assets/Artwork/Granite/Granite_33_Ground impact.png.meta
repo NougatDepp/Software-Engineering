@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Granite_33_Ground impact_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1913
+        width: 125
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9cdb10831c79644aa6d625d4a19f41
+      internalID: 2117489844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_33_Ground impact_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1919
+        width: 106
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf836a3118fb6b64385016f6b4c7ecec
+      internalID: -723670103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_33_Ground impact_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1920
+        width: 103
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62b3433998fa0042afe09551431c89b
+      internalID: 749836269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_33_Ground impact_3
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1920
+        width: 98
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382c13d158a63a741879bc166f48e50c
+      internalID: -1457360375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_33_Ground impact_4
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1920
+        width: 95
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9ca9ec7bc31d148af003380a3d8fca
+      internalID: -2054150832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_33_Ground impact_5
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1918
+        width: 102
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e7468c128cfc5479c87031be76f4ae
+      internalID: 1666429891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_33_Ground impact_6
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1916
+        width: 111
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88059c8799342e4fa1ba8794ab2324c
+      internalID: 1620877758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_33_Ground impact_7
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1915
+        width: 118
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19110b73703438a4c8f68184882fdb89
+      internalID: 1708102286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_33_Ground impact_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1658
+        width: 123
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2768f0ed4d3cdf942bf6cef9137d5f83
+      internalID: -547582059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_33_Ground impact_9
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1657
+        width: 126
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21575d894221ae344a25e972464932e7
+      internalID: 1652778190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +329,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granite_33_Ground impact_0: 2117489844
+      Granite_33_Ground impact_1: -723670103
+      Granite_33_Ground impact_2: 749836269
+      Granite_33_Ground impact_3: -1457360375
+      Granite_33_Ground impact_4: -2054150832
+      Granite_33_Ground impact_5: 1666429891
+      Granite_33_Ground impact_6: 1620877758
+      Granite_33_Ground impact_7: 1708102286
+      Granite_33_Ground impact_8: -547582059
+      Granite_33_Ground impact_9: 1652778190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

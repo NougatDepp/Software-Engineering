@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,1351 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Granite_58_Victory_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1917
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f814c6978a3e34cb7ff35d8ccd60fe
+      internalID: 2034533473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1917
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8bad6953af14d49aa5fa5593addd04
+      internalID: -2034501393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1917
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6cef8e52919db44b1401d99608333a
+      internalID: 870731545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_3
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1917
+        width: 99
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea18e4da0795e11459155ebb0bed36ff
+      internalID: -1204570993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_4
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1917
+        width: 98
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1affee8762f61645a72685df6a3f1ed
+      internalID: -2039413555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_5
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1917
+        width: 98
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1debd8aa19c9884478a7cd8c3b629f69
+      internalID: -249749524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_6
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1917
+        width: 98
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156292827a52fd64a890204955107efd
+      internalID: 1223969101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_7
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1917
+        width: 98
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a4c016ee9dee54aa0bbed44cfe2e0e
+      internalID: -2089726997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1661
+        width: 98
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed198d1c4ab7ba40884d7162bf547e5
+      internalID: -234451624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_9
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1661
+        width: 97
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35bf1d10607e274fb93df478f172e06
+      internalID: 779789215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_10
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1661
+        width: 97
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92df0522147b82448894e8047e8d38d5
+      internalID: 1111471931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_11
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1661
+        width: 96
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4219463273cb81d4fa33967fed0de9c9
+      internalID: -1492028586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_12
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1661
+        width: 96
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0309e1d7849657243bb834f372c35b3a
+      internalID: -1271844920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_13
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1661
+        width: 96
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d4a827c3c1cce48baff60551b158c9
+      internalID: 1171622647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_14
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1661
+        width: 96
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41b963b6a4d8f34187c488432adcfa5
+      internalID: -401192012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_15
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1661
+        width: 96
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240e0949598d1a045b87556f05469d7f
+      internalID: 73673070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1405
+        width: 95
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37169f92da8623d4d95407c42edc272b
+      internalID: 847665665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_17
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1405
+        width: 95
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6e4e6e0906bd345884b7131984132e
+      internalID: 1112216329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_18
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1405
+        width: 94
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7523969a3443345a0e9e01cccf525a
+      internalID: 1394471215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_19
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1405
+        width: 93
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a388da8b2f2bea9468b5250f8ed64cc3
+      internalID: -861043162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_20
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1405
+        width: 94
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f13fdcc47a4104081f69eb4599b85c
+      internalID: -406878756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_21
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1405
+        width: 94
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85d32823b691614d9ccc683093ac5a4
+      internalID: 1097589232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_22
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1405
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eca0edeed4b7bd45acae6f8dc3a944f
+      internalID: -355422926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_23
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1405
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6d4b67fd352364fa5a3e3a06a47484
+      internalID: 1321207125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1149
+        width: 93
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129f977edcb665f42afabbd12692120f
+      internalID: -533410632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_25
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1149
+        width: 93
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdb5fe226f47dc449ea570108937066
+      internalID: 399583791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_26
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1149
+        width: 93
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e04524357afad44a8ac1485540a5c7
+      internalID: 1776467619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_27
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1149
+        width: 93
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25568487699d014b9b35da2b3115bd5
+      internalID: 1807558543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_28
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1149
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4140166558348748b0d29561242a1c6
+      internalID: 1769488328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_29
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1149
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9929ecdef5b528844b0ce0213a5c6e69
+      internalID: 1692163341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_30
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1149
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51c48a2abb38cd48a45ca2e3b12ac6f
+      internalID: -685450867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_31
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1149
+        width: 94
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6008667887941e64ab657d87db9ec053
+      internalID: -689181047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_32
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 893
+        width: 94
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0279d5aead407f94d8541012380a354a
+      internalID: 1826191536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_33
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 893
+        width: 94
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7bcd8309bb13348b4697eb23102838
+      internalID: 14669923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_34
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 893
+        width: 95
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9fb0c5e50dc1645b18e12f7c98d05d
+      internalID: -1513566507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_35
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 893
+        width: 95
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad60559123fa41d4b91f27470bfc84f1
+      internalID: -1084337201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_36
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 893
+        width: 95
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae08c84b4201344ab1d9dafb1adbbc1
+      internalID: -908058522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_37
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 893
+        width: 95
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e60a8c6d2850846b62133bdcb2f422
+      internalID: 846721021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_38
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 893
+        width: 95
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ef3b109f5db034b88a916d7beb8d5d
+      internalID: 1334755200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_39
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 893
+        width: 96
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fb44b74dfcfb04ea4146eade572370
+      internalID: 976840046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 637
+        width: 96
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ae82ae0ec0d404385be60e95724f86
+      internalID: -1950204425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_41
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 637
+        width: 96
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fe0523ecb95ef459cb27cd35027818
+      internalID: 1236117619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_42
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 637
+        width: 96
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f161797a84c143647853c4107c588bf9
+      internalID: -1549139841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_43
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 637
+        width: 96
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e38e88cdc5caa4284b73727b485f4f
+      internalID: -1799191268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_44
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 637
+        width: 97
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088a8a813c30ed94a843d8bc0c38c068
+      internalID: 1378205385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_45
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 637
+        width: 97
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474e0406cea56f543a870611662edb52
+      internalID: -2070023767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_46
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 637
+        width: 97
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221289c1bfdc40043a58c9010c8a0ae1
+      internalID: 438969174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_47
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 637
+        width: 97
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26294c314704e64f81e6a4862dafc07
+      internalID: 1343392611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_48
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 381
+        width: 98
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9510907e7004d845bd96427fa847b49
+      internalID: 1171194019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_49
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 381
+        width: 98
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21e18738a61c474aadedae25005d135
+      internalID: 1467801502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_50
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 381
+        width: 98
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c71dcfc462343044baa04fef10f12f4
+      internalID: -1847317884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_51
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 381
+        width: 99
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e26dd70bd16edf4db2c3bc7f74558e0
+      internalID: -1166767581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_52
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 381
+        width: 99
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260b1140dc9b4b841b17ff08253268d0
+      internalID: 775694048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_53
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 381
+        width: 99
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c6ff56b64381144a43164b0798bcdc
+      internalID: -386839064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_54
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 381
+        width: 99
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fc2261d65cfe24e8649a23e0ba4f6f
+      internalID: 1007936560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_55
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 381
+        width: 99
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4ad1da9f16b76479c3b2690262ec10
+      internalID: 1231119506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_56
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 125
+        width: 99
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fbb8272626fe64f9fbefe8c7bea01e
+      internalID: -2126652406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_57
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 125
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd4ab12af8def5418cbc3ecd01beae9
+      internalID: -1851428014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_58
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 125
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8911ba3264ca1ea439d536c0b5b99219
+      internalID: 386493994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_59
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 125
+        width: 100
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ed6dbf406859b45be4988477738a9c
+      internalID: 1808487735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_60
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 125
+        width: 99
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027f2523eb5f843458ced6179bd64fdd
+      internalID: 918039070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_61
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 125
+        width: 97
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369adf6973bc20b44a0ccf17982fc273
+      internalID: 771575245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_62
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 125
+        width: 96
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c2018f6b841754eb270b80cae66211
+      internalID: 1609252564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_58_Victory_63
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 126
+        width: 95
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daed4003581a854aaf9478d95d20a72
+      internalID: -1086507275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1463,71 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granite_58_Victory_0: 2034533473
+      Granite_58_Victory_1: -2034501393
+      Granite_58_Victory_10: 1111471931
+      Granite_58_Victory_11: -1492028586
+      Granite_58_Victory_12: -1271844920
+      Granite_58_Victory_13: 1171622647
+      Granite_58_Victory_14: -401192012
+      Granite_58_Victory_15: 73673070
+      Granite_58_Victory_16: 847665665
+      Granite_58_Victory_17: 1112216329
+      Granite_58_Victory_18: 1394471215
+      Granite_58_Victory_19: -861043162
+      Granite_58_Victory_2: 870731545
+      Granite_58_Victory_20: -406878756
+      Granite_58_Victory_21: 1097589232
+      Granite_58_Victory_22: -355422926
+      Granite_58_Victory_23: 1321207125
+      Granite_58_Victory_24: -533410632
+      Granite_58_Victory_25: 399583791
+      Granite_58_Victory_26: 1776467619
+      Granite_58_Victory_27: 1807558543
+      Granite_58_Victory_28: 1769488328
+      Granite_58_Victory_29: 1692163341
+      Granite_58_Victory_3: -1204570993
+      Granite_58_Victory_30: -685450867
+      Granite_58_Victory_31: -689181047
+      Granite_58_Victory_32: 1826191536
+      Granite_58_Victory_33: 14669923
+      Granite_58_Victory_34: -1513566507
+      Granite_58_Victory_35: -1084337201
+      Granite_58_Victory_36: -908058522
+      Granite_58_Victory_37: 846721021
+      Granite_58_Victory_38: 1334755200
+      Granite_58_Victory_39: 976840046
+      Granite_58_Victory_4: -2039413555
+      Granite_58_Victory_40: -1950204425
+      Granite_58_Victory_41: 1236117619
+      Granite_58_Victory_42: -1549139841
+      Granite_58_Victory_43: -1799191268
+      Granite_58_Victory_44: 1378205385
+      Granite_58_Victory_45: -2070023767
+      Granite_58_Victory_46: 438969174
+      Granite_58_Victory_47: 1343392611
+      Granite_58_Victory_48: 1171194019
+      Granite_58_Victory_49: 1467801502
+      Granite_58_Victory_5: -249749524
+      Granite_58_Victory_50: -1847317884
+      Granite_58_Victory_51: -1166767581
+      Granite_58_Victory_52: 775694048
+      Granite_58_Victory_53: -386839064
+      Granite_58_Victory_54: 1007936560
+      Granite_58_Victory_55: 1231119506
+      Granite_58_Victory_56: -2126652406
+      Granite_58_Victory_57: -1851428014
+      Granite_58_Victory_58: 386493994
+      Granite_58_Victory_59: 1808487735
+      Granite_58_Victory_6: 1223969101
+      Granite_58_Victory_60: 918039070
+      Granite_58_Victory_61: 771575245
+      Granite_58_Victory_62: 1609252564
+      Granite_58_Victory_63: -1086507275
+      Granite_58_Victory_7: -2089726997
+      Granite_58_Victory_8: -234451624
+      Granite_58_Victory_9: 779789215
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
