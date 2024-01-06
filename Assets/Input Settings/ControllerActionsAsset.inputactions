@@ -424,6 +424,34 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "UI",
+            "id": "57d25555-b61f-40de-904e-8dafbf0651f8",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "f0a9a436-69d6-41b4-a63d-2a04bb643fe0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4ddc9116-ce60-4939-819a-aeaf9ec5987b",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
