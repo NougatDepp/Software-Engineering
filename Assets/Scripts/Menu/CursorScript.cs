@@ -29,7 +29,7 @@ public class CursorScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.position += new Vector3(move.ReadValue<Vector2>().x, move.ReadValue<Vector2>().y, 0);
+        transform.position += new Vector3(move.ReadValue<Vector2>().x, move.ReadValue<Vector2>().y, 0)*0.3f;
     }
 
     private void Back(InputAction.CallbackContext context)
