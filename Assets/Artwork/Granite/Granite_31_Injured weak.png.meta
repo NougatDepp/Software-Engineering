@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,847 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_0
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1913
+        width: 67
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4eb2bc3e4b0dc49852b7313c240e49
+      internalID: -2128049781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1913
+        width: 68
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e414d48c4a71dc84b822abac6c26ec8e
+      internalID: -1945441685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_2
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1913
+        width: 69
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fac6b0ca106f243937c2922168091f
+      internalID: 889047907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_3
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1913
+        width: 70
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a11b22a41368342a0814c8b92a9d9e
+      internalID: -557103665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_4
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1913
+        width: 71
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264f70d42738e9c47994a63d737e80e1
+      internalID: -1509135164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_5
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1913
+        width: 72
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8445f22dd12843540b466bcdc7d913e3
+      internalID: 1953145841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_6
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1913
+        width: 73
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfc7510fa404c547825a90117e86fff
+      internalID: 567536492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_7
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1913
+        width: 75
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2be828f7003c44b94e012e92bc5de8
+      internalID: 354382488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1658
+        width: 75
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9148a40c8e6ca43bbe863488db7f49
+      internalID: 1094653666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1658
+        width: 76
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3821507fabb1748479c11026dc32aa2b
+      internalID: -678239781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1659
+        width: 77
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fb8b0069fd19b4db0ade16db47297a
+      internalID: -1826981753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_11
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1659
+        width: 78
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5557444113f8c194da6d9845d020111a
+      internalID: -1589339164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_12
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1660
+        width: 79
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2430e9776d08314baa5d4719e9d8f93
+      internalID: 1382286667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_13
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1661
+        width: 80
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d750d1f80716c34ead3f5193d2fb454
+      internalID: 1272667388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_14
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1661
+        width: 80
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8c8ccabc3f3a445b0f1dff3b89fb39
+      internalID: -2057443485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_15
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1661
+        width: 80
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d1abe2afcc82e41b5f56a46d2e0ac3
+      internalID: -1196585239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_16
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1405
+        width: 80
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de9adfc488a25f40b51868929942a6d
+      internalID: 1430532278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_17
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1405
+        width: 79
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505e74903b06f4343a8e6b9e871d11c6
+      internalID: -962509907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_18
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1405
+        width: 80
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c3814dd2458384cb546e2de3736408
+      internalID: 1573063614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_19
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1405
+        width: 79
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d7121c838ede44d93d01a276738b18
+      internalID: -1661675444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_20
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1405
+        width: 79
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad6af274abb35a4ba02e7787efe2aa7
+      internalID: 1596292147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_21
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1405
+        width: 79
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68be7d3f96fd804458dae09bb5485280
+      internalID: 1565235517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_22
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1405
+        width: 79
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab1a2502a561084184fd9f9ae609092
+      internalID: 456445922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_23
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1405
+        width: 78
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa2a1962764c5449a4f578042fca4b3
+      internalID: -1604388358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_24
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1149
+        width: 78
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411519636abc51c4daf21e20a27ffa96
+      internalID: 772802561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_25
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1149
+        width: 77
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d0880cf45d80145bdc4ae56c373a20
+      internalID: 125970317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_26
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1149
+        width: 77
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30dde21145ef6545ba91ffa13f5e28e
+      internalID: 2035174744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_27
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1149
+        width: 77
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1903400cc722e624a9b42c9174c1cc0f
+      internalID: -337436404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_28
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1149
+        width: 77
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d19a30e3627b7249aa92df445aaea53
+      internalID: 682888023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_29
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1149
+        width: 76
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a591fb3c1e09f604ea4ff1f16d543246
+      internalID: -77195789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_30
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1149
+        width: 76
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2878bee13ce6b47950407a57074a70
+      internalID: 496565878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_31
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1149
+        width: 76
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd80ae1a9422f84192c1f666297df2d
+      internalID: -191851033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_32
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 893
+        width: 75
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b6ec0c2079c36428a730210c1d1fcd
+      internalID: 1649620732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_33
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 893
+        width: 75
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7ba0a309e6ae84da9b8693744a8d94
+      internalID: 1448924674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_34
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 893
+        width: 75
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e5d09c8667dff45b8e5a643f3a2c82
+      internalID: -1777996472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_35
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 893
+        width: 74
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d63e9b5b24dc264f8da5b867c82b8b0
+      internalID: 414233054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_36
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 893
+        width: 74
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2e7d9b1bb860c4aac3de137c9f39e7
+      internalID: 677373054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_37
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 893
+        width: 74
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82ab6503dd8608499b08ee91b10974f
+      internalID: 735641502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_38
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 894
+        width: 73
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74eb6861d515ea4f8efed591f48ce44
+      internalID: 813063616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_31_Injured weak_39
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 894
+        width: 72
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce717e33dde76f4180a4865d99b218f
+      internalID: -1315477496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +959,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granite_31_Injured weak_0: -2128049781
+      Granite_31_Injured weak_1: -1945441685
+      Granite_31_Injured weak_10: -1826981753
+      Granite_31_Injured weak_11: -1589339164
+      Granite_31_Injured weak_12: 1382286667
+      Granite_31_Injured weak_13: 1272667388
+      Granite_31_Injured weak_14: -2057443485
+      Granite_31_Injured weak_15: -1196585239
+      Granite_31_Injured weak_16: 1430532278
+      Granite_31_Injured weak_17: -962509907
+      Granite_31_Injured weak_18: 1573063614
+      Granite_31_Injured weak_19: -1661675444
+      Granite_31_Injured weak_2: 889047907
+      Granite_31_Injured weak_20: 1596292147
+      Granite_31_Injured weak_21: 1565235517
+      Granite_31_Injured weak_22: 456445922
+      Granite_31_Injured weak_23: -1604388358
+      Granite_31_Injured weak_24: 772802561
+      Granite_31_Injured weak_25: 125970317
+      Granite_31_Injured weak_26: 2035174744
+      Granite_31_Injured weak_27: -337436404
+      Granite_31_Injured weak_28: 682888023
+      Granite_31_Injured weak_29: -77195789
+      Granite_31_Injured weak_3: -557103665
+      Granite_31_Injured weak_30: 496565878
+      Granite_31_Injured weak_31: -191851033
+      Granite_31_Injured weak_32: 1649620732
+      Granite_31_Injured weak_33: 1448924674
+      Granite_31_Injured weak_34: -1777996472
+      Granite_31_Injured weak_35: 414233054
+      Granite_31_Injured weak_36: 677373054
+      Granite_31_Injured weak_37: 735641502
+      Granite_31_Injured weak_38: 813063616
+      Granite_31_Injured weak_39: -1315477496
+      Granite_31_Injured weak_4: -1509135164
+      Granite_31_Injured weak_5: 1953145841
+      Granite_31_Injured weak_6: 567536492
+      Granite_31_Injured weak_7: 354382488
+      Granite_31_Injured weak_8: 1094653666
+      Granite_31_Injured weak_9: -678239781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

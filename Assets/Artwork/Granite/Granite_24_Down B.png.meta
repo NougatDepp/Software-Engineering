@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,1099 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Granite_24_Down B_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1918
+        width: 105
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf6e6641dd49c045824f15fd50ac60c
+      internalID: -2079868237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1918
+        width: 105
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1382ed7e5eed15428627815669eeb53
+      internalID: 152464549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_2
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1918
+        width: 88
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e778ffe2f0760494b94c5181ca18fdc5
+      internalID: -640934310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_3
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1918
+        width: 88
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ac728426b8ce74a952100332a29f7e
+      internalID: 90310367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_4
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1918
+        width: 88
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055be674e9204cd459c4f5c61c4e34cb
+      internalID: 444020486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_5
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1918
+        width: 97
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1682af8264bf24ba4b65547f932d2b
+      internalID: -884277751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_6
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1908
+        width: 84
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5978fa2fd4bca4bb6f72df01d25bb0
+      internalID: 719371841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_7
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1916
+        width: 86
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d4f597824e25c40821033c2a630342
+      internalID: 825804150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1659
+        width: 85
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fe51e183820f64e8f43f4037acf189
+      internalID: 759745423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1658
+        width: 85
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d037eb3df0672e44b03d5d40140f0fe
+      internalID: -234370493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_10
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1659
+        width: 86
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03c51f8c038d5a48a2f5ed7f28b66c2
+      internalID: -2080897219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_11
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1661
+        width: 89
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0937defa6e2020049b44d4e22c0acc62
+      internalID: 649733017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_12
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1661
+        width: 107
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91d5319dd946244d8ff8cc692d47ebe
+      internalID: 677656671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_13
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1662
+        width: 99
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefc02a103397e7429071e72f0db6604
+      internalID: 1506929529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_14
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1651
+        width: 82
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b6cb64da6d02c4d80394987dd50153
+      internalID: -1672745864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_15
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1655
+        width: 78
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060029fea8991944d9a56594d7bf2a76
+      internalID: 937230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1401
+        width: 83
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0711539d520d02142bbdcc336ccb7459
+      internalID: -519566847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_17
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1402
+        width: 85
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bf7748a9c762d4284f5347de7e6426
+      internalID: -101223106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_18
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1405
+        width: 87
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a5a8b491a900b4c89ea17b22001ec0
+      internalID: -255905052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_19
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1405
+        width: 89
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ef4b023acf4e748b779b94e16a2149
+      internalID: -764365803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_20
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1405
+        width: 91
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e29fd677413074e9dbff248de21e89
+      internalID: 301456101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_21
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1406
+        width: 97
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf2a3f78b22ab74da540d030d95f248
+      internalID: 372636459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_22
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1406
+        width: 97
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c01a959f7a0114d82486fcc007363e
+      internalID: 1786528480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_23
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1406
+        width: 97
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9db6ea3384e93148a012562c1217406
+      internalID: -366961847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_24
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1150
+        width: 97
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbe332400d98fa45ae8588d6c98e59b
+      internalID: -1744302454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_25
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1150
+        width: 96
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55c63389c9c00f4ab2c69cb8292f14f
+      internalID: -265059030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_26
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1150
+        width: 105
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374d8bbf59911424793496cb2d2c8cef
+      internalID: 753914299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_27
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1150
+        width: 105
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f5f65ad50ee1541b594e96e772ed45
+      internalID: 697799195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_28
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1150
+        width: 88
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacde97db3795ba4893d36ce8acc2ff7
+      internalID: 953945105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_29
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1150
+        width: 88
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6980d4dd524f2f34cb104c8ffd82936c
+      internalID: 587621176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_30
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1150
+        width: 88
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68664a07a1a74e047b698c8b7d1bf0e1
+      internalID: -920300928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_31
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 894
+        width: 97
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b315cf6d99d59e147b6a43a5c961c44e
+      internalID: -1463993511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_32
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 884
+        width: 84
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d0f231599a1894e8d84ee70ca3f0e0
+      internalID: -856596594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_33
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 892
+        width: 86
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313d7a1058974604e8c5d3d8ee112937
+      internalID: 772180506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_34
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 891
+        width: 85
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f752f7a9311da499084f6e4fbd475f
+      internalID: 1513129700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_35
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 890
+        width: 85
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa45e0be70daf434582b66c974f5e0ff
+      internalID: 1728049491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_36
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 891
+        width: 86
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75aba4f09176044db0863f7dfe13abf
+      internalID: -1715729393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_37
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 893
+        width: 89
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcb4a1374349234c9f28fb6a705042f
+      internalID: 1022430924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_38
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 893
+        width: 107
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c60a058f1e5944cbcf002be9b661d7
+      internalID: 594562909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_39
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 638
+        width: 99
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb82a6fa1e47cf4cb6bf3b9cb77c115
+      internalID: 145808065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_40
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 627
+        width: 82
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b656725c6c7004b9a21aebb0d19201
+      internalID: -294471357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_41
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 631
+        width: 78
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773537aec54bdd945924b4b1721e94a8
+      internalID: -1650671935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_42
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 633
+        width: 83
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bf93109b3676d41b640375428423ce
+      internalID: 235504037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_43
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 634
+        width: 85
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d887bf1da7cb45f45a7887db249a46c6
+      internalID: 1195703592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_44
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 637
+        width: 87
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eea769afb678ba40afa39913a15bb80
+      internalID: -1664526706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_45
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 637
+        width: 89
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400836dd3559d70408794954d7b87476
+      internalID: -1168252158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_46
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 637
+        width: 91
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa4111fca2595848b46885b0246afc5
+      internalID: 1462041420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_47
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 382
+        width: 97
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2f436dd6c2bcd498fedbfb269d5704
+      internalID: 1447414566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_48
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 382
+        width: 97
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918e90af5175ccb4d966ae4c410e5177
+      internalID: -1440546499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_49
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 382
+        width: 97
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f0a416df8cb0740a879a984628a9fd
+      internalID: 2120189443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_50
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 382
+        width: 97
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1248c4efac26a414e82ad1ed528a2a48
+      internalID: -722570860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_24_Down B_51
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 382
+        width: 96
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf33806a31c27d64bb9c831599a719ad
+      internalID: 112480450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1211,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granite_24_Down B_0: -2079868237
+      Granite_24_Down B_1: 152464549
+      Granite_24_Down B_10: -2080897219
+      Granite_24_Down B_11: 649733017
+      Granite_24_Down B_12: 677656671
+      Granite_24_Down B_13: 1506929529
+      Granite_24_Down B_14: -1672745864
+      Granite_24_Down B_15: 937230
+      Granite_24_Down B_16: -519566847
+      Granite_24_Down B_17: -101223106
+      Granite_24_Down B_18: -255905052
+      Granite_24_Down B_19: -764365803
+      Granite_24_Down B_2: -640934310
+      Granite_24_Down B_20: 301456101
+      Granite_24_Down B_21: 372636459
+      Granite_24_Down B_22: 1786528480
+      Granite_24_Down B_23: -366961847
+      Granite_24_Down B_24: -1744302454
+      Granite_24_Down B_25: -265059030
+      Granite_24_Down B_26: 753914299
+      Granite_24_Down B_27: 697799195
+      Granite_24_Down B_28: 953945105
+      Granite_24_Down B_29: 587621176
+      Granite_24_Down B_3: 90310367
+      Granite_24_Down B_30: -920300928
+      Granite_24_Down B_31: -1463993511
+      Granite_24_Down B_32: -856596594
+      Granite_24_Down B_33: 772180506
+      Granite_24_Down B_34: 1513129700
+      Granite_24_Down B_35: 1728049491
+      Granite_24_Down B_36: -1715729393
+      Granite_24_Down B_37: 1022430924
+      Granite_24_Down B_38: 594562909
+      Granite_24_Down B_39: 145808065
+      Granite_24_Down B_4: 444020486
+      Granite_24_Down B_40: -294471357
+      Granite_24_Down B_41: -1650671935
+      Granite_24_Down B_42: 235504037
+      Granite_24_Down B_43: 1195703592
+      Granite_24_Down B_44: -1664526706
+      Granite_24_Down B_45: -1168252158
+      Granite_24_Down B_46: 1462041420
+      Granite_24_Down B_47: 1447414566
+      Granite_24_Down B_48: -1440546499
+      Granite_24_Down B_49: 2120189443
+      Granite_24_Down B_5: -884277751
+      Granite_24_Down B_50: -722570860
+      Granite_24_Down B_51: 112480450
+      Granite_24_Down B_6: 719371841
+      Granite_24_Down B_7: 825804150
+      Granite_24_Down B_8: 759745423
+      Granite_24_Down B_9: -234370493
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
