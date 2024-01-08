@@ -11,7 +11,7 @@ public class PlayerHP : MonoBehaviour
     private GameObject[] players;
     void Start()
     {
-
+        
     }
     
     void Update()

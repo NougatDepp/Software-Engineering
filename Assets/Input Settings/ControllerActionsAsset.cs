@@ -477,6 +477,15 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Ready"",
+                    ""type"": ""Button"",
+                    ""id"": ""0ae5fd9c-d73e-4513-9e4d-cf14692b3416"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -512,6 +521,17 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""action"": ""Choose"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c632c168-b11c-4f60-8cdc-e29d93c45c33"",
+                    ""path"": ""<Gamepad>/select"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Ready"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -537,6 +557,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         m_Menu_Move = m_Menu.FindAction("Move", throwIfNotFound: true);
         m_Menu_Back = m_Menu.FindAction("Back", throwIfNotFound: true);
         m_Menu_Choose = m_Menu.FindAction("Choose", throwIfNotFound: true);
+        m_Menu_Ready = m_Menu.FindAction("Ready", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -735,6 +756,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
     private readonly InputAction m_Menu_Move;
     private readonly InputAction m_Menu_Back;
     private readonly InputAction m_Menu_Choose;
+    private readonly InputAction m_Menu_Ready;
     public struct MenuActions
     {
         private @ControllerActionsAsset m_Wrapper;
@@ -742,6 +764,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         public InputAction @Move => m_Wrapper.m_Menu_Move;
         public InputAction @Back => m_Wrapper.m_Menu_Back;
         public InputAction @Choose => m_Wrapper.m_Menu_Choose;
+        public InputAction @Ready => m_Wrapper.m_Menu_Ready;
         public InputActionMap Get() { return m_Wrapper.m_Menu; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -760,6 +783,9 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             @Choose.started += instance.OnChoose;
             @Choose.performed += instance.OnChoose;
             @Choose.canceled += instance.OnChoose;
+            @Ready.started += instance.OnReady;
+            @Ready.performed += instance.OnReady;
+            @Ready.canceled += instance.OnReady;
         }
 
         private void UnregisterCallbacks(IMenuActions instance)
@@ -773,6 +799,9 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             @Choose.started -= instance.OnChoose;
             @Choose.performed -= instance.OnChoose;
             @Choose.canceled -= instance.OnChoose;
+            @Ready.started -= instance.OnReady;
+            @Ready.performed -= instance.OnReady;
+            @Ready.canceled -= instance.OnReady;
         }
 
         public void RemoveCallbacks(IMenuActions instance)
@@ -810,5 +839,6 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         void OnMove(InputAction.CallbackContext context);
         void OnBack(InputAction.CallbackContext context);
         void OnChoose(InputAction.CallbackContext context);
+        void OnReady(InputAction.CallbackContext context);
     }
 }

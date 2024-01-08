@@ -55,7 +55,7 @@ public class GameplayScript : Fighter
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        inputAsset = this.GetComponent<PlayerInput>().actions;
+        inputAsset = gameObject.transform.parent.GetComponent<PlayerInput>().actions;
         player = inputAsset.FindActionMap("Player");
 
         health = Instantiate(text);

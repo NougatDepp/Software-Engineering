@@ -2,9 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Dynamic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CursorScript : MonoBehaviour
@@ -19,8 +21,10 @@ public class CursorScript : MonoBehaviour
     private GameObject ui_canvas;
     private GraphicRaycaster gr;
     private PointerEventData pointerEventData = new PointerEventData(null);
+    
 
     public Transform currentCharacter;
+    public bool ready;
 
     public GameObject tokenPrefab;
     public Transform token;
@@ -29,19 +33,41 @@ public class CursorScript : MonoBehaviour
     private int id;
 
     private void Awake(){
-
-        inputAsset = this.GetComponent<PlayerInput>().actions;
+        inputAsset = gameObject.transform.parent.GetComponent<PlayerInput>().actions;
         menu = inputAsset.FindActionMap("Menu");
     }
     
     private void Start()
     {
+        CharacterMenuScript.instance.ShowCharacterInSlot(id, null);
+    }
+    
+    private void OnEnable(){
+
         ui_canvas = GameObject.FindGameObjectWithTag("MenuCanvas");
         gr = ui_canvas.GetComponent<GraphicRaycaster>();
-        
+        token = Instantiate(tokenPrefab,transform.position,Quaternion.identity, GameObject.FindWithTag("MenuCanvas").transform).transform;
         hasToken = true;
-        token = Instantiate(tokenPrefab, GameObject.FindWithTag("MenuCanvas").transform).transform;
-        CharacterMenuScript.instance.ShowCharacterInSlot(id, null);
+        
+        menu.FindAction("Choose").started += Choose;
+        menu.FindAction("Back").started += Back;
+        menu.FindAction("Ready").started += Ready;
+
+
+        move = inputAsset.FindAction("Move");
+    }
+
+    private void OnDisable()
+    {
+        menu.FindAction("Choose").started -= Choose;
+        menu.FindAction("Back").started -= Back;
+        menu.FindAction("Ready").started += Ready;
+    }
+    
+    private void FixedUpdate()
+    {
+        if(SceneManager.GetActiveScene().name!="CharacterSelect") gameObject.SetActive(false);
+        transform.position += new Vector3(move.ReadValue<Vector2>().x, move.ReadValue<Vector2>().y, 0)*0.3f;
     }
 
     void Update () {
@@ -75,9 +101,6 @@ public class CursorScript : MonoBehaviour
                 }
             }
         }
-
-        
-
     }
 
    void SetCurrentCharacter(Transform t)
@@ -101,33 +124,39 @@ public class CursorScript : MonoBehaviour
        hasToken = trigger;
    }
 
+   private void SetChoosenCharacter()
+   {
+       gameObject.transform.parent.GetComponent<PlayerScript>()
+           .SetCharacter(CharacterMenuScript.instance.characters[currentCharacter.GetSiblingIndex()].character);
+   }
     
-
-    
-
-    private void OnEnable(){
-
-        menu.FindAction("Choose").started += Choose;
-        menu.FindAction("Back").started += Back;
-
-        move = inputAsset.FindAction("Move");
-    }
-
-    private void OnDisable()
-    {
-        menu.FindAction("Choose").started -= Choose;
-        menu.FindAction("Back").started -= Back;
-    }
-
-    private void FixedUpdate()
-    {
-        transform.position += new Vector3(move.ReadValue<Vector2>().x, move.ReadValue<Vector2>().y, 0)*0.3f;
-    }
+   private void RemoveCharacter()
+   {
+       gameObject.transform.parent.GetComponent<PlayerScript>()
+           .SetCharacter(null);
+   }
+   public void SetID(int id)
+   {
+       this.id = id;
+   }
+   
+   private void Ready(InputAction.CallbackContext obj)
+   {
+       if (ready)
+       {
+           ready = false;
+       }
+       else
+       {
+           ready = true;
+       }
+   }
 
     private void Back(InputAction.CallbackContext context)
     {
         CharacterMenuScript.instance.confirmedCharacter = null;
         TokenFollow(true);
+        RemoveCharacter();
     }
 
     private void Choose(InputAction.CallbackContext context)
@@ -136,11 +165,9 @@ public class CursorScript : MonoBehaviour
         {
             TokenFollow(false);
             CharacterMenuScript.instance.ConfirmCharacter(CharacterMenuScript.instance.characters[currentCharacter.GetSiblingIndex()]);
+            SetChoosenCharacter();
         }
     }
 
-    public void SetID(int id)
-    {
-        this.id = id;
-    }
+    
 }

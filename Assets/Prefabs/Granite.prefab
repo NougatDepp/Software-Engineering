@@ -193,6 +193,8 @@ MonoBehaviour:
   jumpForce: 26.2
   maxSpeed: 5.13
   text: {fileID: 1041621501683839292, guid: b4c34b6d6f2d46a4d8da7f386a48a52e, type: 3}
+  src: {fileID: 0}
+  sfx: {fileID: 0}
   jumpCounter: 0
 --- !u!50 &3331288173858712114
 Rigidbody2D:
@@ -294,7 +296,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884557189208782429}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
@@ -330,12 +332,52 @@ MonoBehaviour:
     m_ActionName: Player/New action
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: 5b98f689-1d15-4eaf-a45f-3b64fe0668cb
-    m_ActionName: Player/A + Right[/XInputControllerWindows1/leftStick/right,/XInputControllerWindows1/buttonSouth]
-  - m_PersistentCalls:
-      m_Calls: []
     m_ActionId: 28c4ece7-df55-4095-8ea6-c924148960ab
     m_ActionName: Player/Sprint[/XInputControllerWindows/dpad,/XInputControllerWindows2/dpad]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: de90d163-591c-40ba-b4ea-7920928247d2
+    m_ActionName: Player/Hold B[/XInputControllerWindows/buttonEast,/XInputControllerWindows1/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 85f88e70-2f8b-4902-9419-554a12bd21dc
+    m_ActionName: Player/Side B[/XInputControllerWindows/buttonEast,/XInputControllerWindows1/buttonEast,/XInputControllerWindows/leftStick/left,/XInputControllerWindows1/leftStick/left,/XInputControllerWindows/leftStick/right,/XInputControllerWindows1/leftStick/right]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 728f5d35-e852-460e-85ee-0e2ad6489b18
+    m_ActionName: Player/Side A[/XInputControllerWindows/buttonEast,/XInputControllerWindows1/buttonEast,/XInputControllerWindows/leftStick/left,/XInputControllerWindows1/leftStick/left,/XInputControllerWindows/leftStick/right,/XInputControllerWindows1/leftStick/right]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 07f37e35-8d26-44c2-85e0-87600c3c45ad
+    m_ActionName: Player/Up B[/XInputControllerWindows/buttonEast,/XInputControllerWindows1/buttonEast,/XInputControllerWindows/leftStick/up,/XInputControllerWindows1/leftStick/up]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 986c95ab-c6bc-4b22-9c5d-7b7146fd1ba3
+    m_ActionName: Player/Up A[/XInputControllerWindows/buttonSouth,/XInputControllerWindows1/buttonSouth,/XInputControllerWindows/leftStick/up,/XInputControllerWindows1/leftStick/up]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b8309dbe-c403-431c-a7ed-81a122a2fabd
+    m_ActionName: Player/Down B[/XInputControllerWindows/buttonSouth,/XInputControllerWindows1/buttonSouth,/XInputControllerWindows/leftStick/down,/XInputControllerWindows1/leftStick/down]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a243113e-1c23-455a-a1f1-8b160de20f79
+    m_ActionName: Player/Down A[/XInputControllerWindows/buttonSouth,/XInputControllerWindows1/buttonSouth,/XInputControllerWindows/leftStick/down,/XInputControllerWindows1/leftStick/down]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f0a9a436-69d6-41b4-a63d-2a04bb643fe0
+    m_ActionName: Menu/Move[/XInputControllerWindows/leftStick,/XInputControllerWindows1/leftStick]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 86733339-7dbd-4cc2-bc13-7089efd5a3c6
+    m_ActionName: Menu/Back[/XInputControllerWindows/buttonEast,/XInputControllerWindows1/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 887d9351-7e6f-4dae-8346-196875209d92
+    m_ActionName: Menu/Choose[/XInputControllerWindows/buttonSouth,/XInputControllerWindows1/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 0ae5fd9c-d73e-4513-9e4d-cf14692b3416
+    m_ActionName: Menu/Ready[/XInputControllerWindows/select,/XInputControllerWindows1/select]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
