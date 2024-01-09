@@ -164,7 +164,7 @@ public class CursorScript : MonoBehaviour
         if (currentCharacter != null)
         {
             TokenFollow(false);
-            CharacterMenuScript.instance.ConfirmCharacter(CharacterMenuScript.instance.characters[currentCharacter.GetSiblingIndex()]);
+            CharacterMenuScript.instance.ConfirmCharacter(id,CharacterMenuScript.instance.characters[currentCharacter.GetSiblingIndex()]);
             SetChoosenCharacter();
         }
     }

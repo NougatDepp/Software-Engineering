@@ -51,6 +51,11 @@ public class GameplayScript : Fighter
 
     private void Awake()
     {
+        
+    }
+
+    private void OnEnable()
+    {
         ID = GameObject.FindGameObjectsWithTag("Player").Length;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -61,10 +66,7 @@ public class GameplayScript : Fighter
         health = Instantiate(text);
 
         health.transform.SetParent(GameObject.FindWithTag("PlayerDamage").transform);
-    }
-
-    private void OnEnable()
-    {
+        
         player.FindAction("Jump").started += Jump;
         
         player.FindAction("Hold A").started += HoldA;

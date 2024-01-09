@@ -1,21 +1,22 @@
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerManager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     public List<GameObject> players;
 
-    public static PlayerManager instance;
+    public static GameManager instance;
 
-    public GameObject playerr;
     public GameObject[] cursors;
+    
+    private bool hasCodeExecuted = false;
+
     void Start()
     {
         instance = this;
-        
-
     }
     
     public void UpdatePlayers(GameObject player)
@@ -32,29 +33,18 @@ public class PlayerManager : MonoBehaviour
         
     }
 
-    private void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    private void OnSceneLoaded(Scene loadedScene, LoadSceneMode mode)
+    
+    public void SceneChange(Scene scene,LoadSceneMode mode)
     {
         cursors = GameObject.FindGameObjectsWithTag("Cursor");
-        if (loadedScene.name == "CharacterSelect" && mode == LoadSceneMode.Single)
+        if (scene.name == "CharacterSelect" && mode == LoadSceneMode.Single)
         {
             
             foreach (GameObject cursor in cursors)
             {
                 cursor.GetComponent<SpriteRenderer>().enabled = true;
                 cursor.GetComponent<CursorScript>().enabled = true;
-
             }
-            Debug.Log("Code wird bei Szenenwechsel von 'a' nach 'b' ausgeführt.");
         }
         else
         {
@@ -62,6 +52,11 @@ public class PlayerManager : MonoBehaviour
             {
                 cursor.GetComponent<SpriteRenderer>().enabled = false;
                 cursor.GetComponent<CursorScript>().enabled = false;
+            }
+
+            foreach (GameObject player in players)
+            {
+                player.GetComponent<PlayerScript>().InstantiateCharacter();
             }
         }
     }

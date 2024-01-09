@@ -10,8 +10,8 @@ public class PlayerScript : MonoBehaviour
     public GameObject character;
     private void Awake()
     {
-        PlayerManager.instance.UpdatePlayers(gameObject);
-        id = PlayerManager.instance.players.Count;
+        GameManager.instance.UpdatePlayers(gameObject);
+        id = GameManager.instance.players.Count;
         gameObject.transform.name = "Player " + id;
 
         gameObject.transform.Find("Cursor").GetComponent<CursorScript>().SetID(id-1);
