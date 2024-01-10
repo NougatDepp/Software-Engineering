@@ -7,6 +7,8 @@ TagManager:
   - DamageBox
   - PlayerDamage
   - MenuCanvas
+  - Cursor
+  - Character
   layers:
   - Default
   - TransparentFX

@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class Fighter : MonoBehaviour
 {
-    //Public Fields
+    
     public float hitpoint = 0;
     public int maxHitpoint = 999;
     public float pushRecoverySpeed = 0.2f;
     
-    //Immunity
+    
     protected float immuneTime = 0.1f;
     protected float lastImmune;
 
@@ -30,8 +30,8 @@ public class Fighter : MonoBehaviour
             
             
             
-            this.GetComponent<Rigidbody2D>().velocity = (pushDirection*hitpoint/10 + new Vector3(0,3));
-            
+            this.GetComponent<Rigidbody2D>().velocity = (pushDirection*new Vector2(0,1.5f)*hitpoint/10);
+            Debug.Log(pushDirection);
         }
 
     }

@@ -17,11 +17,6 @@ public class PlayerScript : MonoBehaviour
         gameObject.transform.Find("Cursor").GetComponent<CursorScript>().SetID(id-1);
     }
 
-    private void Update()
-    {
-
-    }
-    
     public void SetCharacter(GameObject character)
     {
         this.character = character;

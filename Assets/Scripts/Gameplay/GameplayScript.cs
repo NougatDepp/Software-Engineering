@@ -1,4 +1,4 @@
-using System;
+using System; 
 using System.Collections;
 using System.Collections.Generic;
 using Microsoft.Win32.SafeHandles;
@@ -15,9 +15,7 @@ public class GameplayScript : Fighter
     private InputActionAsset inputAsset;
     private InputActionMap player;
     private InputAction move;
-
-    private InputAction sprint;
-
+    
     private Rigidbody2D rb;
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private float maxSpeed = 10f;
@@ -25,11 +23,8 @@ public class GameplayScript : Fighter
     private Animator anim;
     private bool isGrounded;
 
-    private int currentDamage = 0;
-
     [SerializeField]
-    private TMP_Text text;
-    private TMP_Text health;
+    private int currentDamage = 0;
 
     public AudioSource src;
     public AudioClip sfx;
@@ -47,6 +42,8 @@ public class GameplayScript : Fighter
 
     public int jumpCounter = 0;
 
+    public bool isHurt;
+
     
 
     private void Awake()
@@ -63,10 +60,6 @@ public class GameplayScript : Fighter
         inputAsset = gameObject.transform.parent.GetComponent<PlayerInput>().actions;
         player = inputAsset.FindActionMap("Player");
 
-        health = Instantiate(text);
-
-        health.transform.SetParent(GameObject.FindWithTag("PlayerDamage").transform);
-        
         player.FindAction("Jump").started += Jump;
         
         player.FindAction("Hold A").started += HoldA;
@@ -83,7 +76,6 @@ public class GameplayScript : Fighter
 
 
         move = inputAsset.FindAction("Move");
-        sprint = inputAsset.FindAction("Sprint");
 
         player.Enable();
 
@@ -116,88 +108,71 @@ public class GameplayScript : Fighter
     
     void Update()
     {
-        isGrounded = Physics2D.OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Ground")); 
     }
 
     void FixedUpdate()
     {
-        if (Math.Abs(rb.velocity.x) < maxSpeed)
+        if (Math.Abs(rb.velocity.x) < maxSpeed && currentState < 4)
         {
             rb.velocity = new Vector2(move.ReadValue<Vector2>().x*maxSpeed,rb.velocity.y);
-        }
+        }else rb.velocity = new Vector2(rb.velocity.x*0.9f,rb.velocity.y);
 
         if (rb.velocity.y < 0f )
         {
             rb.velocity += Vector2.down*Physics.gravity.y *Time.fixedDeltaTime;
         }
         
+        if (isGrounded)
+        { 
+            jumpCounter = 2;
+        }
+        
+        isGrounded = Physics2D.OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Ground"));
+
+        
         AnimationUpdate();
-        DamageTextChange();
         
         StateUpdate();
     }
     void StateUpdate()
     {
-        if (rb.velocity.y < -0.2f)
+        if (currentState < 4)
         {
-            currentState = 3; // Falling
+            if (rb.velocity.y < -0.2f)
+            {
+                currentState = 3; // Falling
+            }
+            else if (rb.velocity.y > 0.2f)
+            {
+                currentState = 2; // Jumping
+            }
+            else if (rb.velocity.magnitude >= 0.2f)
+            {
+                currentState = 1; //  Walking
+            }
+            else
+            {
+                currentState = 0; // Idle
+            }
         }
-        else if (rb.velocity.y > 0.2f)
-        {
-            currentState = 2; // Jumping
-        }
-        else if (rb.velocity.magnitude >= 0.2f)
-        {
-            currentState = 1; //  Walking
-        }
-        else
-        {
-            currentState = 0; // Idle
-        }
-
-        if (isGrounded)
-        {
-            jumpCounter = 2;
-        }
-        
         anim.SetInteger("AnimState",currentState);
     }
 
-    private void DamageTextChange()
-    {
-        health.GetComponent<TextScript>().GetAnim().SetTrigger("OnHit");
-        Color newColor = new Color(1, 1 - hitpoint / 999, 1 - hitpoint / 333, 1);
-        health.CrossFadeColor(newColor, 0.1f, true, false);
-        health.text = hitpoint.ToString() + "%";
-    }
-
-    
-    
-
-    private bool IsGrounded()
-    {
-        return Physics2D.OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Ground"));
-    }
-    
     void AnimationUpdate()
     {
         anim.SetBool("Grounded",isGrounded);
         
         anim.SetFloat("AirSpeedY",rb.velocity.y);
-        if (Mathf.Floor(rb.velocity.x) > 0)
+        if (move.ReadValue<Vector2>().x > 0)
         {
             gameObject.transform.localScale = new Vector3(2.5f,2.5f,0);
             anim.SetInteger("AnimState", 1);
         }
-        else if (Mathf.Floor(rb.velocity.x) < 0)
+        else if (move.ReadValue<Vector2>().x < 0)
         {
             gameObject.transform.localScale = new Vector3(-2.5f,2.5f,0);
 
             anim.SetInteger("AnimState", 1);
-        }
-        else
-        {
-            anim.SetInteger("AnimState", 2);
         }
         
         anim.SetFloat("WalkingSpeed",Math.Abs(rb.velocity.x));
@@ -208,7 +183,7 @@ public class GameplayScript : Fighter
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.tag != "Player")
+        if (coll.tag != "Character")
         {
             return;
         }
@@ -230,6 +205,17 @@ public class GameplayScript : Fighter
     {
         currentDamage = dmg;
     }
+
+    private void TriggerAttack(string attack)
+    {
+        currentState = 4;
+        anim.Play("Side_A");
+    }
+
+    private void ResetCurrentState()
+    {
+        currentState = 0;
+    }
     
     /**
      * Hier kommen alle Inputs des Controllers.
@@ -249,17 +235,17 @@ public class GameplayScript : Fighter
     
     private void DownB(InputAction.CallbackContext obj)
     {
-        anim.SetTrigger("Down B");
+        TriggerAttack("Down_B");
     }
 
     private void UpB(InputAction.CallbackContext obj)
     {
-        anim.SetTrigger("Up B");
+        TriggerAttack("Up_B");
     }
 
     private void SideB(InputAction.CallbackContext obj)
     {
-        anim.SetTrigger("Side B");
+        TriggerAttack("Side_B");
 
     }
     
@@ -276,22 +262,22 @@ public class GameplayScript : Fighter
 
     private void DownA(InputAction.CallbackContext obj)
     {
-        anim.SetTrigger("Down A");
+        TriggerAttack("Down_A");
     }
 
     private void UpA(InputAction.CallbackContext obj)
     {
-        anim.SetTrigger("Down A");
+        TriggerAttack("Up_A");
     }
 
     private void SideA(InputAction.CallbackContext obj)
     {
-        anim.SetTrigger("Down A");
+        TriggerAttack("Side_A");
     }
 
     private void HoldA(InputAction.CallbackContext obj)
     {
-        anim.SetTrigger("Down A");
+        //TriggerAttack("Down A");
     }
     
     

@@ -15,7 +15,7 @@ public class SmashCamera : MonoBehaviour
     void Update()
     {
         Vector3 focus = Vector3.one;
-        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Character");
         foreach(GameObject player in players)
         {
             focus += player.transform.position;

@@ -6,14 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public List<GameObject> players;
-
+    
     public static GameManager instance;
+    
+    public List<GameObject> players;
 
     public GameObject[] cursors;
     
-    private bool hasCodeExecuted = false;
-
     void Start()
     {
         instance = this;
@@ -25,11 +24,6 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
-        bool go = GameObject.FindGameObjectsWithTag("Cursor").All(player => player.GetComponent<CursorScript>().ready);
-        if (go&&players.Count!=0&&GameObject.FindGameObjectsWithTag("Cursor").Length!=0)
-        {
-            //StartGame(players);
-        }
         
     }
 
@@ -60,29 +54,4 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-
-    private static void StartGame(List<GameObject> players)
-    {
-        GameObject playerr = null;
-        GameObject[] cursors = GameObject.FindGameObjectsWithTag("Cursor");
-        foreach (GameObject cursor in cursors)
-        {
-           Destroy(cursor);
-        }
-        Debug.Log("Ayyy");
-        if (SceneManager.GetActiveScene().name != "FirstMap")
-        {
-            foreach (GameObject player in players)
-            {
-                //player.GetComponent<PlayerScript>().InstantiateCharacter();
-            }
-        }
-        SceneManager.LoadScene("FirstMap");
-
-        Debug.Log(SceneManager.GetActiveScene().name);
-        
-    }
-    
-    
-    
 }
