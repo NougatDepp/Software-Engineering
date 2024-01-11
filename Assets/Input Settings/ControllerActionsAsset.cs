@@ -129,7 +129,25 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                 {
                     ""name"": ""Down A"",
                     ""type"": ""Button"",
-                    ""id"": ""a243113e-1c23-455a-a1f1-8b160de20f79"",
+                    ""id"": ""3a159c2b-2eda-4de1-a580-16bd1a0df294"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Block"",
+                    ""type"": ""Button"",
+                    ""id"": ""664bf77d-85b8-48b5-888c-05d5551a5338"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ResetAnimator"",
+                    ""type"": ""Button"",
+                    ""id"": ""eb529e00-2e13-482f-a923-133b98ac580c"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -226,7 +244,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""modifier"",
+                    ""name"": ""binding"",
                     ""id"": ""ed14d69d-acaf-4bfd-8338-b9646e62282d"",
                     ""path"": ""<Gamepad>/buttonEast"",
                     ""interactions"": """",
@@ -237,7 +255,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""binding"",
+                    ""name"": ""modifier"",
                     ""id"": ""4d2e8e7f-7c1e-4bbf-8f40-9bf03804666a"",
                     ""path"": ""<Gamepad>/leftStick/left"",
                     ""interactions"": """",
@@ -248,7 +266,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""binding"",
+                    ""name"": ""modifier"",
                     ""id"": ""a6bff189-1492-4b35-b539-753061014cc4"",
                     ""path"": ""<Gamepad>/leftStick/right"",
                     ""interactions"": """",
@@ -270,7 +288,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""modifier"",
+                    ""name"": ""binding"",
                     ""id"": ""e6cf2620-5476-4869-a4f0-0ba60a8702e1"",
                     ""path"": ""<Gamepad>/buttonEast"",
                     ""interactions"": """",
@@ -281,7 +299,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""binding"",
+                    ""name"": ""modifier"",
                     ""id"": ""6656233e-b02f-4827-a602-6e8e15a8d853"",
                     ""path"": ""<Gamepad>/leftStick/up"",
                     ""interactions"": """",
@@ -292,7 +310,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""Down A"",
+                    ""name"": ""Down B"",
                     ""id"": ""ec5bd91b-9352-41eb-99fe-343f57751a58"",
                     ""path"": ""OneModifier"",
                     ""interactions"": """",
@@ -305,7 +323,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                 {
                     ""name"": ""modifier"",
                     ""id"": ""b5eb6892-a5d2-445f-92ec-eb7055ccb761"",
-                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""path"": ""<Gamepad>/buttonEast"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -336,7 +354,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""Side B"",
+                    ""name"": ""Side A"",
                     ""id"": ""7c4160ad-2071-46be-b37a-509c6e50227b"",
                     ""path"": ""OneModifier"",
                     ""interactions"": """",
@@ -347,9 +365,9 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""modifier"",
+                    ""name"": ""binding"",
                     ""id"": ""8215eb08-4897-499e-9d3d-2b2675d4a595"",
-                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -358,7 +376,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""binding"",
+                    ""name"": ""modifier"",
                     ""id"": ""6b05abf6-6f9a-41a2-889a-8460801a1a43"",
                     ""path"": ""<Gamepad>/leftStick/left"",
                     ""interactions"": """",
@@ -369,7 +387,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""binding"",
+                    ""name"": ""modifier"",
                     ""id"": ""224737a7-66af-4c61-9a23-a0fbb385ff14"",
                     ""path"": ""<Gamepad>/leftStick/right"",
                     ""interactions"": """",
@@ -391,7 +409,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""modifier"",
+                    ""name"": ""binding"",
                     ""id"": ""d13d1d15-bb55-4233-bea4-214574c35408"",
                     ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
@@ -402,7 +420,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""binding"",
+                    ""name"": ""modifier"",
                     ""id"": ""dd3b020e-fc77-43e9-984b-c973cd1e69d2"",
                     ""path"": ""<Gamepad>/leftStick/up"",
                     ""interactions"": """",
@@ -414,7 +432,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                 },
                 {
                     ""name"": ""Down A"",
-                    ""id"": ""4b3be4de-a0c5-481d-8dd2-8ca27967ecb4"",
+                    ""id"": ""a408c8cf-3084-418a-994d-c17a265bfecd"",
                     ""path"": ""OneModifier"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -425,7 +443,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                 },
                 {
                     ""name"": ""modifier"",
-                    ""id"": ""e65864c4-2094-4360-9d6d-2d58cbe6ca14"",
+                    ""id"": ""6d0d036f-2ae4-4113-9aab-d27b96a81eb4"",
                     ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -436,7 +454,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                 },
                 {
                     ""name"": ""binding"",
-                    ""id"": ""d6b8e83c-5cc2-4015-9c9b-1ce519ccc5ce"",
+                    ""id"": ""03057e5d-d990-48ef-8d2e-542529ea2de1"",
                     ""path"": ""<Gamepad>/leftStick/down"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -444,6 +462,28 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""action"": ""Down A"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""68b516f0-1419-49cf-b0b4-7ed14b49b8c9"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Block"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9cf5c5c0-e360-4908-8955-5149bed41037"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""interactions"": ""Hold(duration=3)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ResetAnimator"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -552,6 +592,8 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         m_Player_UpA = m_Player.FindAction("Up A", throwIfNotFound: true);
         m_Player_DownB = m_Player.FindAction("Down B", throwIfNotFound: true);
         m_Player_DownA = m_Player.FindAction("Down A", throwIfNotFound: true);
+        m_Player_Block = m_Player.FindAction("Block", throwIfNotFound: true);
+        m_Player_ResetAnimator = m_Player.FindAction("ResetAnimator", throwIfNotFound: true);
         // Menu
         m_Menu = asset.FindActionMap("Menu", throwIfNotFound: true);
         m_Menu_Move = m_Menu.FindAction("Move", throwIfNotFound: true);
@@ -631,6 +673,8 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
     private readonly InputAction m_Player_UpA;
     private readonly InputAction m_Player_DownB;
     private readonly InputAction m_Player_DownA;
+    private readonly InputAction m_Player_Block;
+    private readonly InputAction m_Player_ResetAnimator;
     public struct PlayerActions
     {
         private @ControllerActionsAsset m_Wrapper;
@@ -647,6 +691,8 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         public InputAction @UpA => m_Wrapper.m_Player_UpA;
         public InputAction @DownB => m_Wrapper.m_Player_DownB;
         public InputAction @DownA => m_Wrapper.m_Player_DownA;
+        public InputAction @Block => m_Wrapper.m_Player_Block;
+        public InputAction @ResetAnimator => m_Wrapper.m_Player_ResetAnimator;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -692,6 +738,12 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             @DownA.started += instance.OnDownA;
             @DownA.performed += instance.OnDownA;
             @DownA.canceled += instance.OnDownA;
+            @Block.started += instance.OnBlock;
+            @Block.performed += instance.OnBlock;
+            @Block.canceled += instance.OnBlock;
+            @ResetAnimator.started += instance.OnResetAnimator;
+            @ResetAnimator.performed += instance.OnResetAnimator;
+            @ResetAnimator.canceled += instance.OnResetAnimator;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -732,6 +784,12 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             @DownA.started -= instance.OnDownA;
             @DownA.performed -= instance.OnDownA;
             @DownA.canceled -= instance.OnDownA;
+            @Block.started -= instance.OnBlock;
+            @Block.performed -= instance.OnBlock;
+            @Block.canceled -= instance.OnBlock;
+            @ResetAnimator.started -= instance.OnResetAnimator;
+            @ResetAnimator.performed -= instance.OnResetAnimator;
+            @ResetAnimator.canceled -= instance.OnResetAnimator;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -833,6 +891,8 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         void OnUpA(InputAction.CallbackContext context);
         void OnDownB(InputAction.CallbackContext context);
         void OnDownA(InputAction.CallbackContext context);
+        void OnBlock(InputAction.CallbackContext context);
+        void OnResetAnimator(InputAction.CallbackContext context);
     }
     public interface IMenuActions
     {

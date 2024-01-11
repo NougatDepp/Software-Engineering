@@ -191,13 +191,16 @@ MonoBehaviour:
   hitpoint: 0
   maxHitpoint: 999
   pushRecoverySpeed: 0.2
+  pushDirection: {x: 0, y: 0}
   jumpForce: 18.7
   maxSpeed: 5.13
+  isBlocking: 0
   currentDamage: 0
   src: {fileID: 5253844735265174559}
   sfx: {fileID: 8300000, guid: 407515f8f9de6cb41bd2d9cdd5e9854a, type: 3}
-  jumpCounter: 0
-  isHurt: 0
+  activeState: Idle
+  oldState: Idle
+  jumpCounter: 2
 --- !u!82 &5253844735265174559
 AudioSource:
   m_ObjectHideFlags: 0
@@ -210,7 +213,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.131
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -458,10 +461,6 @@ MonoBehaviour:
     m_ActionName: Player/Down B[/XInputControllerWindows/buttonSouth,/XInputControllerWindows1/buttonSouth,/XInputControllerWindows/leftStick/down,/XInputControllerWindows1/leftStick/down]
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: a243113e-1c23-455a-a1f1-8b160de20f79
-    m_ActionName: Player/Down A[/XInputControllerWindows/buttonSouth,/XInputControllerWindows1/buttonSouth,/XInputControllerWindows/leftStick/down,/XInputControllerWindows1/leftStick/down]
-  - m_PersistentCalls:
-      m_Calls: []
     m_ActionId: f0a9a436-69d6-41b4-a63d-2a04bb643fe0
     m_ActionName: Menu/Move[/XInputControllerWindows/leftStick,/XInputControllerWindows1/leftStick]
   - m_PersistentCalls:
@@ -476,6 +475,14 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 0ae5fd9c-d73e-4513-9e4d-cf14692b3416
     m_ActionName: Menu/Ready[/XInputControllerWindows/select,/XInputControllerWindows1/select]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3a159c2b-2eda-4de1-a580-16bd1a0df294
+    m_ActionName: Player/Down A[/XInputControllerWindows/buttonSouth,/XInputControllerWindows2/buttonSouth,/XInputControllerWindows/leftStick/down,/XInputControllerWindows2/leftStick/down]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 664bf77d-85b8-48b5-888c-05d5551a5338
+    m_ActionName: Player/Block[/XInputControllerWindows/buttonWest,/XInputControllerWindows2/buttonWest]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -507,8 +514,8 @@ Transform:
   m_GameObject: {fileID: 6916519531836259886}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.38085032, y: 0.3091089, z: 0.01232733}
-  m_LocalScale: {x: 0.20472442, y: 0.20472442, z: 0.20472442}
+  m_LocalPosition: {x: 0.3808503, y: 0.3091089, z: 0.01232733}
+  m_LocalScale: {x: 0.2047244, y: 0.20472442, z: 0.2047244}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7709990537363601717}

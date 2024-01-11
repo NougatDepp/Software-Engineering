@@ -21,35 +21,36 @@ public class GameplayScript : Fighter
     [SerializeField] private float maxSpeed = 10f;
 
     private Animator anim;
+    
+    [SerializeField]
     private bool isGrounded;
+    private bool isMoving;
+    private bool isFalling;
+    private bool isJumping;
+    private bool isAttacking;
+    private bool isHurt;
+    
+    [SerializeField]
+    private bool isBlocking;
 
     [SerializeField]
     private int currentDamage = 0;
 
     public AudioSource src;
     public AudioClip sfx;
-
     
-    /**
-     * 0 = Idle
-     * 1 = Walking
-     * 2 = Jumping
-     * 3 = Falling
-     * 4 = Hurt
-    **/
+    [SerializeField]
+    public string activeState = "Idle";
+    [SerializeField]
+    public string oldState = "Idle";
     
-    private int currentState = 0;
-
-    public int jumpCounter = 0;
-
-    public bool isHurt;
-
     
-
-    private void Awake()
-    {
-        
-    }
+    private const string PLAYER_IDLE = "Idle";
+    private const string PLAYER_WALKING = "Walk";
+    private const string PLAYER_FALLING = "Falling";
+    private const string PLAYER_HURT = "Hurt";
+    
+    private int jumpCounter;
 
     private void OnEnable()
     {
@@ -73,6 +74,11 @@ public class GameplayScript : Fighter
         player.FindAction("Side B").started += SideB;
         player.FindAction("Up B").started += UpB;
         player.FindAction("Down B").started += DownB;
+        
+        player.FindAction("Block").started += Block;
+        player.FindAction("ResetAnimator").performed += ReAnim;
+
+
 
 
         move = inputAsset.FindAction("Move");
@@ -80,9 +86,7 @@ public class GameplayScript : Fighter
         player.Enable();
 
     }
-
     
-
     private void OnDisable()
     {
         player.FindAction("Jump").started -= Jump;
@@ -102,20 +106,25 @@ public class GameplayScript : Fighter
         player.FindAction("Side B").started -= SideB;
         player.FindAction("Up B").started -= UpB;
         player.FindAction("Down B").started -= DownB;
+        
+        player.FindAction("Block").started -= Block;
+        player.FindAction("ResetAnimator").performed -= ReAnim;
         player.Disable();
     }
 
-    
-    void Update()
-    {
-    }
 
     void FixedUpdate()
     {
-        if (Math.Abs(rb.velocity.x) < maxSpeed && currentState < 4)
+        if (Math.Abs(rb.velocity.x) < maxSpeed && 0.2f < Math.Abs(move.ReadValue<Vector2>().x))
         {
-            rb.velocity = new Vector2(move.ReadValue<Vector2>().x*maxSpeed,rb.velocity.y);
-        }else rb.velocity = new Vector2(rb.velocity.x*0.9f,rb.velocity.y);
+            rb.velocity += new Vector2(move.ReadValue<Vector2>().x*maxSpeed,0);
+        }
+        else if (!isHurt)rb.velocity -= new Vector2(rb.velocity.x*0.3f,0);
+
+        if (isAttacking&&isGrounded)
+        {
+            rb.velocity = new Vector2(0,rb.velocity.y);
+        }
 
         if (rb.velocity.y < 0f )
         {
@@ -126,61 +135,97 @@ public class GameplayScript : Fighter
         { 
             jumpCounter = 2;
         }
-        
+
+        if (rb.velocity.x > 0.3f)
+        {
+            gameObject.transform.localScale = new Vector2(2.5f, 2.5f);
+        }
+        else if (rb.velocity.x < -0.3f)
+        {
+            gameObject.transform.localScale = new Vector2(-2.5f, 2.5f);
+        }
+
+
+
+
+        isMoving = Math.Abs(move.ReadValue<Vector2>().x) >= 0.3f;
+
         isGrounded = Physics2D.OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Ground"));
 
-        
-        AnimationUpdate();
+        isFalling = rb.velocity.y < -0.2f;
+
+        anim.SetFloat("WalkingSpeed",Math.Abs(rb.velocity.x));
         
         StateUpdate();
     }
-    void StateUpdate()
+    void StateUpdate() 
     {
-        if (currentState < 4)
-        {
-            if (rb.velocity.y < -0.2f)
-            {
-                currentState = 3; // Falling
-            }
-            else if (rb.velocity.y > 0.2f)
-            {
-                currentState = 2; // Jumping
-            }
-            else if (rb.velocity.magnitude >= 0.2f)
-            {
-                currentState = 1; //  Walking
-            }
-            else
-            {
-                currentState = 0; // Idle
-            }
-        }
-        anim.SetInteger("AnimState",currentState);
-    }
 
-    void AnimationUpdate()
-    {
-        anim.SetBool("Grounded",isGrounded);
-        
-        anim.SetFloat("AirSpeedY",rb.velocity.y);
-        if (move.ReadValue<Vector2>().x > 0)
+        if (!isHurt && !isAttacking)
         {
-            gameObject.transform.localScale = new Vector3(2.5f,2.5f,0);
-            anim.SetInteger("AnimState", 1);
-        }
-        else if (move.ReadValue<Vector2>().x < 0)
-        {
-            gameObject.transform.localScale = new Vector3(-2.5f,2.5f,0);
-
-            anim.SetInteger("AnimState", 1);
+            if (isFalling)
+            {
+                activeState = PLAYER_FALLING;
+            }
+            else if (isMoving && isGrounded)
+            {
+                activeState = PLAYER_WALKING;
+            }
+            else 
+            { 
+                activeState = PLAYER_IDLE;
+            }
+            ChangeCurrentState(activeState);
         }
         
-        anim.SetFloat("WalkingSpeed",Math.Abs(rb.velocity.x));
-
     }
 
+    private void ChangeCurrentState(string newState)
+    {
+        if (oldState == newState) return;
+        if (!isAttacking&&!isJumping)
+        {
+            oldState = newState;
+            anim.Play(newState);
+        }
+    }
     
+    private void Attack(string newState)
+    {
+        if (!isAttacking&&!isJumping)
+        {
+            isAttacking = true;
+            oldState = newState;
+            anim.Play(newState);
+        }
+    }
 
+    private void Jump(string newState)
+    {
+        if (!isAttacking)
+        {
+            isJumping = true;
+            oldState = newState;
+            anim.Play(newState);
+        }
+    }
+
+    //Diese drei Methoden werden vom Animator aufgerufen.
+    public void SetAttackStatus()
+    {
+        isAttacking = false;
+    }
+    
+    public void SetJumpStatus()
+    {
+        isJumping = false;
+    }
+    
+    public void SetHurtStatus()
+    {
+        isHurt = false;
+    }
+    
     private void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.tag != "Character")
@@ -201,52 +246,50 @@ public class GameplayScript : Fighter
         coll.SendMessage("ReceiveDamage",dmg); 
     }
 
-    void UpdateDamage(int dmg)
+    protected override void ReceiveDamage(Damage dmg)
     {
-        currentDamage = dmg;
+        if(isBlocking) return;
+        
+        base.ReceiveDamage(dmg);
+        if (((pushDirection+new Vector2(0,0.3f))*hitpoint/3).magnitude >= 10)
+        {
+            isHurt = true;
+            Attack("Hurt");
+            Invoke("SetHurtStatus",0.3f);
+            Invoke("SetAttackStatus",0.3f);
+        }
     }
 
-    private void TriggerAttack(string attack)
-    {
-        currentState = 4;
-        anim.Play("Side_A");
-    }
-
-    private void ResetCurrentState()
-    {
-        currentState = 0;
-    }
-    
     /**
      * Hier kommen alle Inputs des Controllers.
      */
-    
     
     void Jump(InputAction.CallbackContext callbackContext)
     {
         if (isGrounded || jumpCounter > 1)
         {
             rb.velocity = new Vector2(rb.velocity.x ,Vector2.up.y * jumpForce);
+            Debug.Log(jumpCounter);
             jumpCounter -= 1;
-            anim.SetInteger("JumpCounter",jumpCounter);
-            anim.SetTrigger("Jump");
+            Debug.Log(jumpCounter);
+
+            Jump("Jump");
         }
     }
     
     private void DownB(InputAction.CallbackContext obj)
     {
-        TriggerAttack("Down_B");
+        Attack("Down_B");
     }
 
     private void UpB(InputAction.CallbackContext obj)
     {
-        TriggerAttack("Up_B");
+        Attack("Up_B");
     }
 
     private void SideB(InputAction.CallbackContext obj)
     {
-        TriggerAttack("Side_B");
-
+        Attack("Side_B");
     }
     
     private void HoldBEnd(InputAction.CallbackContext obj)
@@ -262,24 +305,35 @@ public class GameplayScript : Fighter
 
     private void DownA(InputAction.CallbackContext obj)
     {
-        TriggerAttack("Down_A");
+        Attack("Down_A");
     }
 
     private void UpA(InputAction.CallbackContext obj)
     {
-        TriggerAttack("Up_A");
+        Attack("Up_A");
     }
 
     private void SideA(InputAction.CallbackContext obj)
     {
-        TriggerAttack("Side_A");
+        Attack("Side_A");
     }
 
     private void HoldA(InputAction.CallbackContext obj)
     {
-        //TriggerAttack("Down A");
+       //Attack("Down_A");
+    }
+
+    private void Block(InputAction.CallbackContext obj)
+    {
+        Attack("Block");
     }
     
+    private void ReAnim(InputAction.CallbackContext obj)
+    {
+        isAttacking = false;
+        isJumping = false;
+        anim.Play("Idle");
+    }
     
 }
 

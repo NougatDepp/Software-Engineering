@@ -11,7 +11,8 @@ public class Fighter : MonoBehaviour
     protected float immuneTime = 0.1f;
     protected float lastImmune;
 
-    protected Vector3 pushDirection;
+    [SerializeField]
+    protected Vector2 pushDirection;
 
     protected virtual void ReceiveDamage(Damage dmg)
     {
@@ -22,16 +23,15 @@ public class Fighter : MonoBehaviour
             hitpoint += dmg.damageAmount; 
             pushDirection = (transform.position - dmg.origin).normalized * dmg.pushForce;
 
+            Debug.Log(transform.position - dmg.origin);
             
             if (hitpoint >= 999)
             {
                 hitpoint = 999;
             }
             
-            
-            
-            this.GetComponent<Rigidbody2D>().velocity = (pushDirection*new Vector2(0,1.5f)*hitpoint/10);
-            Debug.Log(pushDirection);
+            GetComponent<Rigidbody2D>().velocity += ((pushDirection+new Vector2(0,0.3f))*hitpoint/3);
+            Debug.Log(((pushDirection+new Vector2(0,0.5f))*hitpoint/3));
         }
 
     }
