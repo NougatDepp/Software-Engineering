@@ -8,6 +8,7 @@ public class PlayerScript : MonoBehaviour
 {
     public int id;
     public GameObject character;
+    public int lives = 3;
     private void Awake()
     {
         GameManager.instance.UpdatePlayers(gameObject);
@@ -15,6 +16,7 @@ public class PlayerScript : MonoBehaviour
         gameObject.transform.name = "Player " + id;
 
         gameObject.transform.Find("Cursor").GetComponent<CursorScript>().SetID(id-1);
+        
     }
 
     public void SetCharacter(GameObject character)
@@ -22,8 +24,9 @@ public class PlayerScript : MonoBehaviour
         this.character = character;
     }
 
-    public void InstantiateCharacter()
+    public void InstantiateCharacter(Transform transformSpawnpoint)
     {
-        Instantiate(character, transform);
+        GameObject player = Instantiate(character,transform);
+        player.gameObject.transform.position = transformSpawnpoint.position;
     }
 }

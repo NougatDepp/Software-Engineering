@@ -9,6 +9,7 @@ TagManager:
   - MenuCanvas
   - Cursor
   - Character
+  - Spawnpoint
   layers:
   - Default
   - TransparentFX

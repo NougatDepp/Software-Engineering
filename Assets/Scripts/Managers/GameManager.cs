@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -12,7 +14,9 @@ public class GameManager : MonoBehaviour
     public List<GameObject> players;
 
     public GameObject[] cursors;
-    
+
+    private bool readyToStartGame;
+
     void Start()
     {
         instance = this;
@@ -22,9 +26,20 @@ public class GameManager : MonoBehaviour
     {
         players.Add(player);
     }
+    
     void Update()
     {
+        cursors = GameObject.FindGameObjectsWithTag("Cursor");
+        readyToStartGame = cursors.All(player => player.gameObject.GetComponent<CursorScript>().ready);
         
+    }
+
+    public void StartGame()
+    {
+        if (readyToStartGame)
+        {
+            SceneManager.LoadScene("FirstMap");       
+        }
     }
 
     
@@ -48,9 +63,11 @@ public class GameManager : MonoBehaviour
                 cursor.GetComponent<CursorScript>().enabled = false;
             }
 
+            GameObject[] spawnpoints = GameObject.FindGameObjectsWithTag("Spawnpoint");
+            
             foreach (GameObject player in players)
             {
-                player.GetComponent<PlayerScript>().InstantiateCharacter();
+                player.GetComponent<PlayerScript>().InstantiateCharacter(spawnpoints[player.GetComponent<PlayerScript>().id-1].gameObject.transform);
             }
         }
     }

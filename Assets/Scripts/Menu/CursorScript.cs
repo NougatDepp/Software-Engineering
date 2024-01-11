@@ -51,7 +51,7 @@ public class CursorScript : MonoBehaviour
         
         menu.FindAction("Choose").started += Choose;
         menu.FindAction("Back").started += Back;
-        menu.FindAction("Ready").started += Ready;
+        menu.FindAction("Go").started += Go;
 
 
         move = inputAsset.FindAction("Move");
@@ -61,7 +61,7 @@ public class CursorScript : MonoBehaviour
     {
         menu.FindAction("Choose").started -= Choose;
         menu.FindAction("Back").started -= Back;
-        menu.FindAction("Ready").started += Ready;
+        menu.FindAction("Go").started -= Go;
     }
     
     private void FixedUpdate()
@@ -116,8 +116,8 @@ public class CursorScript : MonoBehaviour
        else
        {
            CharacterMenuScript.instance.ShowCharacterInSlot(id, null);
-       }
-   }
+       }    
+   }    
     
    void TokenFollow (bool trigger)
    {
@@ -140,16 +140,9 @@ public class CursorScript : MonoBehaviour
        this.id = id;
    }
    
-   private void Ready(InputAction.CallbackContext obj)
+   private void Go(InputAction.CallbackContext obj)
    {
-       if (ready)
-       {
-           ready = false;
-       }
-       else
-       {
-           ready = true;
-       }
+        GameManager.instance.StartGame();
    }
 
     private void Back(InputAction.CallbackContext context)
@@ -157,6 +150,7 @@ public class CursorScript : MonoBehaviour
         CharacterMenuScript.instance.confirmedCharacter = null;
         TokenFollow(true);
         RemoveCharacter();
+        ready = false;
     }
 
     private void Choose(InputAction.CallbackContext context)
@@ -166,6 +160,7 @@ public class CursorScript : MonoBehaviour
             TokenFollow(false);
             CharacterMenuScript.instance.ConfirmCharacter(id,CharacterMenuScript.instance.characters[currentCharacter.GetSiblingIndex()]);
             SetChoosenCharacter();
+            ready = true;
         }
     }
 
