@@ -10,7 +10,6 @@ using UnityEngine.InputSystem;
 
 public class GameplayScript : Fighter
 { 
-    private int ID;
 
     private InputActionAsset inputAsset;
     private InputActionMap player;
@@ -54,7 +53,6 @@ public class GameplayScript : Fighter
 
     private void OnEnable()
     {
-        ID = GameObject.FindGameObjectsWithTag("Player").Length;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
