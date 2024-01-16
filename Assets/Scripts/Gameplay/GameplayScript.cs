@@ -271,6 +271,7 @@ public class GameplayScript : Fighter
         playerLives -= 1;
         if (playerLives <= 0)
         {
+            gameObject.transform.parent.GetComponent<PlayerScript>().PlacementUpdater();
             Destroy(gameObject);
         }
         else

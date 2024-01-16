@@ -31,9 +31,13 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         cursors = GameObject.FindGameObjectsWithTag("Cursor");
-        readyToStartGame = cursors.All(player => player.gameObject.GetComponent<CursorScript>().ready && players.Count <= 2);
+        readyToStartGame = cursors.All(player => player.gameObject.GetComponent<CursorScript>().ready && players.Count >= 2);
         if (SceneManager.GetActiveScene().name == "FirstMap" && GameObject.FindGameObjectsWithTag("Character").Length == 1)
         {
+            foreach (GameObject character in GameObject.FindGameObjectsWithTag("Character"))
+            {
+                Destroy(character);
+            }
             SceneManager.LoadScene("WinningScreen");
         }
     }
@@ -46,6 +50,12 @@ public class GameManager : MonoBehaviour
         }
 
         yield return null;
+    }
+
+    public void BackToCharacterSelect()
+    {
+        SceneManager.LoadScene("CharacterSelect");       
+
     }
 
     

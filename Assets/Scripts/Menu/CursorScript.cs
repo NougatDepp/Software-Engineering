@@ -129,7 +129,7 @@ public class CursorScript : MonoBehaviour
     private void SetChoosenCharacter()
     {
         gameObject.transform.parent.GetComponent<PlayerScript>()
-            .SetCharacter(CharacterMenuScript.instance.characters[currentCharacter.GetSiblingIndex()].character);
+            .SetCharacter(CharacterMenuScript.instance.characters[currentCharacter.GetSiblingIndex()]);
     }
 
     private void RemoveCharacter()

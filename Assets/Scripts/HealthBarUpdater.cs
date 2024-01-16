@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using Unity.VisualScripting;
 
 
 public class HealthBarUpdater : MonoBehaviour
@@ -20,13 +21,19 @@ public class HealthBarUpdater : MonoBehaviour
 
     void Update()
     {
-        Destroy(gameObject);
-        UpdateHealthBar();
-        health = player.GetComponent<GameplayScript>().hitpoint;
-        if (health != lastHealth)
+        if (player.IsDestroyed())
         {
-            OnTextChange();
-            lastHealth = health;
+            Destroy(gameObject);
+        }
+        else
+        {
+            UpdateHealthBar();
+            health = player.GetComponent<GameplayScript>().hitpoint;
+            if (health != lastHealth)
+            {
+                OnTextChange();
+                lastHealth = health;
+            }
         }
     }
 

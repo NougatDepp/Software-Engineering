@@ -197,7 +197,7 @@ MonoBehaviour:
   isGrounded: 0
   isBlocking: 0
   currentDamage: 0
-  playerLives: 3
+  playerLives: 1
   src: {fileID: 5253844735265174559}
   sfx: {fileID: 8300000, guid: 407515f8f9de6cb41bd2d9cdd5e9854a, type: 3}
   activeState: Idle
