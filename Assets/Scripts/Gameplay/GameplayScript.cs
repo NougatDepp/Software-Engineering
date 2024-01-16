@@ -7,6 +7,7 @@ using Unity.VisualScripting;
 using UnityEditor.IMGUI.Controls;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Random = System.Random;
 
 public class GameplayScript : Fighter
 { 
@@ -16,10 +17,12 @@ public class GameplayScript : Fighter
     private InputAction move;
     
     private Rigidbody2D rb;
+    
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private float maxSpeed = 10f;
 
     private Animator anim;
+    private SpriteRenderer spriteRenderer;
     
     [SerializeField]
     private bool isGrounded;
@@ -34,6 +37,9 @@ public class GameplayScript : Fighter
 
     [SerializeField]
     private int currentDamage = 0;
+    
+    [SerializeField]
+    private int playerLives = 0;
 
     public AudioSource src;
     public AudioClip sfx;
@@ -50,6 +56,20 @@ public class GameplayScript : Fighter
     private const string PLAYER_HURT = "Hurt";
     
     private int jumpCounter;
+    
+    [SerializeField]
+    private GameObject hitEffect;
+    
+    [SerializeField]
+    private GameObject blockEffect;
+    
+    [SerializeField]
+    private GameObject deathEffect;
+
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     private void OnEnable()
     {
@@ -149,8 +169,6 @@ public class GameplayScript : Fighter
             gameObject.transform.localScale = new Vector2(-2.5f, 2.5f);
         }
         
-        Debug.Log(rb.velocity.x);
-
         isMoving = Math.Abs(move.ReadValue<Vector2>().x) >= 0.3f;
 
         isGrounded = Physics2D.OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Ground"));
@@ -208,17 +226,6 @@ public class GameplayScript : Fighter
     {
         float delay = anim.GetCurrentAnimatorStateInfo(0).length;
         Invoke("ResetAttackStatus", delay);
-        Debug.Log(delay);
-    }
-
-    private void Jump(string newState)
-    {
-        if (!isInAnimation)
-        {
-            isJumping = true;
-            oldState = newState;
-            anim.Play(newState);
-        }
     }
 
     public void ResetAttackStatus()
@@ -233,13 +240,21 @@ public class GameplayScript : Fighter
     
     private void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.tag != "Character")
+
+        if (coll.tag == "DeathZone")
+        {
+            StartCoroutine(OnDeath());
+            return;
+        } else if (coll.tag != "Character")
         {
             return;
         }
 
         src.clip = sfx;
         src.Play();
+
+        Instantiate(hitEffect,
+            gameObject.transform.Find("DamageBox").transform.position,Quaternion.identity);
 
         Damage dmg = new Damage()
         {
@@ -251,9 +266,42 @@ public class GameplayScript : Fighter
         coll.SendMessage("ReceiveDamage",dmg); 
     }
 
+    private IEnumerator OnDeath()
+    {
+        playerLives -= 1;
+        if (playerLives <= 0)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
+            spriteRenderer.enabled = false;
+            hitpoint = 0;
+            transform.position = GameObject.FindWithTag("Respawn").transform.position;
+            rb.bodyType = RigidbodyType2D.Static;
+
+            yield return new WaitForSeconds(3);
+            
+            anim.Play("Spawn");
+            
+            
+            spriteRenderer.enabled = true;
+            
+            yield return new WaitForSeconds(.3f);
+            
+            rb.bodyType = RigidbodyType2D.Dynamic;
+
+        }
+    }
+
     protected override void ReceiveDamage(Damage dmg)
     {
-        if(isBlocking) return;
+        if (isBlocking)
+        {
+            Instantiate(blockEffect, transform);
+            return;
+        }
         
         base.ReceiveDamage(dmg);
         if (((pushDirection+new Vector2(0,0.3f))*hitpoint/3).magnitude >= 10)

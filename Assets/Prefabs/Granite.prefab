@@ -194,13 +194,17 @@ MonoBehaviour:
   pushDirection: {x: 0, y: 0}
   jumpForce: 18.7
   maxSpeed: 5.13
+  isGrounded: 0
   isBlocking: 0
   currentDamage: 0
+  playerLives: 3
   src: {fileID: 5253844735265174559}
   sfx: {fileID: 8300000, guid: 407515f8f9de6cb41bd2d9cdd5e9854a, type: 3}
   activeState: Idle
   oldState: Idle
-  jumpCounter: 2
+  hitEffect: {fileID: 2955623459812423943, guid: f5507a8c6a22c404ab324980c4e8a11b, type: 3}
+  blockEffect: {fileID: 8460667080445658512, guid: a3e2c3406e02f2c4ba86cfb1604277bd, type: 3}
+  deathEffect: {fileID: 8443315704496310910, guid: 6ef35fa36e3a65043b2d800600204bdd, type: 3}
 --- !u!82 &5253844735265174559
 AudioSource:
   m_ObjectHideFlags: 0
@@ -473,16 +477,20 @@ MonoBehaviour:
     m_ActionName: Menu/Choose[/XInputControllerWindows/buttonSouth,/XInputControllerWindows1/buttonSouth]
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: 0ae5fd9c-d73e-4513-9e4d-cf14692b3416
-    m_ActionName: Menu/Ready[/XInputControllerWindows/select,/XInputControllerWindows1/select]
-  - m_PersistentCalls:
-      m_Calls: []
     m_ActionId: 3a159c2b-2eda-4de1-a580-16bd1a0df294
     m_ActionName: Player/Down A[/XInputControllerWindows/buttonSouth,/XInputControllerWindows2/buttonSouth,/XInputControllerWindows/leftStick/down,/XInputControllerWindows2/leftStick/down]
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 664bf77d-85b8-48b5-888c-05d5551a5338
     m_ActionName: Player/Block[/XInputControllerWindows/buttonWest,/XInputControllerWindows2/buttonWest]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: eb529e00-2e13-482f-a923-133b98ac580c
+    m_ActionName: Player/ResetAnimator[/XInputControllerWindows1/leftTrigger]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 00ba64ce-ec88-4b9d-b4ba-ecb423bf945c
+    m_ActionName: Menu/Go[/XInputControllerWindows1/select]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

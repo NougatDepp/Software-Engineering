@@ -144,7 +144,7 @@ public class CursorScript : MonoBehaviour
 
     private void Go(InputAction.CallbackContext obj)
     {
-        GameManager.instance.StartGame();
+        StartCoroutine(GameManager.instance.StartGame());
     }
 
     private void Back(InputAction.CallbackContext context)

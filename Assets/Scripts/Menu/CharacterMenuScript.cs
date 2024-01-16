@@ -33,6 +33,7 @@ public class CharacterMenuScript : MonoBehaviour
         }
     }
 
+
     private void SpawnCharacterCell(Character character)
     {
         GameObject charCell = Instantiate(charCellPrefab, transform);

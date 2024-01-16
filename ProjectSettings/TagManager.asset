@@ -10,6 +10,7 @@ TagManager:
   - Cursor
   - Character
   - Spawnpoint
+  - DeathZone
   layers:
   - Default
   - TransparentFX

@@ -1,3 +1,4 @@
+using System.Security.Cryptography;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,6 +20,7 @@ public class HealthBarUpdater : MonoBehaviour
 
     void Update()
     {
+        Destroy(gameObject);
         UpdateHealthBar();
         health = player.GetComponent<GameplayScript>().hitpoint;
         if (health != lastHealth)

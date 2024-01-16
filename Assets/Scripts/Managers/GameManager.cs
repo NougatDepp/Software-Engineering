@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
@@ -30,16 +31,21 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         cursors = GameObject.FindGameObjectsWithTag("Cursor");
-        readyToStartGame = cursors.All(player => player.gameObject.GetComponent<CursorScript>().ready);
-        
+        readyToStartGame = cursors.All(player => player.gameObject.GetComponent<CursorScript>().ready && players.Count <= 2);
+        if (SceneManager.GetActiveScene().name == "FirstMap" && GameObject.FindGameObjectsWithTag("Character").Length == 1)
+        {
+            SceneManager.LoadScene("WinningScreen");
+        }
     }
 
-    public void StartGame()
+    public IEnumerator StartGame()
     {
         if (readyToStartGame)
         {
             SceneManager.LoadScene("FirstMap");       
         }
+
+        yield return null;
     }
 
     
