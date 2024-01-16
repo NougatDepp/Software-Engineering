@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_3_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1916
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dc3e0678bbe834f91660fab5d5c64b
+      internalID: -1742055880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1913
+        width: 71
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f406c40d2c423f499e7b8a235279c12
+      internalID: 1983487448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1915
+        width: 50
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28546d7f617b0cd4a82d93383b444326
+      internalID: 142576685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1919
+        width: 53
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b27c20fbbfbf864da28e3b511c3b065
+      internalID: -1732855810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1921
+        width: 56
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b8534bfa1305442961f6e013e9d26c
+      internalID: 874373583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1921
+        width: 57
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa70bb7a2c0d474cbc29a78f6d910ce
+      internalID: 38293339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1921
+        width: 58
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007872ab0985d0b4594d59c2155faa81
+      internalID: 707899088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1921
+        width: 58
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2211f8170d1b14bbf9aa65dc00482e
+      internalID: -2015197029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1664
+        width: 59
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a94e4d3442d164e8208fd2c4c90492
+      internalID: -525842044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_9
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1664
+        width: 60
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eff8f88d4bd299409d926ab4b352c7e
+      internalID: 858522025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1664
+        width: 60
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d3cb6f18d4a964bb041a3129fe59a6
+      internalID: -2103406822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_11
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1664
+        width: 60
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f751c9636f23342b57ee52657067d2
+      internalID: 2143222187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_12
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1663
+        width: 60
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43b3c2d219167f4bb7c6b810b4474b1
+      internalID: -2118800295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_13
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1663
+        width: 60
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7c69d13f9cee24d873d2be39aa07b3
+      internalID: -1297567400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_14
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1663
+        width: 60
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35c6e215ff6f02419ac6532282b5052
+      internalID: 680533312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_15
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1663
+        width: 60
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d8e36fa3f010a4895f789810a3f300
+      internalID: 299136727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1407
+        width: 60
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd08ccc024d9ead43a901756267bc8b2
+      internalID: 1511628336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1407
+        width: 62
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf320d908462f84d82961c77d24f672
+      internalID: 2052808172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_18
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1408
+        width: 62
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e99ae20c1f44e488599fb0f27d7d88
+      internalID: 298361561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_19
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1409
+        width: 64
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab9faf0bb85523469e60713eddd5344
+      internalID: 562816873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_20
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1411
+        width: 65
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd93bf4d7e7a5c94182875f8ce5fe822
+      internalID: 2081161242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_21
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1413
+        width: 66
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6098c4255cee674a8ee26725f047cf0
+      internalID: -23727432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_22
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1411
+        width: 67
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1802fa64a632114db0102b17ce2b409
+      internalID: 1889464435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_23
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1410
+        width: 67
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8bb77f42a821643bb02b2811862983
+      internalID: -1023228813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1154
+        width: 66
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6320317d366430448ba22b39801a09fb
+      internalID: -17349243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_25
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1153
+        width: 64
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c00f0e0477319f4e96e2d79e6ad3d7c
+      internalID: -1834304280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_26
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1152
+        width: 61
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38662bf8eebb8d44590b21e1d1db3df6
+      internalID: 1764221885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_27
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1151
+        width: 58
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bac4b9bddc7b3b4e9132bd142fd11e9
+      internalID: -1478233180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_28
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1151
+        width: 56
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500eca93d48b3c444ad1158f2f07811e
+      internalID: 1133439658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_3_Jump_29
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1150
+        width: 55
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7baabcb7c153a241acad8c1ce40d6a7
+      internalID: -1546784467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +749,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_3_Jump_0: -1742055880
+      Cora_3_Jump_1: 1983487448
+      Cora_3_Jump_10: -2103406822
+      Cora_3_Jump_11: 2143222187
+      Cora_3_Jump_12: -2118800295
+      Cora_3_Jump_13: -1297567400
+      Cora_3_Jump_14: 680533312
+      Cora_3_Jump_15: 299136727
+      Cora_3_Jump_16: 1511628336
+      Cora_3_Jump_17: 2052808172
+      Cora_3_Jump_18: 298361561
+      Cora_3_Jump_19: 562816873
+      Cora_3_Jump_2: 142576685
+      Cora_3_Jump_20: 2081161242
+      Cora_3_Jump_21: -23727432
+      Cora_3_Jump_22: 1889464435
+      Cora_3_Jump_23: -1023228813
+      Cora_3_Jump_24: -17349243
+      Cora_3_Jump_25: -1834304280
+      Cora_3_Jump_26: 1764221885
+      Cora_3_Jump_27: -1478233180
+      Cora_3_Jump_28: 1133439658
+      Cora_3_Jump_29: -1546784467
+      Cora_3_Jump_3: -1732855810
+      Cora_3_Jump_4: 874373583
+      Cora_3_Jump_5: 38293339
+      Cora_3_Jump_6: 707899088
+      Cora_3_Jump_7: -2015197029
+      Cora_3_Jump_8: -525842044
+      Cora_3_Jump_9: 858522025
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

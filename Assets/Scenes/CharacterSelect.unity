@@ -485,7 +485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characters:
   - {fileID: 11400000, guid: e34e8fc0a03b49547860353faf036fba, type: 2}
-  - {fileID: 11400000, guid: 502db7b0490be7b4981f0b0a0767004e, type: 2}
+  - {fileID: 11400000, guid: 0caccb564224a3d408014fe0553e8982, type: 2}
   charCellPrefab: {fileID: 8321718786929649376, guid: dbcd6890ff2ad054ab339d8f2c3abaf0, type: 3}
   playerSlotsContainer: {fileID: 1681009748}
   confirmedCharacter: {fileID: 0}
@@ -3268,6 +3268,7 @@ GameObject:
   - component: {fileID: 2078527765}
   - component: {fileID: 2078527769}
   - component: {fileID: 2078527768}
+  - component: {fileID: 2078527770}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3301,6 +3302,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players: []
   cursors: []
+  transition: {fileID: 11400000, guid: 06fa0ad2bc756f44ab258bc74947381d, type: 2}
+  loadDelay: 1
 --- !u!4 &2078527767
 Transform:
   m_ObjectHideFlags: 0
@@ -3372,6 +3375,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00cdab98c7422f543abc061ec6fe7635, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2078527770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078527764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61430b0086307cc4da3ccc8d39ae88da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionTemplate: {fileID: 5276914992623515724, guid: 616d511151a6c554caddf1c754e4f91d, type: 3}
 --- !u!1001 &3771276157172707883
 PrefabInstance:
   m_ObjectHideFlags: 0

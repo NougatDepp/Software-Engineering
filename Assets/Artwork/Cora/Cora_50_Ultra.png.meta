@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,553 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_50_Ultra_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1917
+        width: 54
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914324c66a4541e4ca2ad19b98ca7535
+      internalID: 830175014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1915
+        width: 54
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce10091d43fede4cb63da72a42a2b76
+      internalID: -306055860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1915
+        width: 55
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef9fd1db86fb5045a0c763c314371e8
+      internalID: 272401940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_3
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1917
+        width: 56
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6384b607e814c624abe541cb751a926a
+      internalID: -1741942251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_4
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1918
+        width: 54
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4dcbeb8dd436142b8a93c97cf5cf31
+      internalID: 1941197222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_5
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1918
+        width: 54
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0018cfa26e614924488f1066075a52d9
+      internalID: -1436424878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_6
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1918
+        width: 54
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa03cdadb7d935049983b2d766e332bd
+      internalID: -2116185334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_7
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1918
+        width: 54
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b90c9ef9aeeb040939fdd804c9bd5c
+      internalID: 1606488681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1662
+        width: 54
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977bad35c027b8043a30d61931b7b093
+      internalID: 1336644653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_9
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1662
+        width: 54
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24c0a30ec0b6b040a0ac47dbba3bef8
+      internalID: -1441671826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_10
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1662
+        width: 54
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304b7197535ed8e4082fff414c567ac9
+      internalID: -1495750106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_11
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1662
+        width: 54
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0954cd716ea6e4ab999a1a1be3a066
+      internalID: 1997786734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_12
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1662
+        width: 54
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419be0bb3da8627469bb1a09f6bba243
+      internalID: 63167286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_13
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1662
+        width: 54
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c1dd5348ebdba469b25551bd33cab1
+      internalID: 1945847220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_14
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1659
+        width: 52
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35468c01d66211d4ab70665d83b44f81
+      internalID: -1981323088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_15
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1656
+        width: 49
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e7a2ca76a4c83458aa7106b86d8fdf
+      internalID: 794531454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1402
+        width: 46
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c45d332a814e894492971b974935d92
+      internalID: -1511042841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_17
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1406
+        width: 54
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84cc85cc25129c49ad372fdfcbcfcea
+      internalID: 332551769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_18
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1414
+        width: 63
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6772a8f28a4ea44ba124bfa94cbd00
+      internalID: 1611938182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_19
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1436
+        width: 64
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c1285580e32bf43a6d14a7a16e1c85
+      internalID: 6121585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_20
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1436
+        width: 64
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52437dd7e864db46953ae28eadd163c
+      internalID: 1040728107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_21
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 638
+        width: 54
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231c54e646823e34cbe168201d4c1c77
+      internalID: 1768057971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_22
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 637
+        width: 56
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18105e03de3ade94ab0ea78e13cf3a08
+      internalID: 237783843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_23
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 635
+        width: 55
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9ba3f30f9a32e4ea7d8acd6d777798
+      internalID: 654119298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_24
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 637
+        width: 54
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca23a0c99d26afb4199a1a2a483f3afc
+      internalID: -1660873996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_50_Ultra_25
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 381
+        width: 54
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f9332a41274774490dba7b284a4e8e
+      internalID: 743947596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +665,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_50_Ultra_0: 830175014
+      Cora_50_Ultra_1: -306055860
+      Cora_50_Ultra_10: -1495750106
+      Cora_50_Ultra_11: 1997786734
+      Cora_50_Ultra_12: 63167286
+      Cora_50_Ultra_13: 1945847220
+      Cora_50_Ultra_14: -1981323088
+      Cora_50_Ultra_15: 794531454
+      Cora_50_Ultra_16: -1511042841
+      Cora_50_Ultra_17: 332551769
+      Cora_50_Ultra_18: 1611938182
+      Cora_50_Ultra_19: 6121585
+      Cora_50_Ultra_2: 272401940
+      Cora_50_Ultra_20: 1040728107
+      Cora_50_Ultra_21: 1768057971
+      Cora_50_Ultra_22: 237783843
+      Cora_50_Ultra_23: 654119298
+      Cora_50_Ultra_24: -1660873996
+      Cora_50_Ultra_25: 743947596
+      Cora_50_Ultra_3: -1741942251
+      Cora_50_Ultra_4: 1941197222
+      Cora_50_Ultra_5: -1436424878
+      Cora_50_Ultra_6: -2116185334
+      Cora_50_Ultra_7: 1606488681
+      Cora_50_Ultra_8: 1336644653
+      Cora_50_Ultra_9: -1441671826
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

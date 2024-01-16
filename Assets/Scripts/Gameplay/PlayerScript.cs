@@ -35,6 +35,7 @@ public class PlayerScript : MonoBehaviour
     public void InstantiateCharacter(Transform transformSpawnpoint)
     {
         player = Instantiate(playerCharacter.character,transform);
+        player.name = "Character";
         player.gameObject.transform.position = transformSpawnpoint.position;
     }
 

@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,280 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_35_Get up_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1913
+        width: 108
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6d2574d24c43f4cbdf152b17e3bc80
+      internalID: 600421611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_35_Get up_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1913
+        width: 104
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0824cc5fb070b9944b1142f72d0d8633
+      internalID: -617770323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_35_Get up_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1911
+        width: 97
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9917d8a8daca5345b8bf883e748a9e7
+      internalID: -585861835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_35_Get up_3
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1911
+        width: 93
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38603643a87b11f45917732b7d78b1a3
+      internalID: 1557253115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_35_Get up_4
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1911
+        width: 87
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f92f2840154ae4796979f5e1a94b07
+      internalID: 1747908282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_35_Get up_5
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1912
+        width: 82
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed066016d1202aa469bf9e007e9c8fe3
+      internalID: 614613394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_35_Get up_6
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1912
+        width: 79
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bc0f6f5e7e0544db2c5bb2e6a27445
+      internalID: -75489325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_35_Get up_7
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1913
+        width: 71
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f67c7faea7f85469d1d40eec82f30e
+      internalID: -1709626772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_35_Get up_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1655
+        width: 70
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7ee351401aa6e40a0d14e37df52218
+      internalID: -1168847356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_35_Get up_9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1655
+        width: 67
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d3462fdcabc22419ec7293aa2af32c
+      internalID: -1522103086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_35_Get up_10
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1656
+        width: 63
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e2a8c265c7d4544aae4add219ca7ea
+      internalID: -1916829594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_35_Get up_11
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1659
+        width: 58
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40625db474d3b524596816405e5967f8
+      internalID: 973442111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_35_Get up_12
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1662
+        width: 59
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f48ffd7efeceab468fe7a2aa74d69f3
+      internalID: 1946055931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +392,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_35_Get up_0: 600421611
+      Cora_35_Get up_1: -617770323
+      Cora_35_Get up_10: -1916829594
+      Cora_35_Get up_11: 973442111
+      Cora_35_Get up_12: 1946055931
+      Cora_35_Get up_2: -585861835
+      Cora_35_Get up_3: 1557253115
+      Cora_35_Get up_4: 1747908282
+      Cora_35_Get up_5: 614613394
+      Cora_35_Get up_6: -75489325
+      Cora_35_Get up_7: -1709626772
+      Cora_35_Get up_8: -1168847356
+      Cora_35_Get up_9: -1522103086
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

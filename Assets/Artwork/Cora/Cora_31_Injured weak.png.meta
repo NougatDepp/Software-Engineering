@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,847 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1918
+        width: 54
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7e54fca4c917c4ea10c45995a17c03
+      internalID: 1923341606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1918
+        width: 54
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7763e7e32262604fb25084bec3fbf9e
+      internalID: -1266815443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_2
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1917
+        width: 54
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e562835d9f4ed54e999f990c815a9ff
+      internalID: -1691200745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_3
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1917
+        width: 55
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79967fced3c0ee4498864168b391ffd2
+      internalID: 1861033488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_4
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1916
+        width: 55
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac39b235885c0b47809ff26031a309a
+      internalID: 9599197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_5
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1916
+        width: 55
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8425247aa303264b9dcddd0bbd2ffc9
+      internalID: -93130569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_6
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1916
+        width: 55
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d759a4b1942674d87528ee0d28b675
+      internalID: -1805147468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_7
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1915
+        width: 56
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b63653a2b4ffc47b45c6a18e649779
+      internalID: -409330219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_8
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1659
+        width: 56
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237f6c2aab300cd4e9df7199fa071ada
+      internalID: 1970439609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_9
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1659
+        width: 56
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bb53a6109216a4997d38c793dd9c02
+      internalID: -1838172317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_10
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1659
+        width: 57
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6212a92c14404a843a89b9aef1a4ab83
+      internalID: -419916321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_11
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1659
+        width: 57
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbedb6797b6f314ea012591db21c3ba
+      internalID: 125093821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_12
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1659
+        width: 57
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e4ffd1d71f968499228437a4c8d2b2
+      internalID: -963681764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_13
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1659
+        width: 58
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b650acca0e79a6f4aa618ad81fe0e89e
+      internalID: -943108700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_14
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1659
+        width: 57
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5138b75c7565f244391b74e6d530df12
+      internalID: 2060329764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_15
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1659
+        width: 57
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f4f4ccebae7b144a4160aff9356b01
+      internalID: 1560936692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1403
+        width: 58
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa33b07581a4214983ef703018fc9ea
+      internalID: 174366408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1404
+        width: 58
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3213638499051174cb7306a3b4f4bdd6
+      internalID: -218823431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_18
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1404
+        width: 58
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624e77bb2a0828843adde34f7c48fbf8
+      internalID: -1079540172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_19
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1404
+        width: 58
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328ada689454efb4895bf965631fe780
+      internalID: -1040530080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_20
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1404
+        width: 58
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97584094e99cfbe4e8fde7ae754ff2d6
+      internalID: -1891837718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_21
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1404
+        width: 58
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959befbd59376724ba9fd2dc73ef2bea
+      internalID: -145133304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_22
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1404
+        width: 58
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493dac10cf5f390409d41179f91baf7f
+      internalID: -1820877449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_23
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1405
+        width: 59
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7219cff9cdc60444970a6be6b62d8e9
+      internalID: -163159619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1149
+        width: 59
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baee68da3ab9f64ea646d355adcb850
+      internalID: -702413343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_25
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1149
+        width: 59
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8371debb161220141ba4dbec1ddf91a8
+      internalID: -1046799467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_26
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1149
+        width: 58
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d8eb8f299940d4a9109345602dcfb0
+      internalID: 2030182603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_27
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1149
+        width: 58
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4da6b7e924791842a2ff6b396e7227d
+      internalID: -693928482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_28
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1149
+        width: 59
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18799e34fef061a4ba9fd3a9f1996f9a
+      internalID: 220127746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_29
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1149
+        width: 59
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e074d2b6e068b947b00b10b7ff56622
+      internalID: 360125742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_30
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1149
+        width: 59
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7094265d1ff2440a1075fc881c9253
+      internalID: 55308677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_31
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1149
+        width: 59
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f8ecbc5e9679c469fefdff537fec94
+      internalID: -2083963488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_32
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 893
+        width: 58
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8409bc32e3ce3bf4296bab3eec0ea1d0
+      internalID: 400901970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_33
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 893
+        width: 59
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcde3249496da12409752ceea8ebf9fb
+      internalID: 1751493705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_34
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 893
+        width: 59
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dce4ff999c56e4baf95fa756f4367f
+      internalID: -161456715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_35
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 893
+        width: 59
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b76e6895a2958c4887cf2dd62fcc67f
+      internalID: 685170761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_36
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 893
+        width: 59
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649358fb5747adc46a5491eccab73f0c
+      internalID: 1208438761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_37
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 894
+        width: 58
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6933f5b3b2f3347876bc4f38267523
+      internalID: 1463397041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_38
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 894
+        width: 58
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36623e5920e6564b98dcc439d2079be
+      internalID: -1517426963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_31_Injured weak_39
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 894
+        width: 59
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3d596d59fb7fb4094684695b324688
+      internalID: 173061837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +959,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_31_Injured weak_0: 1923341606
+      Cora_31_Injured weak_1: -1266815443
+      Cora_31_Injured weak_10: -419916321
+      Cora_31_Injured weak_11: 125093821
+      Cora_31_Injured weak_12: -963681764
+      Cora_31_Injured weak_13: -943108700
+      Cora_31_Injured weak_14: 2060329764
+      Cora_31_Injured weak_15: 1560936692
+      Cora_31_Injured weak_16: 174366408
+      Cora_31_Injured weak_17: -218823431
+      Cora_31_Injured weak_18: -1079540172
+      Cora_31_Injured weak_19: -1040530080
+      Cora_31_Injured weak_2: -1691200745
+      Cora_31_Injured weak_20: -1891837718
+      Cora_31_Injured weak_21: -145133304
+      Cora_31_Injured weak_22: -1820877449
+      Cora_31_Injured weak_23: -163159619
+      Cora_31_Injured weak_24: -702413343
+      Cora_31_Injured weak_25: -1046799467
+      Cora_31_Injured weak_26: 2030182603
+      Cora_31_Injured weak_27: -693928482
+      Cora_31_Injured weak_28: 220127746
+      Cora_31_Injured weak_29: 360125742
+      Cora_31_Injured weak_3: 1861033488
+      Cora_31_Injured weak_30: 55308677
+      Cora_31_Injured weak_31: -2083963488
+      Cora_31_Injured weak_32: 400901970
+      Cora_31_Injured weak_33: 1751493705
+      Cora_31_Injured weak_34: -161456715
+      Cora_31_Injured weak_35: 685170761
+      Cora_31_Injured weak_36: 1208438761
+      Cora_31_Injured weak_37: 1463397041
+      Cora_31_Injured weak_38: -1517426963
+      Cora_31_Injured weak_39: 173061837
+      Cora_31_Injured weak_4: 9599197
+      Cora_31_Injured weak_5: -93130569
+      Cora_31_Injured weak_6: -1805147468
+      Cora_31_Injured weak_7: -409330219
+      Cora_31_Injured weak_8: 1970439609
+      Cora_31_Injured weak_9: -1838172317
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

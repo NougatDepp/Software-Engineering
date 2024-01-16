@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,721 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_0
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1148
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4135080fa921fc44fa39772fbb5bd64c
+      internalID: -580940370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_1
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1148
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c431ce8efa0e64ab482ffab53454df
+      internalID: -1000878404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 892
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d07ef3203e192469b3b5c7e4175376
+      internalID: 798852201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_3
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 892
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567a7fc453c291043a9f280cc3279e66
+      internalID: -329693369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_4
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 892
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1199685c3c92ad488bb980b4c9b58bf
+      internalID: 2016170876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_5
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 892
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f48c970f13784a498e7f8b472aa5a0b
+      internalID: -917787250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_6
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 892
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba74219560565641b29591835437266
+      internalID: 1974225805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_7
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 892
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1950b2404b60fa247b5a6cd7778458b7
+      internalID: 674572173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_8
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 892
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730ff18caf9a66b438753ebd798343a0
+      internalID: 980514417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_9
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 892
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4f7a96eed549749b63d6600c5c146b
+      internalID: 1009070650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 636
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8493cb7f2faabf43854e72362a732ee
+      internalID: -2012198699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_11
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 636
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17cd0339e589c7439956026227c4f20
+      internalID: -991565102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_12
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 636
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b192d8e99e77b464392d40197e955e85
+      internalID: 1618218542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_13
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 636
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5288546cafb7a478b3acf53688d4e1
+      internalID: 148635687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_14
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 636
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19f6e6b2a1786e448776476ca0f79ff
+      internalID: 1746891507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_15
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 636
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dbe9d12b5eb0b4eb5306ea1306bf34
+      internalID: 946567348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_16
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 636
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2863b3985424d87459222d1477a60db6
+      internalID: 1702063865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_17
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 636
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df86412208c0fe14985f6310fd0f757f
+      internalID: 599422787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 380
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09982749e3dd5364da3534c3412786ba
+      internalID: 1936868715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_19
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 380
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ef062441c9bad41bdeb0b4335a6043
+      internalID: 1994864224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_20
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 380
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fcf7b808f647a4c9d3ea4cc601fc66
+      internalID: -1060423554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_21
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 380
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f483d3dbe0e73044182cd92112d7d05f
+      internalID: -1772388567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_22
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 380
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17ca059814e7e4499bd1e90d8320dd6
+      internalID: -592582637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_23
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 380
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e9ce79fe5736348b518647581a6291
+      internalID: 1845904823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_24
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 380
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a70063e9937d7a44a20f5309c7eadad
+      internalID: -1650136251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_25
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 380
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067eaf9a2befc0a4aa0654e10173c4e5
+      internalID: -1007614576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 123
+        width: 58
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53964040c9d96514f8049e82bbb5c878
+      internalID: -747633995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_27
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 123
+        width: 56
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ef7b6b1c0991c4a9cc9c6220927603
+      internalID: -1418269136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_28
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 125
+        width: 55
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e0e52800db8c64faca3fc882ee5ae9
+      internalID: -1802795640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_29
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 125
+        width: 55
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c1b1abf30d5bb43adf33036f0b706a
+      internalID: -535453504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_30
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 125
+        width: 55
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e5f1c90e782444eaa6a921430d5532
+      internalID: 1831486413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_31
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 125
+        width: 58
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654c9b77bce144d41a4b69ee67181a95
+      internalID: -1158434938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_32
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 125
+        width: 60
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88ea41f53502e14094b43a5327f17ff
+      internalID: -900237854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_57_Match entrance_33
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 125
+        width: 61
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882ce7aefea66e14582ee7757aa5df01
+      internalID: -781510303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +833,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_57_Match entrance_0: -580940370
+      Cora_57_Match entrance_1: -1000878404
+      Cora_57_Match entrance_10: -2012198699
+      Cora_57_Match entrance_11: -991565102
+      Cora_57_Match entrance_12: 1618218542
+      Cora_57_Match entrance_13: 148635687
+      Cora_57_Match entrance_14: 1746891507
+      Cora_57_Match entrance_15: 946567348
+      Cora_57_Match entrance_16: 1702063865
+      Cora_57_Match entrance_17: 599422787
+      Cora_57_Match entrance_18: 1936868715
+      Cora_57_Match entrance_19: 1994864224
+      Cora_57_Match entrance_2: 798852201
+      Cora_57_Match entrance_20: -1060423554
+      Cora_57_Match entrance_21: -1772388567
+      Cora_57_Match entrance_22: -592582637
+      Cora_57_Match entrance_23: 1845904823
+      Cora_57_Match entrance_24: -1650136251
+      Cora_57_Match entrance_25: -1007614576
+      Cora_57_Match entrance_26: -747633995
+      Cora_57_Match entrance_27: -1418269136
+      Cora_57_Match entrance_28: -1802795640
+      Cora_57_Match entrance_29: -535453504
+      Cora_57_Match entrance_3: -329693369
+      Cora_57_Match entrance_30: 1831486413
+      Cora_57_Match entrance_31: -1158434938
+      Cora_57_Match entrance_32: -900237854
+      Cora_57_Match entrance_33: -781510303
+      Cora_57_Match entrance_4: 2016170876
+      Cora_57_Match entrance_5: -917787250
+      Cora_57_Match entrance_6: 1974225805
+      Cora_57_Match entrance_7: 674572173
+      Cora_57_Match entrance_8: 980514417
+      Cora_57_Match entrance_9: 1009070650
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

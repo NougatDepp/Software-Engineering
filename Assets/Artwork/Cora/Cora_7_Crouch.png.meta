@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,931 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_7_Crouch_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1914
+        width: 51
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5154a5c1810474786758e338513dbb
+      internalID: -535111785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1915
+        width: 50
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59be41fe598c0fa49a6d9d7894c0a7ee
+      internalID: -690000720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_2
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1916
+        width: 49
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03a1dea6b7b35c4e86cc6649c4437a3
+      internalID: 118113318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_3
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1916
+        width: 47
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e514e599adf00149a4ceae737a98b52
+      internalID: 1873073172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_4
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1916
+        width: 49
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ac81c349d5fe74b8a7827d6bb9b8cb
+      internalID: 2010718360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_5
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1916
+        width: 49
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080531d55e9024b4684292b6f379c7d2
+      internalID: 1747328068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_6
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1916
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46051d78fee2a9548afc31c431670c17
+      internalID: -898651848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_7
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1916
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54454cc4f276b7409a775ab4994fb17
+      internalID: -1982794190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_8
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1660
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bc1938861cd62478f2e97dccbe9d2c
+      internalID: -1229223054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_9
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1660
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dc58a51c45fd741a62781580a1459a
+      internalID: -723856595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_10
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1660
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da870224748893478a21aa10eba9e9a
+      internalID: 1517450954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_11
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1660
+        width: 50
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5d436da2cbac64d8d34d84ac001fb1
+      internalID: 112329203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_12
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1660
+        width: 50
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad58f8428f7ef684083ccdef0ff01c34
+      internalID: -2075898102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_13
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1660
+        width: 50
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db4fd970d8fe234d92447059191789d
+      internalID: -193013894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_14
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1660
+        width: 50
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5613dc3162bbfec43a45736f51a60f8d
+      internalID: 1694185869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_15
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1660
+        width: 50
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81bdf323131118479ebe5735e1c218c
+      internalID: 1579762884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_16
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1404
+        width: 50
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fdf95367a79174b8008bbfb8cc804f
+      internalID: 544739201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_17
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1404
+        width: 50
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248a4e02d68310d41b6413a830955a4c
+      internalID: -210522703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_18
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1405
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9917b53128b55f240aad4b84b4108bae
+      internalID: -1449161932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_19
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1405
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcc4b183e44f4e4faf37df096928a94
+      internalID: 241638760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_20
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1405
+        width: 51
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51213542a7562dc43924bc9d8315b0a8
+      internalID: -134791436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_21
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1405
+        width: 51
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f3158d6457f8148b920a513210c505
+      internalID: -1111361754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_22
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1405
+        width: 51
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce74513303cc29947a099cfbed450ef0
+      internalID: 1120694753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_23
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1405
+        width: 51
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b71eb178f42b704eb33d62da4e5071e
+      internalID: 636554272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1149
+        width: 51
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccdcfdcca46b884294131393ea66e71
+      internalID: 1484264720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_25
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1148
+        width: 51
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3675b029c6acaeb46a8c3e27fbbd17a5
+      internalID: -837287414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_26
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1148
+        width: 51
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861fc95fe1c4cfb47abd112a85ea14ce
+      internalID: -294778755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_27
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1148
+        width: 51
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a4b77dd71fce146ba8799dc842108c
+      internalID: 386115685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_28
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1148
+        width: 51
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe04d48da89a74f4383ecb1eb4de3dba
+      internalID: -1609853355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_29
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1148
+        width: 51
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dca0a8df95837498aecf4ee0058f0b
+      internalID: -825207027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_30
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1148
+        width: 51
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3117ff18b9da34893ca8d3bfa9357f
+      internalID: 1052779454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_31
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1148
+        width: 50
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609453b0062e72e448d2faeba8b7afdc
+      internalID: 956461088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_32
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 892
+        width: 50
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8258855a6a0d0d044b65fe99b9ebc455
+      internalID: -1706804383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_33
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 892
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb507f04ff49f244b27f3742dc9f8b3
+      internalID: 843088130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_34
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 892
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58712db14f0ce5b47a479574f959ccdf
+      internalID: 895353473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_35
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 892
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881ce4b752bed58488ff89d2f1267583
+      internalID: -330875278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_36
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 892
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f4b78032057d74d973d22a0652b191
+      internalID: -1997198198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_37
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 892
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8444ec04d3d07154a93d56efd3adade0
+      internalID: -53545038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_38
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 892
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07d140ea2b6bc34db9846322db8565f
+      internalID: 1401078773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_39
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 892
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140ce6e91aba80e489965730ac90e103
+      internalID: -146603682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_40
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 636
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277b09765eb19f046ba5c3c35f8317f9
+      internalID: -17664732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_41
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 636
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb02fd5b68dcab4690a1a2d8bde690b
+      internalID: -1396028420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_42
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 636
+        width: 50
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab61cbd1b0cc2194590f34cd7b2f01c0
+      internalID: -97072697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_7_Crouch_43
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 636
+        width: 49
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e8e191f87b538408071c85ee9f2969
+      internalID: 1496822358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1043,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_7_Crouch_0: -535111785
+      Cora_7_Crouch_1: -690000720
+      Cora_7_Crouch_10: 1517450954
+      Cora_7_Crouch_11: 112329203
+      Cora_7_Crouch_12: -2075898102
+      Cora_7_Crouch_13: -193013894
+      Cora_7_Crouch_14: 1694185869
+      Cora_7_Crouch_15: 1579762884
+      Cora_7_Crouch_16: 544739201
+      Cora_7_Crouch_17: -210522703
+      Cora_7_Crouch_18: -1449161932
+      Cora_7_Crouch_19: 241638760
+      Cora_7_Crouch_2: 118113318
+      Cora_7_Crouch_20: -134791436
+      Cora_7_Crouch_21: -1111361754
+      Cora_7_Crouch_22: 1120694753
+      Cora_7_Crouch_23: 636554272
+      Cora_7_Crouch_24: 1484264720
+      Cora_7_Crouch_25: -837287414
+      Cora_7_Crouch_26: -294778755
+      Cora_7_Crouch_27: 386115685
+      Cora_7_Crouch_28: -1609853355
+      Cora_7_Crouch_29: -825207027
+      Cora_7_Crouch_3: 1873073172
+      Cora_7_Crouch_30: 1052779454
+      Cora_7_Crouch_31: 956461088
+      Cora_7_Crouch_32: -1706804383
+      Cora_7_Crouch_33: 843088130
+      Cora_7_Crouch_34: 895353473
+      Cora_7_Crouch_35: -330875278
+      Cora_7_Crouch_36: -1997198198
+      Cora_7_Crouch_37: -53545038
+      Cora_7_Crouch_38: 1401078773
+      Cora_7_Crouch_39: -146603682
+      Cora_7_Crouch_4: 2010718360
+      Cora_7_Crouch_40: -17664732
+      Cora_7_Crouch_41: -1396028420
+      Cora_7_Crouch_42: -97072697
+      Cora_7_Crouch_43: 1496822358
+      Cora_7_Crouch_5: 1747328068
+      Cora_7_Crouch_6: -898651848
+      Cora_7_Crouch_7: -1982794190
+      Cora_7_Crouch_8: -1229223054
+      Cora_7_Crouch_9: -723856595
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

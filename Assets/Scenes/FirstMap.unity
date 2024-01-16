@@ -3419,7 +3419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fbe0d76af871aa4188c3aa506d92a0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textPrefab: {fileID: 7314184842984237836, guid: b4c34b6d6f2d46a4d8da7f386a48a52e, type: 3}
+  textPrefab: {fileID: 2401815789103382721, guid: 32efcb848deb7b5478b8aee50c75d127, type: 3}
   gridLayoutGroup: {fileID: 1407449649}
 --- !u!1 &1432409695
 GameObject:

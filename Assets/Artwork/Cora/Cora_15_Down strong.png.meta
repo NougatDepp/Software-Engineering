@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,532 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_15_Down strong_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1915
+        width: 58
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf358a7f2590884f815e37cc4453513
+      internalID: -934498973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1915
+        width: 69
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99dcd8544e07b22409b3d594bfd17252
+      internalID: -1575938206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_2
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1916
+        width: 62
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3092246af27ada43bb0f4c7b5077f16
+      internalID: 1315026687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_3
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1916
+        width: 67
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44daa54a313cd554cbba9e08f89e80f1
+      internalID: -1021084588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_4
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1916
+        width: 109
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c3c136575a7664aa0882d3311827ae
+      internalID: -519272207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_5
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1916
+        width: 109
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31996fdd746e484aa44542765ed0fb3
+      internalID: -632203389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_6
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1916
+        width: 90
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76268b8aa5f0b1e41a90a0d6f1c92e2c
+      internalID: 1061277891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_7
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1916
+        width: 91
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bc32e4efef50144a8db898d13768d8
+      internalID: 534583068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1660
+        width: 74
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53f8804fc2aeb34b8eff1112ef7770f
+      internalID: -58677927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_9
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1660
+        width: 74
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3f8118bcb31f54990c0908d0bca6c7
+      internalID: -1146042418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_10
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1659
+        width: 71
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8cf08307a361f45a0b8eb5d4013119
+      internalID: 760141578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_11
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1659
+        width: 64
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91185c0618216b64a90ad2f31e821130
+      internalID: 83167223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_12
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1660
+        width: 75
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf2983145afa484f807ff5d46b3d6f7
+      internalID: 1694192511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_13
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1662
+        width: 80
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020abe114b62cd9469ae49103f89fa4e
+      internalID: 973388441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_14
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1662
+        width: 80
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a829eb6571da3a74bb5417edcf70b1e1
+      internalID: 685062878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_15
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1662
+        width: 67
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a0058037105004da36222e8d0849d7
+      internalID: 1608114994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1406
+        width: 67
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c71e72c1551204e9737468a74724d9
+      internalID: 47790650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_17
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1403
+        width: 69
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb2c24a90c20f943b6d26ac66b3aaa7
+      internalID: 916163847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_18
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1404
+        width: 68
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c0890ae8901bd4ab856474bd5b952c
+      internalID: -1642568727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_19
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1403
+        width: 66
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5666bc5c44e2f246bae804ddf09aafc
+      internalID: -2146780455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_20
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1404
+        width: 59
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099bbf3544667a046ac3cdaaf6908a1d
+      internalID: -725510827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_21
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1404
+        width: 59
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c805ae4e599b684297888c380761a44
+      internalID: -1613348462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_22
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1406
+        width: 52
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9658e30640fb9d4a8bf98d940a67eda
+      internalID: -2067423589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_23
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1406
+        width: 52
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b70f52e008c374dbf96d036b30b0cb
+      internalID: 476075929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_15_Down strong_24
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1150
+        width: 52
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448323f5148b6f840917c5ba1b14f763
+      internalID: 188220956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +644,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_15_Down strong_0: -934498973
+      Cora_15_Down strong_1: -1575938206
+      Cora_15_Down strong_10: 760141578
+      Cora_15_Down strong_11: 83167223
+      Cora_15_Down strong_12: 1694192511
+      Cora_15_Down strong_13: 973388441
+      Cora_15_Down strong_14: 685062878
+      Cora_15_Down strong_15: 1608114994
+      Cora_15_Down strong_16: 47790650
+      Cora_15_Down strong_17: 916163847
+      Cora_15_Down strong_18: -1642568727
+      Cora_15_Down strong_19: -2146780455
+      Cora_15_Down strong_2: 1315026687
+      Cora_15_Down strong_20: -725510827
+      Cora_15_Down strong_21: -1613348462
+      Cora_15_Down strong_22: -2067423589
+      Cora_15_Down strong_23: 476075929
+      Cora_15_Down strong_24: 188220956
+      Cora_15_Down strong_3: -1021084588
+      Cora_15_Down strong_4: -519272207
+      Cora_15_Down strong_5: -632203389
+      Cora_15_Down strong_6: 1061277891
+      Cora_15_Down strong_7: 534583068
+      Cora_15_Down strong_8: -58677927
+      Cora_15_Down strong_9: -1146042418
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

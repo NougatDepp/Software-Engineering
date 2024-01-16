@@ -9,26 +9,28 @@ using Unity.VisualScripting;
 public class HealthBarUpdater : MonoBehaviour
 {
     public GameObject player;
-    private TextMeshProUGUI textComponent;
+    private TextMeshProUGUI healthText;
+    private Sprite artwork;
     private float health;
     private float lastHealth;
 
     void Start()
     {
-        textComponent = gameObject.transform.GetComponent<TextMeshProUGUI>();
+        healthText = gameObject.transform.Find("Health").GetComponent<TextMeshProUGUI>();
+        gameObject.transform.Find("Icon").GetComponent<Image>().sprite = player.GetComponent<PlayerScript>().playerCharacter.characterSprite;
         lastHealth = 0;
     }
 
     void Update()
     {
-        if (player.IsDestroyed())
+        if (player.transform.Find("Character").IsDestroyed())
         {
             Destroy(gameObject);
         }
         else
         {
             UpdateHealthBar();
-            health = player.GetComponent<GameplayScript>().hitpoint;
+            health = player.transform.Find("Character").GetComponent<GameplayScript>().hitpoint;
             if (health != lastHealth)
             {
                 OnTextChange();
@@ -44,9 +46,8 @@ public class HealthBarUpdater : MonoBehaviour
 
     void UpdateHealthBar()
     {
-        //health.GetComponent<TextScript>().GetAnim().SetTrigger("OnHit");
         Color newColor = new Color(1, 1 - health / 999, 1 - health / 333, 1);
-        textComponent.CrossFadeColor(newColor, 0.1f, true, false);
-        textComponent.text = health + "%";
+        healthText.CrossFadeColor(newColor, 0.1f, true, false);
+        healthText.text = health + "%";
     }
 }

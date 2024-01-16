@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_25_Block_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1916
+        width: 53
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ed4c34972168647a225e8f18e917aa
+      internalID: -1154566526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1916
+        width: 53
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f72bf612d2a9cd4f955d820497bccb4
+      internalID: -1463812691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1916
+        width: 53
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6127155c281ec4889456f6e815187f
+      internalID: -922173951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_3
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1916
+        width: 53
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c297f8a136b5944428a452edb0388592
+      internalID: 2077764630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_4
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1916
+        width: 54
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84b3707fbc680b46a00be2d3f00e0ad
+      internalID: 813939757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_5
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1916
+        width: 54
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5363485c91bde4799849dff65e45c4
+      internalID: -1078691845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_6
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1916
+        width: 54
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5876c69fced5c574ca368107188995a5
+      internalID: -1515560288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_7
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1917
+        width: 54
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d4af3c0b573e445b519de5b4c34846
+      internalID: 1507843073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1661
+        width: 55
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb221c47fa2a64e4cb177dcc1af0d404
+      internalID: -397217122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1661
+        width: 55
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219755b214ec00e479e6aee69d4d15a3
+      internalID: 1181544065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_10
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1661
+        width: 56
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb16058c287b5584cbafe599e721b996
+      internalID: 37083871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1661
+        width: 56
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e255f43109f2cd4ab2aa6e3b7a49ad9
+      internalID: -328251718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_12
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1661
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daa21bbcd62f0545a16fa02afe12002
+      internalID: 322211271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_13
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1661
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75c3232027f15040a1e6e3602500176
+      internalID: -104764702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_14
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1661
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5129c9b54cabab4ab1528b50fce6aa0
+      internalID: 1903750564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_15
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1661
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c5b543bbf06764aafbc51db6ce9260
+      internalID: -1286072159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1405
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed99a102dbad5545948e3b04313f183
+      internalID: 1459265369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1405
+        width: 56
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd53f2dc3f0b704da1fc7ec46a05076
+      internalID: 246810280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_18
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1405
+        width: 56
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3d1a719d3e0214dae437bb2a09d1ce
+      internalID: 979554707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_19
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1405
+        width: 55
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208ee422423eba442b5957538b756b78
+      internalID: -158832324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_20
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1405
+        width: 55
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a705913786a8043b1fae26c2c6e5b8
+      internalID: -300996339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_21
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1405
+        width: 55
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8f8c319235c8e40891cd096a086a34
+      internalID: -1932642943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_22
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1405
+        width: 54
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7ee881afc0d6d4aac0fa9218d2501e
+      internalID: 211351181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_23
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1404
+        width: 54
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edeadf776c4cf8438e0e74877a30cd8
+      internalID: -1927171003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1148
+        width: 54
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e5047740310c248bde958362061eef
+      internalID: -1249104926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_25
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1148
+        width: 54
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f396b05016847e4288a11900bcb8402
+      internalID: 874750474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_26
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1148
+        width: 53
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74deb24c0e6757746ad4f005aa6319ff
+      internalID: 766834415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_27
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1148
+        width: 53
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6687ea2a703354bb406009be6e47f7
+      internalID: -1195362161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_28
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1148
+        width: 53
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba30ddf80ff37744b0e67e113d01410
+      internalID: 836936717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_25_Block_29
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1148
+        width: 53
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3a240ad5f2fe446b086b9d70c640a0
+      internalID: -458122399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +749,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_25_Block_0: -1154566526
+      Cora_25_Block_1: -1463812691
+      Cora_25_Block_10: 37083871
+      Cora_25_Block_11: -328251718
+      Cora_25_Block_12: 322211271
+      Cora_25_Block_13: -104764702
+      Cora_25_Block_14: 1903750564
+      Cora_25_Block_15: -1286072159
+      Cora_25_Block_16: 1459265369
+      Cora_25_Block_17: 246810280
+      Cora_25_Block_18: 979554707
+      Cora_25_Block_19: -158832324
+      Cora_25_Block_2: -922173951
+      Cora_25_Block_20: -300996339
+      Cora_25_Block_21: -1932642943
+      Cora_25_Block_22: 211351181
+      Cora_25_Block_23: -1927171003
+      Cora_25_Block_24: -1249104926
+      Cora_25_Block_25: 874750474
+      Cora_25_Block_26: 766834415
+      Cora_25_Block_27: -1195362161
+      Cora_25_Block_28: 836936717
+      Cora_25_Block_29: -458122399
+      Cora_25_Block_3: 2077764630
+      Cora_25_Block_4: 813939757
+      Cora_25_Block_5: -1078691845
+      Cora_25_Block_6: -1515560288
+      Cora_25_Block_7: 1507843073
+      Cora_25_Block_8: -397217122
+      Cora_25_Block_9: 1181544065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

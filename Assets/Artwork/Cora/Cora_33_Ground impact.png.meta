@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_33_Ground impact_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1913
+        width: 108
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69646db7199390d4dbd007e725910bc7
+      internalID: 2106568116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_33_Ground impact_1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1899
+        width: 90
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75e20d012bffbc46b073630466701b0
+      internalID: -497303763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_33_Ground impact_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1905
+        width: 92
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19151fa05ed8ce947b4a7fcfa722ab36
+      internalID: -360233895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_33_Ground impact_3
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1911
+        width: 93
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ffb6f2764ea6048845208f89047087
+      internalID: -1758187196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_33_Ground impact_4
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1917
+        width: 92
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57a4dccb45521d46875ae778568cf90
+      internalID: -2077778946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_33_Ground impact_5
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1914
+        width: 96
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fa16e56282de14cb497a5f5d2a3180
+      internalID: 1451085011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_33_Ground impact_6
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1913
+        width: 96
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4574a80ae2124d24e8e9fe4ce0572234
+      internalID: 1696085746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_33_Ground impact_7
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1914
+        width: 99
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67206f65fd8e9940bd90971e306c3c6
+      internalID: 1745500740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_33_Ground impact_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1659
+        width: 105
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd43b3ff33f379d4aa8d82f7de6f39ed
+      internalID: -854658317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_33_Ground impact_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1657
+        width: 108
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d04603544277ba478ddac578f0e757d
+      internalID: -122651657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +329,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_33_Ground impact_0: 2106568116
+      Cora_33_Ground impact_1: -497303763
+      Cora_33_Ground impact_2: -360233895
+      Cora_33_Ground impact_3: -1758187196
+      Cora_33_Ground impact_4: -2077778946
+      Cora_33_Ground impact_5: 1451085011
+      Cora_33_Ground impact_6: 1696085746
+      Cora_33_Ground impact_7: 1745500740
+      Cora_33_Ground impact_8: -854658317
+      Cora_33_Ground impact_9: -122651657
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

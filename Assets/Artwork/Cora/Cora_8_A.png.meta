@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,1288 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_8_A_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1917
+        width: 55
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372df0ee7cc4bf846b1e7a49638240c9
+      internalID: -1209372008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1915
+        width: 57
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c728b61416b9a53429cd7495cdbd8a5c
+      internalID: 1480743107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_2
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1916
+        width: 94
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450b27b994ac2b74b88c80b27d785ca0
+      internalID: 1869924589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1915
+        width: 98
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af69d30cf6e6732448a34b239da52ab7
+      internalID: 1168981824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_4
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1915
+        width: 87
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749b0e6b031dce54cb34653613ae59b2
+      internalID: -2046731706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_5
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1916
+        width: 60
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e97d43a19a50cb409e93d8a35f9d191
+      internalID: 1078702368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_6
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1916
+        width: 60
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a002bab44ee2ce44ad1eed3ea24dac1
+      internalID: -1895597393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_7
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1917
+        width: 60
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d33f0789d4f6a4ea1a614b54aaddbc
+      internalID: 100233675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1660
+        width: 58
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3049b8e09b0385943ac750ffe93632c0
+      internalID: -1358132993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_9
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1660
+        width: 63
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f03a83f14a7b364394a553e20a8d392
+      internalID: 1639983644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_10
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1660
+        width: 59
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f244d5ec6396c4fbbadea138226523
+      internalID: -1816890734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_11
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1660
+        width: 64
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8350c870daedac4c9148a5f5d38f577
+      internalID: 415867755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_12
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1661
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4aeda6e29b061f478c868a9c5f003d6
+      internalID: -1788999558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_13
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1661
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a63cc8d9e7dbc48a239b76a2cf3d7b
+      internalID: 174319902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_14
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1661
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362242167afc5f54fa7790007e5e6da8
+      internalID: -575038300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_15
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1661
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69966750dd711b24abacb8a925576a5c
+      internalID: -1690074517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1405
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce08453234945bc43b7aca5306221497
+      internalID: -1240971296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1405
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9861d625cc4b1d42a65c0f1f4c7beb3
+      internalID: -1911109446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_18
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1405
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5252b507d123e44acf62608f4aa59a
+      internalID: -1368080992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_19
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1405
+        width: 73
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ede16d54910b845a9a26f3778bec15
+      internalID: 1036200215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_20
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1404
+        width: 61
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9115be631ab5b41b1aa2d0da119c87
+      internalID: -1353472235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_21
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1404
+        width: 68
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b909324c638ea49b5540412cae382d
+      internalID: -1618670025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_22
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1405
+        width: 87
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d9e3ff772de1d47ae11c5c9c042b28
+      internalID: 1145031128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_23
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1404
+        width: 96
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd361b2634d75b541b9f7e3d57560ae0
+      internalID: -621808686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1148
+        width: 87
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba72a3e33b7f724196d0a853c1abaa7
+      internalID: 648631463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_25
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1149
+        width: 76
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d4d98aacbc0454c959abb6d1437ca8
+      internalID: -2029355616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_26
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1149
+        width: 68
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25485f457d883c45901bdcf9ee4cc32
+      internalID: 881599462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_27
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1149
+        width: 62
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4cf358ec597044998dbceb9853a412
+      internalID: -101143543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_28
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1149
+        width: 60
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f106342f9b22744d80f764ea9dfd3c0
+      internalID: 575381615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_29
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1149
+        width: 55
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3670081184f631f41bd536c7c63f8dc7
+      internalID: -627433882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_30
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1149
+        width: 47
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e2ef7da63aa6c4d889aba62c9b3d2d
+      internalID: -657318107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_31
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1149
+        width: 49
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172883f73670a404ea23840d56fbe274
+      internalID: 1176562989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_32
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 893
+        width: 53
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcbf6020068e1b41a47908e1f577de0
+      internalID: -388889880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 893
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf556fe5a4cc3d4f94c5fe0114ef73e
+      internalID: 1791298179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_34
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 893
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ac825c98bb28342bf725196d006a0c
+      internalID: 1266613079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_35
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 893
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce709ecbca30f1438c483934a461d3d
+      internalID: 1504734136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_36
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 893
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfb4a25368a427489c54264421e2bc3
+      internalID: 1675316993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_37
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 893
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f1535f8dcf11742814924e0911b5d0
+      internalID: 553065192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_38
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 893
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efade0c1ddffb549b3646afbe5394d8
+      internalID: 301388661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_39
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 895
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43f54dca93e8eb47a2eb0fc6d5e4b34
+      internalID: 1728291884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_40
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 638
+        width: 74
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1ad6ac35f6a434abd1b7541fd56ab5
+      internalID: -973500658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_41
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 640
+        width: 65
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c13e4fd2a0e1844a28059808736879
+      internalID: 383408297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_42
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 639
+        width: 66
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb10eb46b879a3d4e96e5819b7e4cb7a
+      internalID: -1650135735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_43
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 637
+        width: 50
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089060ca68a41164d935e4afa4b56ecf
+      internalID: 2111701885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_44
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 632
+        width: 90
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18fd97639acdc84e8f02fada9f95ddc
+      internalID: -1057447578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_45
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 637
+        width: 101
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c966e18b1f26048a5f3bc87a1655ac
+      internalID: -49016518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_46
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 637
+        width: 98
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5771adbf0f699a408959907cf4c8b83
+      internalID: 976677612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_47
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 637
+        width: 98
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2e72354491cce48ae9ae9eb8a79294
+      internalID: -808414782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_48
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 381
+        width: 83
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5063422a68c5bf345a5c034de72ead01
+      internalID: -1952987432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_49
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 381
+        width: 83
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e423acd635eb014e98f8d7df42883c2
+      internalID: -1770092713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_50
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 381
+        width: 83
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9669ff94dd0595c498a8c9c316be3c47
+      internalID: -213626484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_51
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 380
+        width: 78
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94de76b350954042b25d93dcb09e637
+      internalID: -1733952534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_52
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 380
+        width: 75
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf29bfd3b7154f479c659d9bd2c3d32
+      internalID: -854720523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_53
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 379
+        width: 72
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85677e9d87816fe4f98173b2010ffae2
+      internalID: -1155887997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_54
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 379
+        width: 72
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fa19cde2ceb56488104609aa5b482e
+      internalID: 1601503549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_55
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 379
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54175cae33b9bd3499f7a883f4a21a14
+      internalID: 845993528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_56
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 123
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188aaa1d73b1b9641b7f69a301b2386f
+      internalID: -1640853001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_57
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 123
+        width: 61
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd418f8e4ca2e54b83ba8f3d23b5867
+      internalID: -49442962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_58
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 123
+        width: 61
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c717e7d84c469954aadb682f95fafba8
+      internalID: 547071747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_59
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 124
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d7fe105c317e041922df4c9fe53cfa
+      internalID: 1482802860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_8_A_60
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 125
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f41706c183e2345a8c995804dfd4d0
+      internalID: -512401769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1400,68 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_8_A_0: -1209372008
+      Cora_8_A_1: 1480743107
+      Cora_8_A_10: -1816890734
+      Cora_8_A_11: 415867755
+      Cora_8_A_12: -1788999558
+      Cora_8_A_13: 174319902
+      Cora_8_A_14: -575038300
+      Cora_8_A_15: -1690074517
+      Cora_8_A_16: -1240971296
+      Cora_8_A_17: -1911109446
+      Cora_8_A_18: -1368080992
+      Cora_8_A_19: 1036200215
+      Cora_8_A_2: 1869924589
+      Cora_8_A_20: -1353472235
+      Cora_8_A_21: -1618670025
+      Cora_8_A_22: 1145031128
+      Cora_8_A_23: -621808686
+      Cora_8_A_24: 648631463
+      Cora_8_A_25: -2029355616
+      Cora_8_A_26: 881599462
+      Cora_8_A_27: -101143543
+      Cora_8_A_28: 575381615
+      Cora_8_A_29: -627433882
+      Cora_8_A_3: 1168981824
+      Cora_8_A_30: -657318107
+      Cora_8_A_31: 1176562989
+      Cora_8_A_32: -388889880
+      Cora_8_A_33: 1791298179
+      Cora_8_A_34: 1266613079
+      Cora_8_A_35: 1504734136
+      Cora_8_A_36: 1675316993
+      Cora_8_A_37: 553065192
+      Cora_8_A_38: 301388661
+      Cora_8_A_39: 1728291884
+      Cora_8_A_4: -2046731706
+      Cora_8_A_40: -973500658
+      Cora_8_A_41: 383408297
+      Cora_8_A_42: -1650135735
+      Cora_8_A_43: 2111701885
+      Cora_8_A_44: -1057447578
+      Cora_8_A_45: -49016518
+      Cora_8_A_46: 976677612
+      Cora_8_A_47: -808414782
+      Cora_8_A_48: -1952987432
+      Cora_8_A_49: -1770092713
+      Cora_8_A_5: 1078702368
+      Cora_8_A_50: -213626484
+      Cora_8_A_51: -1733952534
+      Cora_8_A_52: -854720523
+      Cora_8_A_53: -1155887997
+      Cora_8_A_54: 1601503549
+      Cora_8_A_55: 845993528
+      Cora_8_A_56: -1640853001
+      Cora_8_A_57: -49442962
+      Cora_8_A_58: 547071747
+      Cora_8_A_59: 1482802860
+      Cora_8_A_6: -1895597393
+      Cora_8_A_60: -512401769
+      Cora_8_A_7: 100233675
+      Cora_8_A_8: -1358132993
+      Cora_8_A_9: 1639983644
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

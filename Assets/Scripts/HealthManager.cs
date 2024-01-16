@@ -8,7 +8,7 @@ public class HealthBarManager : MonoBehaviour
 
     void Start()
     {
-        GameObject[] players = GameObject.FindGameObjectsWithTag("Character");
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
         
         foreach (GameObject player in players)
         {

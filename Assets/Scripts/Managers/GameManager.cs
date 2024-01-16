@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using EasyTransition;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -9,7 +10,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    
+
     public static GameManager instance;
     
     public List<GameObject> players;
@@ -17,6 +18,9 @@ public class GameManager : MonoBehaviour
     public GameObject[] cursors;
 
     private bool readyToStartGame;
+
+    public TransitionSettings transition;
+    public float loadDelay;
 
     void Start()
     {
@@ -38,24 +42,28 @@ public class GameManager : MonoBehaviour
             {
                 Destroy(character);
             }
-            SceneManager.LoadScene("WinningScreen");
+            StartCoroutine(LoadScene("WinningScreen",transition));
         }
     }
 
-    public IEnumerator StartGame()
+    public void StartGame()
     {
         if (readyToStartGame)
         {
-            SceneManager.LoadScene("FirstMap");       
+            StartCoroutine(LoadScene("FirstMap",transition));       
         }
 
-        yield return null;
     }
 
     public void BackToCharacterSelect()
     {
-        SceneManager.LoadScene("CharacterSelect");       
+        StartCoroutine(LoadScene("CharacterSelect",transition));
+    }
 
+    public IEnumerator LoadScene(String sceneName,TransitionSettings transition)
+    {
+        TransitionManager.Instance().Transition(sceneName,transition,loadDelay);
+        yield return null;
     }
 
     

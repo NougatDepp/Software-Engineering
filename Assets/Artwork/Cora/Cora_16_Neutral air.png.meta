@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,532 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1917
+        width: 59
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa9a4de73445ad46b25c606b0227995
+      internalID: -889096893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1917
+        width: 59
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c1ac68a529e1c4f906bbddf02c161b
+      internalID: 1422144986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_2
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1916
+        width: 73
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1775a0936bbf1a47ab5bb08641f44ec
+      internalID: -1638642552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_3
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1916
+        width: 73
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6e03d832e47214da5838f7d2c81c13
+      internalID: -2052941710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_4
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1922
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf167a7f010e41a40898e7766c950cde
+      internalID: 1466351937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_5
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1919
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed72ae65c14b9d409ec0d07b91e9bd1
+      internalID: -1152122267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_6
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1913
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565d9cae406b1e946b9ed1b89eff83a2
+      internalID: 843869698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_7
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1916
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8b260ba17935c4b86ee5ba1ff09f4e
+      internalID: 1426431273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1666
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c790333393331d74f9550efd09a4c3bf
+      internalID: 774702470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1663
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff41c3dbe59e4ae4b805b7ed946b5005
+      internalID: -1450566893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_10
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1657
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66934c9f8dcfa3a47a99ae44444677fd
+      internalID: 579486145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_11
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1660
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3be5df4afdc69942961c633fe573c0d
+      internalID: -531841463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_12
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1666
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38806c8e6d57b6942bf2a68be15dcf2c
+      internalID: 1993639517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_13
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1663
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e729aedafcbf80840b8f74e74ecf2ea9
+      internalID: -1156278523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_14
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1654
+        width: 54
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58623872add18f04683973c949776695
+      internalID: 1798336785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_15
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1660
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe3812b83d187646a0b6a9a24ff27ae
+      internalID: 225937226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1410
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17fdf3c97ee3114ca67b9846e8639b4
+      internalID: -1357658815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1398
+        width: 67
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2712f850d822d7c44aa6fa2a35995a62
+      internalID: 1613508192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_18
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1406
+        width: 76
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5695d371f2ff5844abd4fe1123a662b
+      internalID: 861454168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_19
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1403
+        width: 74
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd31bfcef4c92af4595caa88411e8854
+      internalID: -1277474347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_20
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1401
+        width: 65
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464cb25f15183444eb27a6ef47766b2c
+      internalID: -1887455161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_21
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1403
+        width: 57
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795de9251cae36641be8fc3c81df02be
+      internalID: -668038993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_22
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1404
+        width: 56
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222368f3b4ba14a4fa1acc1c0fc03b7b
+      internalID: 2141723162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_23
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1405
+        width: 55
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7c203d9c9f7c442b731bc667228b2a
+      internalID: -617988733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_16_Neutral air_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1150
+        width: 55
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0fb8067e5b3c24590e7d5d9748d399
+      internalID: 28953708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +644,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_16_Neutral air_0: -889096893
+      Cora_16_Neutral air_1: 1422144986
+      Cora_16_Neutral air_10: 579486145
+      Cora_16_Neutral air_11: -531841463
+      Cora_16_Neutral air_12: 1993639517
+      Cora_16_Neutral air_13: -1156278523
+      Cora_16_Neutral air_14: 1798336785
+      Cora_16_Neutral air_15: 225937226
+      Cora_16_Neutral air_16: -1357658815
+      Cora_16_Neutral air_17: 1613508192
+      Cora_16_Neutral air_18: 861454168
+      Cora_16_Neutral air_19: -1277474347
+      Cora_16_Neutral air_2: -1638642552
+      Cora_16_Neutral air_20: -1887455161
+      Cora_16_Neutral air_21: -668038993
+      Cora_16_Neutral air_22: 2141723162
+      Cora_16_Neutral air_23: -617988733
+      Cora_16_Neutral air_24: 28953708
+      Cora_16_Neutral air_3: -2052941710
+      Cora_16_Neutral air_4: 1466351937
+      Cora_16_Neutral air_5: -1152122267
+      Cora_16_Neutral air_6: 843869698
+      Cora_16_Neutral air_7: 1426431273
+      Cora_16_Neutral air_8: 774702470
+      Cora_16_Neutral air_9: -1450566893
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

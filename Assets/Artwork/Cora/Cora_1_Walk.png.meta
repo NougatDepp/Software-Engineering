@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,1183 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_1_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1917
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210f6691c7fc57f40b694b8ae3e630f7
+      internalID: -718755992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1915
+        width: 50
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c558d96687d2e540894e7a66565e0fe
+      internalID: 1498068766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1914
+        width: 51
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdef3fcc16249b749817bd4827c19d40
+      internalID: 2060717393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1915
+        width: 61
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a651d94e49e3c1245a69a2dc604f6a5b
+      internalID: 130896281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1917
+        width: 72
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76537ffcdbef8e47bc63424bf7f6c6d
+      internalID: -749268870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1917
+        width: 72
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cce3725caff374486ef4ef54de1595
+      internalID: 1191320658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1916
+        width: 72
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d22c3e5be526b408f0f48ea08b588e
+      internalID: 1335016691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1914
+        width: 73
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160e6956e70460c4cbbcd88530f4435a
+      internalID: 2144650700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1657
+        width: 72
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3f0737fa5d3034fb7aa035f1f87568
+      internalID: -1904365080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1657
+        width: 72
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bab0dd7f129d54cafde07fbf9b155c
+      internalID: 539013002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1659
+        width: 71
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb35d007c5a7f742859c89058263221
+      internalID: -233309920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1660
+        width: 68
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df278e7c8fd1ea546833411af1120688
+      internalID: -917904208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1659
+        width: 70
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0313b6400b583db42ad1e16e3f7c557e
+      internalID: -912074231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1659
+        width: 71
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33e10c75b215244c8ef74fa9223d8d9
+      internalID: 294443103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1659
+        width: 72
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bee932df795cc8488b1687e8e265cf2
+      internalID: 103409576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1659
+        width: 72
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c569f29051270f24f940ce215e138952
+      internalID: -1799476009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1403
+        width: 73
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2e45bf73cbefd47a725134ed44c508
+      internalID: 1435948371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1404
+        width: 74
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82172a9b95aaed84c8897f2676760db3
+      internalID: 2110477114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1406
+        width: 75
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb25d7c07d41f64e9885be4a56b34c7
+      internalID: -19426519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1408
+        width: 73
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a1432340b194b49b1800cba97a9806
+      internalID: -1718150495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1407
+        width: 71
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae350ad13120334891766a46327dadc
+      internalID: -129970249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1404
+        width: 66
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064969d7dbbd3d24fb6bc7242657dea8
+      internalID: -705959508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1405
+        width: 70
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c249d2dfd48e6249bf0415743e2b7a5
+      internalID: 1292175619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1406
+        width: 71
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fef059bd22594348b26a0087b90dc78
+      internalID: -655840129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_24
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1150
+        width: 71
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32252fa946d1ad84cbc64e0204dd4bda
+      internalID: 1273024895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_25
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1149
+        width: 71
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0859a025e6ea8f4c9fca8500a3f91cf
+      internalID: 1552847119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_26
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1149
+        width: 71
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68b3c6e9bb4d384eb81677186676be4
+      internalID: -279185595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_27
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1149
+        width: 72
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61690da4dd5bc56408393fda77c65587
+      internalID: -1108578740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_28
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1149
+        width: 72
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c87c503a4d731d45ad8117baaa95e56
+      internalID: 1495418582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_29
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1150
+        width: 57
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a591e73457dcf2441b09a7cc86d6437e
+      internalID: 797652074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_30
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1153
+        width: 59
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7088fbef79741ff4baa3566f9a4f73ac
+      internalID: 1146343458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_31
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 899
+        width: 57
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f5838acff7c1542815d07e721094b9
+      internalID: -1911360578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_32
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 897
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c0572d861a93543bf280e93edcef7b
+      internalID: 1524020364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_33
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 894
+        width: 55
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42ace39e6510de459d2838808d4aad7
+      internalID: -253205012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_34
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 894
+        width: 64
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e3bdb47df55414080300eccc5e9347
+      internalID: 1850730704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_35
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 894
+        width: 68
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535a9d9116d7e034ea898867461d1529
+      internalID: 146659778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_36
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 893
+        width: 65
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009b9679cb03a184cbee7019528d2c25
+      internalID: 1244185685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_37
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 893
+        width: 62
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fea20985f4888e4296d1a4672d778ff
+      internalID: 1285583689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_38
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 893
+        width: 60
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d04e539a0403742829d066907cb808
+      internalID: -104683403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_39
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 637
+        width: 56
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405bd72fe5353db459dc86b5eb18ec8d
+      internalID: -273681995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_40
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 637
+        width: 57
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a57b184deb1b2749a301f1073d52204
+      internalID: 725207671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_41
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 638
+        width: 58
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03230d6e52442c47baa14ad7141b47b
+      internalID: -1858216933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_42
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 638
+        width: 59
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ba731c6b81fde489c83fc404144323
+      internalID: 109545999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_43
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 639
+        width: 56
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9277f13f3b80204292cb20c765cdacb
+      internalID: -155625288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_44
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 639
+        width: 54
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3617791246c4454a80f3dffa3c7f15b
+      internalID: -1406390869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_45
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 638
+        width: 50
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f015eb141b053f944b46b2d4686f4904
+      internalID: -332309920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_46
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 636
+        width: 48
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01496321a5b314340857d6ec19f3ea2e
+      internalID: 1969299979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_47
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 380
+        width: 52
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9329d64df5cc0aa4abf242d1769becab
+      internalID: 338802383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_48
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 379
+        width: 53
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100aa029a424c1b449861f9eb519b8a1
+      internalID: 958914328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_49
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 379
+        width: 49
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818093f495447664084fe50bec319fc6
+      internalID: 627618119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_50
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 379
+        width: 50
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1d7a5f54504f54fa58952030983792
+      internalID: 1622191847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_51
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 379
+        width: 49
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80784952cff6654cb4f96794b5aa36d
+      internalID: 1922936037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_52
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 380
+        width: 50
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51261f5c0f3de85428d230d55db95588
+      internalID: 2016820086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_53
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 380
+        width: 50
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db873295d7a9654fa8cf0b6a17cf24a
+      internalID: 785874380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_54
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 381
+        width: 54
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a25aaa06bdd4649b81fc3cfa0abf47
+      internalID: 2010510950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_1_Walk_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 126
+        width: 57
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b395503282c0147b7f78dc7b568970
+      internalID: 1132393946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1295,63 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_1_Walk_0: -718755992
+      Cora_1_Walk_1: 1498068766
+      Cora_1_Walk_10: -233309920
+      Cora_1_Walk_11: -917904208
+      Cora_1_Walk_12: -912074231
+      Cora_1_Walk_13: 294443103
+      Cora_1_Walk_14: 103409576
+      Cora_1_Walk_15: -1799476009
+      Cora_1_Walk_16: 1435948371
+      Cora_1_Walk_17: 2110477114
+      Cora_1_Walk_18: -19426519
+      Cora_1_Walk_19: -1718150495
+      Cora_1_Walk_2: 2060717393
+      Cora_1_Walk_20: -129970249
+      Cora_1_Walk_21: -705959508
+      Cora_1_Walk_22: 1292175619
+      Cora_1_Walk_23: -655840129
+      Cora_1_Walk_24: 1273024895
+      Cora_1_Walk_25: 1552847119
+      Cora_1_Walk_26: -279185595
+      Cora_1_Walk_27: -1108578740
+      Cora_1_Walk_28: 1495418582
+      Cora_1_Walk_29: 797652074
+      Cora_1_Walk_3: 130896281
+      Cora_1_Walk_30: 1146343458
+      Cora_1_Walk_31: -1911360578
+      Cora_1_Walk_32: 1524020364
+      Cora_1_Walk_33: -253205012
+      Cora_1_Walk_34: 1850730704
+      Cora_1_Walk_35: 146659778
+      Cora_1_Walk_36: 1244185685
+      Cora_1_Walk_37: 1285583689
+      Cora_1_Walk_38: -104683403
+      Cora_1_Walk_39: -273681995
+      Cora_1_Walk_4: -749268870
+      Cora_1_Walk_40: 725207671
+      Cora_1_Walk_41: -1858216933
+      Cora_1_Walk_42: 109545999
+      Cora_1_Walk_43: -155625288
+      Cora_1_Walk_44: -1406390869
+      Cora_1_Walk_45: -332309920
+      Cora_1_Walk_46: 1969299979
+      Cora_1_Walk_47: 338802383
+      Cora_1_Walk_48: 958914328
+      Cora_1_Walk_49: 627618119
+      Cora_1_Walk_5: 1191320658
+      Cora_1_Walk_50: 1622191847
+      Cora_1_Walk_51: 1922936037
+      Cora_1_Walk_52: 2016820086
+      Cora_1_Walk_53: 785874380
+      Cora_1_Walk_54: 2010510950
+      Cora_1_Walk_55: 1132393946
+      Cora_1_Walk_6: 1335016691
+      Cora_1_Walk_7: 2144650700
+      Cora_1_Walk_8: -1904365080
+      Cora_1_Walk_9: 539013002
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

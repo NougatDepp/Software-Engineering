@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,721 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_2_Dash_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1917
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a5c9147667fd144ae4e304b659dc82
+      internalID: -813722085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1911
+        width: 65
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61435e8689bff4b4a9c5ce59490ac02f
+      internalID: -2044033328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1913
+        width: 68
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4903139da512642b197c0eca385281
+      internalID: 1868910899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_3
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1924
+        width: 79
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b14bd5e659fe84f931d8d5aa1e1bf0
+      internalID: 669420007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_4
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1926
+        width: 87
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6ba7577a9ce0047bc7704f4cc2c687
+      internalID: 1682647912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_5
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1927
+        width: 87
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69942e4e66034874b8cf2332e861a081
+      internalID: 2067519737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_6
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1927
+        width: 88
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d25a8d4e363ecc459bb94e9250fae25
+      internalID: -295601230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_7
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1928
+        width: 88
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37230f3eda575af429c9cbe364439606
+      internalID: 2062037478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1672
+        width: 88
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe2b74098cfafa4cbca927d09177bdf
+      internalID: -166278454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1673
+        width: 88
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa29958509ff0b4e92b942f60744cf1
+      internalID: -379883638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1673
+        width: 89
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fad9bbef17f2345b0fa63118698054
+      internalID: 728186215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_11
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1674
+        width: 90
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43905e98380ce134882859ac222cd43b
+      internalID: -1289803275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_12
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1674
+        width: 90
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbd0ff33e67b834ba1d92fff1146252
+      internalID: 1131852754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_13
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1675
+        width: 90
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c5aba69a033a4409bb87e75e928adf
+      internalID: -822767193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_14
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1675
+        width: 90
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b13397d70670e4a80570d6898f57a9
+      internalID: -260069724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_15
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1675
+        width: 90
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a488bedf5f34e4881d919f9557f0f5
+      internalID: -1901022993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1419
+        width: 90
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15ffab2c39bf8b40995451e43b674a1
+      internalID: -1781044358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1419
+        width: 90
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5442848b2f72bf749936960297c1fc85
+      internalID: -234048625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_18
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1419
+        width: 90
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162520e04b6d6c740a777e06fd152a40
+      internalID: -1566462018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_19
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1418
+        width: 90
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde7b1cc3f58dbd4f8b947408838049a
+      internalID: -1558601436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_20
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1418
+        width: 89
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a7ae44ea12bb248abf3eda92ece759
+      internalID: 1107921192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_21
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1418
+        width: 89
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cfc80b9476a2c41bbc9684e8274e01
+      internalID: 160773471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_22
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1418
+        width: 89
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30cd72e8aa050e4aa05528cba0e06f3
+      internalID: 789466701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_23
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1418
+        width: 89
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecebffd4874bfa24d9170818cdfccb97
+      internalID: 1295541875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1161
+        width: 89
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2c52e69959ea149b50058efc6b2913
+      internalID: -275075925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1161
+        width: 88
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f813504d63a2d4297f6336fd200caa
+      internalID: 1812611868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_26
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1160
+        width: 87
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c188191cd9ba04ea5941d2b67d0357
+      internalID: -463548826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_27
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1160
+        width: 87
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d7cf1b706bffe4db2531837ddb0315
+      internalID: -1308151472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_28
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1159
+        width: 87
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f985baf0fef1140a4fefd2b2012bd6
+      internalID: 1212794427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_29
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1159
+        width: 87
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84f40ca64306ea46ae5923176b9021b
+      internalID: -1528928061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_30
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1159
+        width: 87
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090e748c70a29944f854a28ea14049ab
+      internalID: -672349938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_31
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1159
+        width: 87
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd295d72d23b37c4c8f80ffc31eac8ed
+      internalID: 1253510523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_32
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 902
+        width: 87
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01e94634e1040f4388d69793f2936dc
+      internalID: 544791055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_2_Dash_33
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 902
+        width: 87
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75454c2afcf5b1e48b7572bc54c3b5ae
+      internalID: 1640007225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +833,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_2_Dash_0: -813722085
+      Cora_2_Dash_1: -2044033328
+      Cora_2_Dash_10: 728186215
+      Cora_2_Dash_11: -1289803275
+      Cora_2_Dash_12: 1131852754
+      Cora_2_Dash_13: -822767193
+      Cora_2_Dash_14: -260069724
+      Cora_2_Dash_15: -1901022993
+      Cora_2_Dash_16: -1781044358
+      Cora_2_Dash_17: -234048625
+      Cora_2_Dash_18: -1566462018
+      Cora_2_Dash_19: -1558601436
+      Cora_2_Dash_2: 1868910899
+      Cora_2_Dash_20: 1107921192
+      Cora_2_Dash_21: 160773471
+      Cora_2_Dash_22: 789466701
+      Cora_2_Dash_23: 1295541875
+      Cora_2_Dash_24: -275075925
+      Cora_2_Dash_25: 1812611868
+      Cora_2_Dash_26: -463548826
+      Cora_2_Dash_27: -1308151472
+      Cora_2_Dash_28: 1212794427
+      Cora_2_Dash_29: -1528928061
+      Cora_2_Dash_3: 669420007
+      Cora_2_Dash_30: -672349938
+      Cora_2_Dash_31: 1253510523
+      Cora_2_Dash_32: 544791055
+      Cora_2_Dash_33: 1640007225
+      Cora_2_Dash_4: 1682647912
+      Cora_2_Dash_5: 2067519737
+      Cora_2_Dash_6: -295601230
+      Cora_2_Dash_7: 2062037478
+      Cora_2_Dash_8: -166278454
+      Cora_2_Dash_9: -379883638
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,1351 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_58_Victory_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1917
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f69c9d50e4f6d4fa2acadb054ccdf0
+      internalID: -1671801330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1917
+        width: 54
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97006b28a6075d74186a893f5e9e3aca
+      internalID: -1215172993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_2
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1917
+        width: 54
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90e5e62911a97a4194c9ea1d1cf51e4
+      internalID: -1811371301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_3
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1917
+        width: 54
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6c1a902da7a014b9a49fa5170249cf
+      internalID: 592990301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_4
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1917
+        width: 54
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e763619d0e7523f49b4b90e03889f572
+      internalID: -1355291384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_5
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1917
+        width: 54
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112b4cc38c219fb42b3c453cca01976c
+      internalID: -254199189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_6
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1917
+        width: 54
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fc95c799a570849a14d7b1ec9f80f3
+      internalID: -663019855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1917
+        width: 55
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e7717479bc65a489639016e2759f2a
+      internalID: -335927674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1661
+        width: 54
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e05ef1ffd636a488c02d86923a11cc
+      internalID: -1426658147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1661
+        width: 54
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1d8867d260cc749bbdc4ae9a0a0107
+      internalID: 345250424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_10
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1661
+        width: 55
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc70ba57eb0b0b4c883f5396b425cc0
+      internalID: -1247890392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_11
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1661
+        width: 55
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80adf389c0a4099439a603c3d19281a0
+      internalID: -856118458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_12
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1661
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af917d6d214292746949ea9a0dfd1ab0
+      internalID: -1222531602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_13
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1661
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa3e9c9b55d9f94b8b2b5adcdc78bf2
+      internalID: -930626969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_14
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1661
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b659dde203298364a9265211d1b56398
+      internalID: 285781800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_15
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1661
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45698553cb5f15f43881f8b2caf869fa
+      internalID: 1397576051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1405
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0458005552f61844f9aadd22cef72f47
+      internalID: 71357130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_17
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1405
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cccca056703e064f937e2f3e013e112
+      internalID: -220776497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_18
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1405
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c39dbafef68a74884b8ad5ca80770c
+      internalID: -1488381853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_19
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1405
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9e2a897855a444bbc170e489f59301
+      internalID: -53822464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_20
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1405
+        width: 57
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dbbbeee6b930f43ac787ccc4ecd515
+      internalID: 524223899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_21
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1405
+        width: 56
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e10723544be8143bfa8648fc3537c8
+      internalID: 56718633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_22
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1405
+        width: 56
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e43f0ec3f41574f8cb8e89807efbff
+      internalID: -587454292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_23
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1405
+        width: 56
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfb0bdd56228894cb6b6c6233dcaf6a
+      internalID: 258470482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1149
+        width: 56
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7567d6fbf7e7fc245b638cbf92a41c8a
+      internalID: -1845644588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_25
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd471b31e34b9db4291b40c666b7cf49
+      internalID: -1025290114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_26
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905bfb6c725c88b4fad3a102ddd03e1f
+      internalID: -1944952548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_27
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f731b5f25a7976489a676412ac4d023
+      internalID: 1913467568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_28
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3753cd64bccde408fd7485c9f2bf28
+      internalID: 1956807884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_29
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca1e314e02d2f2419c46e3fed36f55f
+      internalID: -1626712393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_30
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6f1f1e40d5335449afa6f6dfdb31dd
+      internalID: 242976738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_31
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd39b3356469c6409480d51e6ecaf05
+      internalID: 2073591686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_32
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 893
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168967ef2e33cb24eb0095b5c6d27b35
+      internalID: -2063019339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 893
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16043adb274b45444aa0c115f7a65fd9
+      internalID: 2002375092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_34
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 893
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a61a346563ef2438db169a35d564e1
+      internalID: -159500097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_35
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 893
+        width: 54
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bbe4458d290a44292d0732004ee4d3
+      internalID: -1025720615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_36
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 893
+        width: 54
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219d00daa5e110447a88177da83f1a47
+      internalID: 1420844897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_37
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 893
+        width: 54
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94fd8bd3960ea6458af91971dfcf7af
+      internalID: -135984081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_38
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 893
+        width: 54
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb6e4cd816842a4a969dc87644b5ebc
+      internalID: -1768545793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_39
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 893
+        width: 54
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f13a1ff52613541a457073cc28cfa2
+      internalID: 1444359147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_40
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 637
+        width: 54
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab12a584868f92042beb9ad28e7d1f77
+      internalID: 544915848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_41
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 637
+        width: 55
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109de9a55d813a146ba72feb047d8b67
+      internalID: -1782090698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_42
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 637
+        width: 54
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a313bbaffaad5e741a09c02363c56357
+      internalID: 1024633742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_43
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 637
+        width: 54
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc3d15862ca6eb498fbb73ff6d21167
+      internalID: -397924011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_44
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 637
+        width: 55
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8de49c0d70a2c5468c241c9369633d0
+      internalID: -298815220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_45
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 637
+        width: 55
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cda844f0dcd83439c4da450461f454
+      internalID: 576613995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_46
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 637
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255461b1fd3060e449552ad720bb8178
+      internalID: 877665443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_47
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 637
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6706aa6d07efce548af6cb09ea465510
+      internalID: 379265192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_48
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 381
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd69529d5370314aac905b9cbb6af66
+      internalID: 402849762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_49
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 381
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd21c3169761df444beecbfcd5405069
+      internalID: -1633057521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_50
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 381
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e680c56bb0c0f44bfcc16e1f3aec16
+      internalID: -568026833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_51
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 381
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f63b14e5e7dea4495a92e8c80821e1
+      internalID: 106872669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_52
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 381
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251b5d84453266549bdbfa7215ecdb42
+      internalID: -740964734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_53
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 381
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498e49ab863e9864dbf2e83e6804b53a
+      internalID: 81526859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_54
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 381
+        width: 57
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c26ebaa245edf4aa2144789f9008d9
+      internalID: 751491105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_55
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 381
+        width: 56
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3de63f155690ad489b1bc2950e68656
+      internalID: -1302296314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_56
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 125
+        width: 56
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566cfc4ae1c0d914c89c43ab0e3df47c
+      internalID: -870668077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_57
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 125
+        width: 56
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f51562ecf48c624cae305f7807c30a1
+      internalID: 1230144438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_58
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 125
+        width: 56
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efcc4b583cd3b749b9079a5e1fbe17e
+      internalID: -1655979818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_59
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 125
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafbb6d414ff2f842bb1afc2f2002aba
+      internalID: 825805470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_60
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 125
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891cc2c3a7eace549b4528c338a780f1
+      internalID: -1526668028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_61
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 125
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5e6c39d4bf98b44bdd10255c05ccf0
+      internalID: -1891053393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_62
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 125
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbedb388fa34944098977bb925d6f2e
+      internalID: 1088751808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_58_Victory_63
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 125
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67effe2faa02bc5468adf2751891ad44
+      internalID: 611903835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1463,71 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_58_Victory_0: -1671801330
+      Cora_58_Victory_1: -1215172993
+      Cora_58_Victory_10: -1247890392
+      Cora_58_Victory_11: -856118458
+      Cora_58_Victory_12: -1222531602
+      Cora_58_Victory_13: -930626969
+      Cora_58_Victory_14: 285781800
+      Cora_58_Victory_15: 1397576051
+      Cora_58_Victory_16: 71357130
+      Cora_58_Victory_17: -220776497
+      Cora_58_Victory_18: -1488381853
+      Cora_58_Victory_19: -53822464
+      Cora_58_Victory_2: -1811371301
+      Cora_58_Victory_20: 524223899
+      Cora_58_Victory_21: 56718633
+      Cora_58_Victory_22: -587454292
+      Cora_58_Victory_23: 258470482
+      Cora_58_Victory_24: -1845644588
+      Cora_58_Victory_25: -1025290114
+      Cora_58_Victory_26: -1944952548
+      Cora_58_Victory_27: 1913467568
+      Cora_58_Victory_28: 1956807884
+      Cora_58_Victory_29: -1626712393
+      Cora_58_Victory_3: 592990301
+      Cora_58_Victory_30: 242976738
+      Cora_58_Victory_31: 2073591686
+      Cora_58_Victory_32: -2063019339
+      Cora_58_Victory_33: 2002375092
+      Cora_58_Victory_34: -159500097
+      Cora_58_Victory_35: -1025720615
+      Cora_58_Victory_36: 1420844897
+      Cora_58_Victory_37: -135984081
+      Cora_58_Victory_38: -1768545793
+      Cora_58_Victory_39: 1444359147
+      Cora_58_Victory_4: -1355291384
+      Cora_58_Victory_40: 544915848
+      Cora_58_Victory_41: -1782090698
+      Cora_58_Victory_42: 1024633742
+      Cora_58_Victory_43: -397924011
+      Cora_58_Victory_44: -298815220
+      Cora_58_Victory_45: 576613995
+      Cora_58_Victory_46: 877665443
+      Cora_58_Victory_47: 379265192
+      Cora_58_Victory_48: 402849762
+      Cora_58_Victory_49: -1633057521
+      Cora_58_Victory_5: -254199189
+      Cora_58_Victory_50: -568026833
+      Cora_58_Victory_51: 106872669
+      Cora_58_Victory_52: -740964734
+      Cora_58_Victory_53: 81526859
+      Cora_58_Victory_54: 751491105
+      Cora_58_Victory_55: -1302296314
+      Cora_58_Victory_56: -870668077
+      Cora_58_Victory_57: 1230144438
+      Cora_58_Victory_58: -1655979818
+      Cora_58_Victory_59: 825805470
+      Cora_58_Victory_6: -663019855
+      Cora_58_Victory_60: -1526668028
+      Cora_58_Victory_61: -1891053393
+      Cora_58_Victory_62: 1088751808
+      Cora_58_Victory_63: 611903835
+      Cora_58_Victory_7: -335927674
+      Cora_58_Victory_8: -1426658147
+      Cora_58_Victory_9: 345250424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,1036 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_0_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1917
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae577b8f4c7732b43a0ce0416acfa72c
+      internalID: -261305905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1917
+        width: 54
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70cbfb2563437d4cad2207130481792
+      internalID: 847241740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1917
+        width: 54
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f346ff1c1101ed44296d90a00f5cb7f9
+      internalID: -381942920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1917
+        width: 54
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17674d2706c8294c96f55e0c39fbb63
+      internalID: -7797746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1917
+        width: 54
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4a66b592ee7f54eb0de8b688ec8882
+      internalID: 529733209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1917
+        width: 54
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed9aff20dedd75419156a8a7c8ddeda
+      internalID: 1234904780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1917
+        width: 54
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760fa740899eb2647ad60ec4bf0b9ffc
+      internalID: -547413861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1917
+        width: 55
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cde935bfa352e4fa4511e435b36e52
+      internalID: 77584717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1661
+        width: 54
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e1fd4a773fd3140b682750e1a6623c
+      internalID: -753117164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1661
+        width: 54
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b2e127527aa944186bf77173aeb1bd
+      internalID: -1631886461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1661
+        width: 55
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21c4ab72236e7a4b8f538b432a3a7a8
+      internalID: -1709405395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1661
+        width: 55
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91299ee747798a941b75fc8a84f950e5
+      internalID: 733688084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1661
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56bbb45a939acc48a13d64c3b6a1fcc
+      internalID: 1605481351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1661
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacca016ef844a44691feb30f3fa504d
+      internalID: -617801011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1661
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac79211befb98f14189ee3457067e064
+      internalID: -742756050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1661
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddf24850b891cb4c904bc48a597d61b
+      internalID: -1445886932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1405
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbd7298e99116a4f871b13162c4dd3d
+      internalID: -4604290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1405
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727f06a39874624439f2b6910d43e0e1
+      internalID: -360907691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1405
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff5a1b285a75414e974fc7d8f7d3a31
+      internalID: -841098424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1405
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb25ebe11965d664b9208b94ec41a960
+      internalID: -730343961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1405
+        width: 57
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbe091c8ba744d4e8e5909c2f719781
+      internalID: -1944389798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1405
+        width: 56
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9cf4b6b7ab46740af0ce8a752ff864
+      internalID: 1091759931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1405
+        width: 56
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282aeaf6613ac0f408fb9c44eea47d34
+      internalID: -38849278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1405
+        width: 56
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d103e8230d15064e9cc297a34c0958e
+      internalID: 194970289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1149
+        width: 56
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30be288803b3c1a4298fdd8965eed83f
+      internalID: 1916104371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94da5da926f45e045bc426c6ac916485
+      internalID: -1042544372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd0ba084d2d5a143a1ba10a98a3ec5e
+      internalID: -2051975400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0daaa6728dd21b43bf9bfeb5a9b897c
+      internalID: -457485810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f1757ac06c31949ae5aac24deaae8c
+      internalID: 1393717475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023ccf1f6f822b04ba234ba8a8dfb439
+      internalID: -103584901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572dd952e7155024685e954d80cfd512
+      internalID: 1255720329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dea85d095f61aa49883c4a779330040
+      internalID: 1582381686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 893
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c528ac68504b5cd478a574bbed7102fb
+      internalID: 1229290932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 893
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a2eb51cf97f4e49bf399a7877ca893
+      internalID: -929403146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 893
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7514535671f1b4b88c2804670194e0
+      internalID: 1904572547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 902
+        width: 87
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960c803d9bcd49e429456baeba0bdb7a
+      internalID: -80574787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 875
+        width: 63
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca43991868555b45bf7e6ed4dcdae7c
+      internalID: -642372019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 890
+        width: 75
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07437a97f3a30da4badba841f5196080
+      internalID: 903958295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 890
+        width: 73
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0803c5361f9f843bcb5cfbaf856f07
+      internalID: 1622701741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 635
+        width: 70
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7f1f304f1be3d4fb957ba95c7f04be
+      internalID: -565071819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_40
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 635
+        width: 69
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a579e2e157e9e458d4121fb5771569
+      internalID: -1882957622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_41
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 635
+        width: 66
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe07798b34aae64eb5a6a45667858bd
+      internalID: -2072922027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_42
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 635
+        width: 64
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa230b9f2f745bf43acd17896cea6fd7
+      internalID: 1916787616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_43
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 635
+        width: 61
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b93669f71f7e24093a248d0134d788
+      internalID: -1430332515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_44
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 635
+        width: 59
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1eb0154f6a4ea4dbbf22a4d50d37d7
+      internalID: -965810054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_45
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 635
+        width: 59
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a65b8c7a6b508c40b420f555ef55e8d
+      internalID: 2026480763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_46
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 635
+        width: 58
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5354522aaf12f4097f69816a888e23
+      internalID: 1687297263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_47
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 380
+        width: 56
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d14919123385d840a37b021d73aff6f
+      internalID: 1538284295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_0_Idle_48
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 381
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316b8cbf17d66054c9875f07018b52e0
+      internalID: 1888927930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1148,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_0_Idle_0: -261305905
+      Cora_0_Idle_1: 847241740
+      Cora_0_Idle_10: -1709405395
+      Cora_0_Idle_11: 733688084
+      Cora_0_Idle_12: 1605481351
+      Cora_0_Idle_13: -617801011
+      Cora_0_Idle_14: -742756050
+      Cora_0_Idle_15: -1445886932
+      Cora_0_Idle_16: -4604290
+      Cora_0_Idle_17: -360907691
+      Cora_0_Idle_18: -841098424
+      Cora_0_Idle_19: -730343961
+      Cora_0_Idle_2: -381942920
+      Cora_0_Idle_20: -1944389798
+      Cora_0_Idle_21: 1091759931
+      Cora_0_Idle_22: -38849278
+      Cora_0_Idle_23: 194970289
+      Cora_0_Idle_24: 1916104371
+      Cora_0_Idle_25: -1042544372
+      Cora_0_Idle_26: -2051975400
+      Cora_0_Idle_27: -457485810
+      Cora_0_Idle_28: 1393717475
+      Cora_0_Idle_29: -103584901
+      Cora_0_Idle_3: -7797746
+      Cora_0_Idle_30: 1255720329
+      Cora_0_Idle_31: 1582381686
+      Cora_0_Idle_32: 1229290932
+      Cora_0_Idle_33: -929403146
+      Cora_0_Idle_34: 1904572547
+      Cora_0_Idle_35: -80574787
+      Cora_0_Idle_36: -642372019
+      Cora_0_Idle_37: 903958295
+      Cora_0_Idle_38: 1622701741
+      Cora_0_Idle_39: -565071819
+      Cora_0_Idle_4: 529733209
+      Cora_0_Idle_40: -1882957622
+      Cora_0_Idle_41: -2072922027
+      Cora_0_Idle_42: 1916787616
+      Cora_0_Idle_43: -1430332515
+      Cora_0_Idle_44: -965810054
+      Cora_0_Idle_45: 2026480763
+      Cora_0_Idle_46: 1687297263
+      Cora_0_Idle_47: 1538284295
+      Cora_0_Idle_48: 1888927930
+      Cora_0_Idle_5: 1234904780
+      Cora_0_Idle_6: -547413861
+      Cora_0_Idle_7: 77584717
+      Cora_0_Idle_8: -753117164
+      Cora_0_Idle_9: -1631886461
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

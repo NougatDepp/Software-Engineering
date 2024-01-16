@@ -34,7 +34,6 @@ public class Placer : MonoBehaviour
             string name = nullChar ? null : character.characterName;
 
             Transform slot = gameObject.transform.Find(i.ToString());
-            Debug.Log(slot.name);
             Transform slotArtwork = slot.Find("Artwork");
 
             DG.Tweening.Sequence s = DOTween.Sequence();
@@ -54,7 +53,7 @@ public class Placer : MonoBehaviour
         
         yield return new WaitForSeconds(10);
 
-        SceneManager.LoadScene("CharacterSelect");
+        GameManager.instance.BackToCharacterSelect();
 
     }
     
