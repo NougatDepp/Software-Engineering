@@ -15,19 +15,18 @@ public class GameplayScript : Fighter
     private InputActionAsset inputAsset;
     private InputActionMap player;
     private InputAction move;
+
+    public Rigidbody2D rb;
     
-    private Rigidbody2D rb;
-    
-    [SerializeField] private float jumpForce = 5f;
+    [SerializeField] public float jumpForce = 5f;
     [SerializeField] private float maxSpeed = 10f;
 
     private Animator anim;
     private SpriteRenderer spriteRenderer;
     
-    [SerializeField]
-    private bool isGrounded;
+    [SerializeField] public bool isGrounded;
     private bool isMoving;
-    private bool isFalling;
+    private bool isAirborne;
     private bool isJumping;
     private bool isInAnimation;
     private bool isHurt;
@@ -54,8 +53,8 @@ public class GameplayScript : Fighter
     private const string PLAYER_WALKING = "Walk";
     private const string PLAYER_FALLING = "Falling";
     private const string PLAYER_HURT = "Hurt";
-    
-    private int jumpCounter;
+
+    public int jumpCounter;
     
     [SerializeField]
     private GameObject hitEffect;
@@ -134,21 +133,18 @@ public class GameplayScript : Fighter
     void FixedUpdate()
     {
 
-        if (Math.Abs(rb.velocity.x) < maxSpeed && 0.2f < Math.Abs(move.ReadValue<Vector2>().x))
+        if (isGrounded && !isInAnimation)
         {
-            if (rb.velocity.x + Math.Abs(move.ReadValue<Vector2>().x) >= maxSpeed)
+            if (0.2f < Math.Abs(move.ReadValue<Vector2>().x))
             {
-                rb.velocity = new Vector2(maxSpeed, rb.velocity.y);
-            }
-            else if (move.ReadValue<Vector2>().x >= 0)
-            {
-                rb.velocity += new Vector2(maxSpeed - move.ReadValue<Vector2>().x , 0);
-            }else if (move.ReadValue<Vector2>().x <= 0)
-            {
-                rb.velocity += new Vector2(-maxSpeed + move.ReadValue<Vector2>().x , 0);
-
+                rb.velocity = new Vector2(move.ReadValue<Vector2>().x * maxSpeed, rb.velocity.y);
             }
         }
+        else if(rb.velocity.x < maxSpeed)
+        {
+            rb.velocity += new Vector2(move.ReadValue<Vector2>().x/3.5f , 0);
+        }
+
 
         if (rb.velocity.y < 0f )
         {
@@ -173,8 +169,8 @@ public class GameplayScript : Fighter
 
         isGrounded = Physics2D.OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Ground"));
 
-        isFalling = rb.velocity.y < -0.2f;
-
+        isAirborne = !isGrounded;
+        
         anim.SetFloat("WalkingSpeed",Math.Abs(rb.velocity.x));
         
         StateUpdate();
@@ -184,7 +180,7 @@ public class GameplayScript : Fighter
 
         if (!isHurt && !isInAnimation)
         {
-            if (isFalling)
+            if (isAirborne)
             {
                 activeState = PLAYER_FALLING;
             }
@@ -317,8 +313,7 @@ public class GameplayScript : Fighter
     /**
      * Hier kommen alle Inputs des Controllers.
      */
-    
-    void Jump(InputAction.CallbackContext callbackContext)
+    public void Jump(InputAction.CallbackContext callbackContext)
     {
         if (isGrounded || jumpCounter > 1)
         {

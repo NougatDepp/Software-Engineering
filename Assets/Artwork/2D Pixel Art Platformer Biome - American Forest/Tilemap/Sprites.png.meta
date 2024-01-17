@@ -1978,6 +1978,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: NoFrictionWall
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 160
+        width: 1
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ab82b2334420149bdbfd909cfa10a6
+      internalID: -159895386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef4ac12798279d41a9f5af081f472f2
+      internalID: -1024494406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761b12e44028dbd4287532953396af9c
+      internalID: 1757601358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1994,11 +2057,14 @@ TextureImporter:
       Background3: 1096680104
       Background4: -1042382002
       Background5: -44259460
+      NoFrictionWall: -159895386
       Plant1: -677210768
       Plant2: 1637868511
       Plant3: 2018053615
       Plant4: -400365580
       Plant5: -116768579
+      Sprites_0: -1024494406
+      Sprites_1: 1757601358
       Stone1: 1746087828
       Stone2: -2145294881
       Stone3: -1019068024
