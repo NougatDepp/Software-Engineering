@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: 4130133418310991437}
   - component: {fileID: 2011209304207624384}
   - component: {fileID: 6565229866793607345}
+  - component: {fileID: 6348210224708624702}
   m_Layer: 0
   m_Name: Granite
   m_TagString: Character
@@ -192,16 +193,16 @@ MonoBehaviour:
   maxHitpoint: 999
   pushRecoverySpeed: 0.2
   pushDirection: {x: 0, y: 0}
+  rb: {fileID: 0}
   jumpForce: 18.7
   maxSpeed: 10
   isGrounded: 0
   isBlocking: 0
   currentDamage: 0
-  playerLives: 1
-  src: {fileID: 5253844735265174559}
-  sfx: {fileID: 8300000, guid: 407515f8f9de6cb41bd2d9cdd5e9854a, type: 3}
+  playerLives: 2
   activeState: Idle
   oldState: Idle
+  jumpCounter: 0
   hitEffect: {fileID: 2955623459812423943, guid: f5507a8c6a22c404ab324980c4e8a11b, type: 3}
   blockEffect: {fileID: 8460667080445658512, guid: a3e2c3406e02f2c4ba86cfb1604277bd, type: 3}
   deathEffect: {fileID: 8443315704496310910, guid: 6ef35fa36e3a65043b2d800600204bdd, type: 3}
@@ -446,6 +447,14 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 00ba64ce-ec88-4b9d-b4ba-ecb423bf945c
     m_ActionName: Menu/Go[/XInputControllerWindows1/select]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ea49f5f5-36f2-4415-b8b9-1a7667e89125
+    m_ActionName: Menu/Up[/XInputControllerWindows/leftStick/up,/XInputControllerWindows/dpad/up]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9df212ef-14fe-4bac-a3a0-19169f7ed122
+    m_ActionName: Menu/Down[/XInputControllerWindows/leftStick/down,/XInputControllerWindows/dpad/down]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -486,6 +495,24 @@ CapsuleCollider2D:
   m_Offset: {x: -0.01591046, y: 0.425}
   m_Size: {x: 0.5580671, y: 0.94277245}
   m_Direction: 0
+--- !u!114 &6348210224708624702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884557189208782429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09288cee375303a43ba66d30233c2a4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jump: {fileID: 8300000, guid: 6f96a9a3a91324e4cab778b6449d15c2, type: 3}
+  knockout: {fileID: 8300000, guid: fc9f7ad5b5e09c748937fbbdd0a3bc71, type: 3}
+  attacks:
+  - {fileID: 8300000, guid: cae407b8bb2d90c43a829f5f8914f372, type: 3}
+  - {fileID: 8300000, guid: 9a935c2c04c7e804eada8974600f65cd, type: 3}
+  heavyattack: {fileID: 8300000, guid: 336badcccd645c64096b636385a295ea, type: 3}
 --- !u!1 &6916519531836259886
 GameObject:
   m_ObjectHideFlags: 0

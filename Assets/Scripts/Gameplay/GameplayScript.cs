@@ -39,16 +39,17 @@ public class GameplayScript : Fighter
     
     [SerializeField]
     private int playerLives = 0;
-
-    public AudioSource src;
-    public AudioClip sfx;
     
+    //Audio
+    private AudioScript audio;
+
+    //Aktiver und Alter State
     [SerializeField]
     public string activeState = "Idle";
     [SerializeField]
     public string oldState = "Idle";
     
-    
+    //States in denen sich der Player befindet
     private const string PLAYER_IDLE = "Idle";
     private const string PLAYER_WALKING = "Walk";
     private const string PLAYER_FALLING = "Falling";
@@ -56,6 +57,8 @@ public class GameplayScript : Fighter
 
     public int jumpCounter;
     
+    
+    //Effekte beim Blocken, Schlagen und beim Knockout
     [SerializeField]
     private GameObject hitEffect;
     
@@ -68,6 +71,7 @@ public class GameplayScript : Fighter
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audio = GetComponent<AudioScript>();
     }
 
     private void OnEnable()
@@ -246,11 +250,10 @@ public class GameplayScript : Fighter
             return;
         }
 
-        src.clip = sfx;
-        src.Play();
-
         Instantiate(hitEffect,
             gameObject.transform.Find("DamageBox").transform.position,Quaternion.identity);
+        
+        audio.AttackSound();
 
         Damage dmg = new Damage()
         {
@@ -264,6 +267,7 @@ public class GameplayScript : Fighter
 
     private IEnumerator OnDeath()
     {
+        audio.KnockoutSound();
         playerLives -= 1;
         if (playerLives <= 0)
         {
@@ -318,6 +322,7 @@ public class GameplayScript : Fighter
         if (isGrounded || jumpCounter > 1)
         {
             rb.velocity = new Vector2(rb.velocity.x ,Vector2.up.y * jumpForce);
+            audio.JumpSound();
             jumpCounter -= 1;
 
             ChangeStateOnButtonPressed("Jump");
