@@ -526,6 +526,24 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Up"",
+                    ""type"": ""Button"",
+                    ""id"": ""ea49f5f5-36f2-4415-b8b9-1a7667e89125"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Down"",
+                    ""type"": ""Button"",
+                    ""id"": ""9df212ef-14fe-4bac-a3a0-19169f7ed122"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -572,6 +590,50 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""action"": ""Go"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""63dd2657-dbd4-4de3-9a34-ad9d6ee4f29f"",
+                    ""path"": ""<Gamepad>/leftStick/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Up"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""47dc1ed4-d066-423f-b8e7-433acd7381ec"",
+                    ""path"": ""<Gamepad>/dpad/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Up"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""280a1b22-ea64-48ba-be24-196c5dd4a32a"",
+                    ""path"": ""<Gamepad>/leftStick/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Down"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3216a58d-2a02-4588-a55f-00ed14d7fc20"",
+                    ""path"": ""<Gamepad>/dpad/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Down"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -600,6 +662,8 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         m_Menu_Back = m_Menu.FindAction("Back", throwIfNotFound: true);
         m_Menu_Choose = m_Menu.FindAction("Choose", throwIfNotFound: true);
         m_Menu_Go = m_Menu.FindAction("Go", throwIfNotFound: true);
+        m_Menu_Up = m_Menu.FindAction("Up", throwIfNotFound: true);
+        m_Menu_Down = m_Menu.FindAction("Down", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -815,6 +879,8 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
     private readonly InputAction m_Menu_Back;
     private readonly InputAction m_Menu_Choose;
     private readonly InputAction m_Menu_Go;
+    private readonly InputAction m_Menu_Up;
+    private readonly InputAction m_Menu_Down;
     public struct MenuActions
     {
         private @ControllerActionsAsset m_Wrapper;
@@ -823,6 +889,8 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         public InputAction @Back => m_Wrapper.m_Menu_Back;
         public InputAction @Choose => m_Wrapper.m_Menu_Choose;
         public InputAction @Go => m_Wrapper.m_Menu_Go;
+        public InputAction @Up => m_Wrapper.m_Menu_Up;
+        public InputAction @Down => m_Wrapper.m_Menu_Down;
         public InputActionMap Get() { return m_Wrapper.m_Menu; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -844,6 +912,12 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             @Go.started += instance.OnGo;
             @Go.performed += instance.OnGo;
             @Go.canceled += instance.OnGo;
+            @Up.started += instance.OnUp;
+            @Up.performed += instance.OnUp;
+            @Up.canceled += instance.OnUp;
+            @Down.started += instance.OnDown;
+            @Down.performed += instance.OnDown;
+            @Down.canceled += instance.OnDown;
         }
 
         private void UnregisterCallbacks(IMenuActions instance)
@@ -860,6 +934,12 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             @Go.started -= instance.OnGo;
             @Go.performed -= instance.OnGo;
             @Go.canceled -= instance.OnGo;
+            @Up.started -= instance.OnUp;
+            @Up.performed -= instance.OnUp;
+            @Up.canceled -= instance.OnUp;
+            @Down.started -= instance.OnDown;
+            @Down.performed -= instance.OnDown;
+            @Down.canceled -= instance.OnDown;
         }
 
         public void RemoveCallbacks(IMenuActions instance)
@@ -900,5 +980,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         void OnBack(InputAction.CallbackContext context);
         void OnChoose(InputAction.CallbackContext context);
         void OnGo(InputAction.CallbackContext context);
+        void OnUp(InputAction.CallbackContext context);
+        void OnDown(InputAction.CallbackContext context);
     }
 }

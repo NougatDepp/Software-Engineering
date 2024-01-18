@@ -22,7 +22,7 @@ public class MainMenuScript : MonoBehaviour
 
     private void Awake()
     {
-        inputAsset = gameObject.transform.parent.GetComponent<PlayerInput>().actions;
+        inputAsset = GetComponent<PlayerInput>().actions;
         menu = inputAsset.FindActionMap("Menu");
     }
 
@@ -77,6 +77,7 @@ public class MainMenuScript : MonoBehaviour
         if (SelectedButton == 1)
         {
             Point.transform.position = ButtonPosition1.position;
+            
         }
         else if (SelectedButton == 2)
         {
