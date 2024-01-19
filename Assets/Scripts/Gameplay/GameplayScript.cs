@@ -71,7 +71,7 @@ public class GameplayScript : Fighter
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        audio = GetComponent<AudioScript>();
+        //audio = GetComponent<AudioScript>();
     }
 
     private void OnEnable()
