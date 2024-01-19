@@ -44,6 +44,7 @@ public class GameManager : MonoBehaviour
             }
             StartCoroutine(LoadScene("WinningScreen",transition));
         }
+        
     }
 
     public void StartGame()
