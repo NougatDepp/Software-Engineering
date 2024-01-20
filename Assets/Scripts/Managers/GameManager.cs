@@ -99,6 +99,7 @@ public class GameManager : MonoBehaviour
     
     private IEnumerator LoadScene(String sceneName)
     {
+        yield return new WaitForSeconds(1);
         if(GameObject.FindGameObjectsWithTag("Transition").Length == 0)
         {
             GameObject t = Instantiate(transitionObject);

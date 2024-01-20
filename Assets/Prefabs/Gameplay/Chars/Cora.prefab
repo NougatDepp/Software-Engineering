@@ -424,10 +424,6 @@ MonoBehaviour:
     m_ActionName: Player/Block[/XInputControllerWindows/buttonWest,/XInputControllerWindows2/buttonWest]
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: eb529e00-2e13-482f-a923-133b98ac580c
-    m_ActionName: Player/ResetAnimator[/XInputControllerWindows1/leftTrigger]
-  - m_PersistentCalls:
-      m_Calls: []
     m_ActionId: 00ba64ce-ec88-4b9d-b4ba-ecb423bf945c
     m_ActionName: Menu/Go[/XInputControllerWindows1/select]
   - m_PersistentCalls:
@@ -590,7 +586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2987833633091066230}
   - component: {fileID: 3041569241992838291}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: DamageBox
   m_TagString: DamageBox
   m_Icon: {fileID: 0}

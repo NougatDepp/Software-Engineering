@@ -6,8 +6,9 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.IMGUI.Controls;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.InputSystem;
-using Random = System.Random;
+using Random = UnityEngine.Random;
 
 public class GameplayScript : Fighter
 { 
@@ -62,6 +63,9 @@ public class GameplayScript : Fighter
     
     [SerializeField]
     private GameObject deathEffect;
+    
+    //Audio
+    private AudioManager src;
 
     private void Awake()
     {
@@ -70,6 +74,7 @@ public class GameplayScript : Fighter
 
     private void OnEnable()
     {
+        src = AudioManager.Instance;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
@@ -233,12 +238,17 @@ public class GameplayScript : Fighter
 
         if (coll.tag == "DeathZone")
         {
+            src.PlaySound(src.knockout);
+
             StartCoroutine(OnDeath());
             return;
-        } else if (coll.tag != "Character")
+        } 
+        
+        if (coll.tag != "Character")
         {
             return;
         }
+        src.PlaySound(src.attacks[Random.Range(0,src.attacks.Length-1)]);
 
         Instantiate(hitEffect,
             gameObject.transform.Find("DamageBox").transform.position,Quaternion.identity);

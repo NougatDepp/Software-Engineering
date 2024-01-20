@@ -22,9 +22,8 @@ public class MainMenuScript : MonoBehaviour
     public Transform ButtonPosition2;
     public Transform ButtonPosition3;
     
-    public AudioClip buttonBack;
-    public AudioClip buttonSelect;
-    public AudioClip gameStart;
+    private AudioManager src;
+
 
     public void Start()
     {
@@ -40,6 +39,7 @@ public class MainMenuScript : MonoBehaviour
 
     public void OnEnable()
     {
+        src = AudioManager.Instance;
         menu.FindAction("Choose").started += Choose;
         menu.FindAction("Up").started += Up;
         menu.FindAction("Down").started += Down;
@@ -59,7 +59,7 @@ public class MainMenuScript : MonoBehaviour
     {
         if (SelectedButton == 1)
         {
-            AudioManager.Instance.PlaySound(gameStart);
+            src.PlaySound(src.gameStart);
             GameManager.instance.LoadCharacterSelect();
         }
         else if (SelectedButton == 2)
@@ -68,6 +68,7 @@ public class MainMenuScript : MonoBehaviour
         }
         else if (SelectedButton == 3)
         {
+            src.PlaySound(src.buttonBack);
             Application.Quit();
         }
     }
@@ -78,7 +79,6 @@ public class MainMenuScript : MonoBehaviour
             SelectedButton -= 1;
         }
         MoveThePointer();
-        return;
     }
     private void Down(InputAction.CallbackContext context)
     {
@@ -87,7 +87,6 @@ public class MainMenuScript : MonoBehaviour
             SelectedButton += 1;
         }
         MoveThePointer();
-        return;
     }
     private void MoveThePointer()
     {
@@ -110,18 +109,18 @@ public class MainMenuScript : MonoBehaviour
     {
         if (MainMenu.activeSelf)
         {
+            src.PlaySound(src.buttonSelect);
             MainMenu.SetActive(false);
             OptionsMenu.SetActive(true);
-            AudioManager.Instance.PlaySound(buttonSelect);
         }
     }
     public void ShowMainMenu()
     {
         if (!MainMenu.activeSelf)
         {
+            src.PlaySound(src.buttonBack);
             OptionsMenu.SetActive(false);
             MainMenu.SetActive(true);
-            AudioManager.Instance.PlaySound(buttonBack);
         }
         
     }

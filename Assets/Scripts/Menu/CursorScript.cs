@@ -29,12 +29,9 @@ public class CursorScript : MonoBehaviour
     public Transform token;
     private bool hasToken;
 
-    private int id;
+    private AudioManager src;
 
-    private void Awake()
-    {
-        
-    }
+    private int id;
 
     private void Start()
     {
@@ -43,6 +40,8 @@ public class CursorScript : MonoBehaviour
 
     private void OnEnable()
     {
+
+        src = AudioManager.Instance;
         inputAsset = gameObject.transform.parent.GetComponent<PlayerInput>().actions;
         menu = inputAsset.FindActionMap("Menu");
         
@@ -57,6 +56,8 @@ public class CursorScript : MonoBehaviour
 
 
         move = inputAsset.FindAction("Move");
+
+        menu.Enable();
     }
 
     private void OnDisable()
@@ -64,6 +65,7 @@ public class CursorScript : MonoBehaviour
         menu.FindAction("Choose").started -= Choose;
         menu.FindAction("Back").started -= Back;
         menu.FindAction("Go").started -= Go;
+        
     }
 
     private void FixedUpdate()
@@ -94,6 +96,7 @@ public class CursorScript : MonoBehaviour
                 if (raycastCharacter != currentCharacter)
                 {
                     SetCurrentCharacter(raycastCharacter);
+                    src.PlaySound(src.clickSound);
                 }
             }
             else
@@ -101,6 +104,7 @@ public class CursorScript : MonoBehaviour
                 if (currentCharacter != null)
                 {
                     SetCurrentCharacter(null);
+                    src.PlaySound(src.clickSound);
                 }
             }
         }
@@ -145,11 +149,13 @@ public class CursorScript : MonoBehaviour
 
     private void Go(InputAction.CallbackContext obj)
     {
+        src.PlaySound(src.gameStart);
         GameManager.instance.LoadStartGame();
     }
 
     private void Back(InputAction.CallbackContext context)
     {
+        src.PlaySound(src.buttonBack);
         if (hasToken)
         {
             GameManager.instance.LoadMainMenu();
@@ -166,6 +172,8 @@ public class CursorScript : MonoBehaviour
     {
         if (currentCharacter != null)
         {
+            src.PlaySound(src.buttonSelect);
+
             TokenFollow(false);
             CharacterMenuScript.instance.ConfirmCharacter(id, CharacterMenuScript.instance.characters[currentCharacter.GetSiblingIndex()]);
             SetChoosenCharacter();

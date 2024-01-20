@@ -31,7 +31,6 @@ public class Fighter : MonoBehaviour
             }
             
             GetComponent<Rigidbody2D>().velocity += ((pushDirection+new Vector2(0,0.3f))*hitpoint/3);
-            Debug.Log(((pushDirection+new Vector2(0,0.5f))*hitpoint/3));
         }
 
     }

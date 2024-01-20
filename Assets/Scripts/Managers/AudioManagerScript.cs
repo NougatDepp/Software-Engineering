@@ -5,14 +5,14 @@ public class AudioManager : MonoBehaviour
 {
     private static AudioManager instance;
 
-    public AudioClip music;
 
     public AudioClip[] attacks;
     public AudioClip knockout;
+    public AudioClip buttonBack;
+    public AudioClip buttonSelect;
+    public AudioClip gameStart;
+    public AudioClip clickSound;
     
-    
-
-
     public static AudioManager Instance
     {
         get
@@ -31,9 +31,7 @@ public class AudioManager : MonoBehaviour
             return instance;
         }
     }
-
-    public AudioSource backgroundMusicSource;
-
+    
     void Awake()
     {
         if (instance == null)
@@ -46,8 +44,6 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
         }
         AudioListener.volume = PlayerPrefs.GetFloat("GameVolume");
-        PlaySound(music);
-        
     }
 
     public void PlaySound(AudioClip clip)
@@ -60,17 +56,6 @@ public class AudioManager : MonoBehaviour
         audioSource.Play();
 
         Destroy(soundObject, clip.length);
-    }
-
-    public void PlayBackgroundMusic(AudioClip musicClip, float volume)
-    {
-        if (backgroundMusicSource != null)
-        {
-            backgroundMusicSource.Stop();
-            backgroundMusicSource.clip = musicClip;
-            backgroundMusicSource.volume = volume;
-            backgroundMusicSource.Play();
-        }
     }
 
     public void SetGlobalVolume(float volume)

@@ -29,7 +29,7 @@ public class HealthBarUpdater : MonoBehaviour
         }
         else
         {
-            //health = player.transform.Find("Character").GetComponent<GameplayScript>().hitpoint;
+            health = player.transform.Find("Character").GetComponent<GameplayScript>().hitpoint;
             if (health != lastHealth)
             {
                 OnTextChange();
