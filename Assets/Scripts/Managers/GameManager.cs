@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using EasyTransition;
 using Unity.VisualScripting;
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -19,8 +20,23 @@ public class GameManager : MonoBehaviour
 
     private bool readyToStartGame;
 
-    public TransitionSettings transition;
+    public TransitionSettings transitionPrefab;
     public float loadDelay;
+
+    public GameObject transitionObject;
+
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+
+        DontDestroyOnLoad(gameObject);
+    }
 
     void Start()
     {
@@ -42,38 +58,60 @@ public class GameManager : MonoBehaviour
             {
                 Destroy(character);
             }
-            StartCoroutine(LoadScene("WinningScreen",transition));
+            StartCoroutine(LoadScene("WinningScreen"));
         }
-        
     }
+    
+    public void LoadMainMenu()
+    {
+        cursors = GameObject.FindGameObjectsWithTag("Cursor");
+        
+        foreach (GameObject player in players)
+        {
+            Destroy(player);
+        }
 
-    public void StartGame()
+        players.Clear();
+        Destroy(GameObject.FindWithTag("InputManager"));
+        
+        foreach (GameObject cursor in cursors)
+        {
+            cursor.GetComponent<SpriteRenderer>().enabled = false;
+            cursor.GetComponent<CursorScript>().enabled = false;
+        }
+
+        StartCoroutine(LoadScene("MainMenu"));
+    }
+    
+    public void LoadCharacterSelect()
+    {
+        StartCoroutine(LoadScene("CharacterSelect"));
+    }
+    
+    public void LoadStartGame()
     {
         if (readyToStartGame)
         {
-            StartCoroutine(LoadScene("FirstMap",transition));       
+            TransitionSettings transition2 = new TransitionSettings();
+            StartCoroutine(LoadScene("FirstMap"));
         }
-
     }
-
-    public void BackToCharacterSelect()
+    
+    private IEnumerator LoadScene(String sceneName)
     {
-        StartCoroutine(LoadScene("CharacterSelect",transition));
-    }
-
-    public IEnumerator LoadScene(String sceneName,TransitionSettings transition)
-    {
-        TransitionManager.Instance().Transition(sceneName,transition,loadDelay);
+        if(GameObject.FindGameObjectsWithTag("Transition").Length == 0)
+        {
+            GameObject t = Instantiate(transitionObject);
+            t.GetComponent<TransitionScript>().Transition(sceneName,transitionPrefab,loadDelay);
+        }
         yield return null;
     }
-
     
     public void SceneChange(Scene scene,LoadSceneMode mode)
     {
         cursors = GameObject.FindGameObjectsWithTag("Cursor");
         if (scene.name == "CharacterSelect" && mode == LoadSceneMode.Single)
         {
-            
             foreach (GameObject cursor in cursors)
             {
                 cursor.GetComponent<SpriteRenderer>().enabled = true;

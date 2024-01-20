@@ -1,5 +1,72 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2908713149888434424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4839090558925286079}
+  - component: {fileID: 5670802518701439398}
+  m_Layer: 0
+  m_Name: PlayerCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4839090558925286079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2908713149888434424}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.423, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6560299076227495137}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &5670802518701439398
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2908713149888434424}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: e118ae358e21c9741aaaec34f5d95ff3, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.05, y: 0.37}
+  m_Direction: 0
 --- !u!1 &3686022234847213922
 GameObject:
   m_ObjectHideFlags: 0
@@ -15,8 +82,8 @@ GameObject:
   - component: {fileID: 6940519464335630618}
   - component: {fileID: 3978330801257528276}
   - component: {fileID: 68627444283242013}
-  - component: {fileID: 5940870476292952425}
-  m_Layer: 0
+  - component: {fileID: 1036062132550134892}
+  m_Layer: 7
   m_Name: Cora
   m_TagString: Character
   m_Icon: {fileID: 0}
@@ -36,6 +103,7 @@ Transform:
   m_LocalScale: {x: 2.5, y: 2.5298805, z: 2.5298805}
   m_ConstrainProportionsScale: 1
   m_Children:
+  - {fileID: 4839090558925286079}
   - {fileID: 2987833633091066230}
   - {fileID: 9082499898320021247}
   m_Father: {fileID: 0}
@@ -108,16 +176,16 @@ MonoBehaviour:
   maxHitpoint: 999
   pushRecoverySpeed: 0.2
   pushDirection: {x: 0, y: 0}
+  rb: {fileID: 0}
   jumpForce: 18.7
   maxSpeed: 10
   isGrounded: 0
   isBlocking: 0
   currentDamage: 0
   playerLives: 1
-  src: {fileID: 334370980116147558}
-  sfx: {fileID: 8300000, guid: 407515f8f9de6cb41bd2d9cdd5e9854a, type: 3}
   activeState: Idle
   oldState: Idle
+  jumpCounter: 0
   hitEffect: {fileID: 2955623459812423943, guid: f5507a8c6a22c404ab324980c4e8a11b, type: 3}
   blockEffect: {fileID: 8460667080445658512, guid: a3e2c3406e02f2c4ba86cfb1604277bd, type: 3}
   deathEffect: {fileID: 8443315704496310910, guid: 6ef35fa36e3a65043b2d800600204bdd, type: 3}
@@ -229,7 +297,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 1.7973249
+  m_Mass: 2.6277225
   m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -362,13 +430,29 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 00ba64ce-ec88-4b9d-b4ba-ecb423bf945c
     m_ActionName: Menu/Go[/XInputControllerWindows1/select]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ea49f5f5-36f2-4415-b8b9-1a7667e89125
+    m_ActionName: Menu/Up[/XInputControllerWindows/leftStick/up,/XInputControllerWindows2/leftStick/up,/XInputControllerWindows/dpad/up,/XInputControllerWindows2/dpad/up]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9df212ef-14fe-4bac-a3a0-19169f7ed122
+    m_ActionName: Menu/Down[/XInputControllerWindows/leftStick/down,/XInputControllerWindows2/leftStick/down,/XInputControllerWindows/dpad/down,/XInputControllerWindows2/dpad/down]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 694d9c2b-d80a-44b1-b379-6306dac40c5d
+    m_ActionName: Menu/Right[/XInputControllerWindows/leftStick/right,/XInputControllerWindows2/leftStick/right,/XInputControllerWindows/dpad/right,/XInputControllerWindows2/dpad/right]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8dd91f31-57e0-4787-9815-f9b3d90b556a
+    m_ActionName: Menu/Left[/XInputControllerWindows/leftStick/left,/XInputControllerWindows2/leftStick/left,/XInputControllerWindows/dpad/left,/XInputControllerWindows2/dpad/left]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!70 &5940870476292952425
-CapsuleCollider2D:
+--- !u!61 &1036062132550134892
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -399,9 +483,19 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0037271976, y: 0.44842574}
-  m_Size: {x: 0.345004, y: 0.8968515}
-  m_Direction: 0
+  m_Offset: {x: 0, y: 0.375}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.55, y: 0.93}
+    newSize: {x: 0.390625, y: 0.33203125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.53, y: 0.75}
+  m_EdgeRadius: 0
 --- !u!1 &5333006250779215090
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,7 +590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2987833633091066230}
   - component: {fileID: 3041569241992838291}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DamageBox
   m_TagString: DamageBox
   m_Icon: {fileID: 0}

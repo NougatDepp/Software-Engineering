@@ -27,7 +27,6 @@ public class GameplayScript : Fighter
     [SerializeField] public bool isGrounded;
     private bool isMoving;
     private bool isAirborne;
-    private bool isJumping;
     private bool isInAnimation;
     private bool isHurt;
     
@@ -39,9 +38,6 @@ public class GameplayScript : Fighter
     
     [SerializeField]
     private int playerLives = 0;
-    
-    //Audio
-    private AudioScript audio;
 
     //Aktiver und Alter State
     [SerializeField]
@@ -53,7 +49,6 @@ public class GameplayScript : Fighter
     private const string PLAYER_IDLE = "Idle";
     private const string PLAYER_WALKING = "Walk";
     private const string PLAYER_FALLING = "Falling";
-    private const string PLAYER_HURT = "Hurt";
 
     public int jumpCounter;
     
@@ -71,7 +66,6 @@ public class GameplayScript : Fighter
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        //audio = GetComponent<AudioScript>();
     }
 
     private void OnEnable()
@@ -97,11 +91,7 @@ public class GameplayScript : Fighter
         player.FindAction("Down B").started += DownB;
         
         player.FindAction("Block").started += Block;
-        player.FindAction("ResetAnimator").performed += ReAnim;
-
-
-
-
+        
         move = inputAsset.FindAction("Move");
 
         player.Enable();
@@ -129,11 +119,11 @@ public class GameplayScript : Fighter
         player.FindAction("Down B").started -= DownB;
         
         player.FindAction("Block").started -= Block;
-        player.FindAction("ResetAnimator").performed -= ReAnim;
+        
         player.Disable();
     }
 
-
+    
     void FixedUpdate()
     {
 
@@ -146,7 +136,7 @@ public class GameplayScript : Fighter
         }
         else if(rb.velocity.x < maxSpeed)
         {
-            rb.velocity += new Vector2(move.ReadValue<Vector2>().x/3.5f , 0);
+            rb.velocity += new Vector2(move.ReadValue<Vector2>().x/maxSpeed*2 , 0);
         }
 
 
@@ -253,8 +243,6 @@ public class GameplayScript : Fighter
         Instantiate(hitEffect,
             gameObject.transform.Find("DamageBox").transform.position,Quaternion.identity);
         
-        audio.AttackSound();
-
         Damage dmg = new Damage()
         {
             damageAmount = currentDamage,
@@ -267,7 +255,6 @@ public class GameplayScript : Fighter
 
     private IEnumerator OnDeath()
     {
-        audio.KnockoutSound();
         playerLives -= 1;
         if (playerLives <= 0)
         {
@@ -322,7 +309,6 @@ public class GameplayScript : Fighter
         if (isGrounded || jumpCounter > 1)
         {
             rb.velocity = new Vector2(rb.velocity.x ,Vector2.up.y * jumpForce);
-            audio.JumpSound();
             jumpCounter -= 1;
 
             ChangeStateOnButtonPressed("Jump");
@@ -379,13 +365,5 @@ public class GameplayScript : Fighter
     {
         ChangeStateOnButtonPressed("Block");
     }
-    
-    private void ReAnim(InputAction.CallbackContext obj)
-    {
-        isInAnimation = false;
-        isJumping = false;
-        anim.Play("Idle");
-    }
-    
 }
 

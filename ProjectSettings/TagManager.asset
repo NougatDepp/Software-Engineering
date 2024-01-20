@@ -11,6 +11,10 @@ TagManager:
   - Character
   - Spawnpoint
   - DeathZone
+  - AudioSource
+  - Undefined
+  - Transition
+  - InputManager
   layers:
   - Default
   - TransparentFX
@@ -21,7 +25,7 @@ TagManager:
   - Ground
   - Player
   - FallThroughGround
-  - 
+  - PlayerCollision
   - 
   - 
   - 

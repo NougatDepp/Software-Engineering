@@ -7,6 +7,12 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip music;
 
+    public AudioClip[] attacks;
+    public AudioClip knockout;
+    
+    
+
+
     public static AudioManager Instance
     {
         get

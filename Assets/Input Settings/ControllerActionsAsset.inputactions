@@ -121,15 +121,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "ResetAnimator",
-                    "type": "Button",
-                    "id": "eb529e00-2e13-482f-a923-133b98ac580c",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -449,17 +440,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Block",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "9cf5c5c0-e360-4908-8955-5149bed41037",
-                    "path": "<Gamepad>/leftTrigger",
-                    "interactions": "Hold(duration=3)",
-                    "processors": "",
-                    "groups": "",
-                    "action": "ResetAnimator",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

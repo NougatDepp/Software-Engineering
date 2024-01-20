@@ -23,10 +23,9 @@ public class OptionsMenuScript : MonoBehaviour
     
     void Start()
     {
-
-        if (PlayerPrefs.GetFloat(VolumeKey) == null)
+        if (!PlayerPrefs.HasKey(VolumeKey))
         {
-            PlayerPrefs.GetFloat(VolumeKey, 0.5f);
+            PlayerPrefs.SetFloat(VolumeKey, 0.5f);
         }
         volumeSlider.value = PlayerPrefs.GetFloat(VolumeKey);
     }
@@ -36,6 +35,7 @@ public class OptionsMenuScript : MonoBehaviour
         menu.FindAction("Back").started += Back;
         menu.FindAction("Left").started += Left;
         menu.FindAction("Right").started += Right;
+        menu.Enable();
     }
 
     public void OnDisable()

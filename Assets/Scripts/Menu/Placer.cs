@@ -53,7 +53,7 @@ public class Placer : MonoBehaviour
         
         yield return new WaitForSeconds(10);
 
-        GameManager.instance.BackToCharacterSelect();
+        GameManager.instance.LoadCharacterSelect();
 
     }
     

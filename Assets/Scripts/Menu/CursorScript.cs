@@ -33,8 +33,7 @@ public class CursorScript : MonoBehaviour
 
     private void Awake()
     {
-        inputAsset = gameObject.transform.parent.GetComponent<PlayerInput>().actions;
-        menu = inputAsset.FindActionMap("Menu");
+        
     }
 
     private void Start()
@@ -44,7 +43,9 @@ public class CursorScript : MonoBehaviour
 
     private void OnEnable()
     {
-
+        inputAsset = gameObject.transform.parent.GetComponent<PlayerInput>().actions;
+        menu = inputAsset.FindActionMap("Menu");
+        
         ui_canvas = GameObject.FindGameObjectWithTag("MenuCanvas");
         gr = ui_canvas.GetComponent<GraphicRaycaster>();
         token = Instantiate(tokenPrefab, transform.position, Quaternion.identity, GameObject.FindWithTag("MenuCanvas").transform).transform;
@@ -144,11 +145,17 @@ public class CursorScript : MonoBehaviour
 
     private void Go(InputAction.CallbackContext obj)
     {
-        GameManager.instance.StartGame();
+        GameManager.instance.LoadStartGame();
     }
 
     private void Back(InputAction.CallbackContext context)
     {
+        if (hasToken)
+        {
+            GameManager.instance.LoadMainMenu();
+            hasToken = false;
+            return;
+        }
         CharacterMenuScript.instance.confirmedCharacter = null;
         TokenFollow(true);
         RemoveCharacter();

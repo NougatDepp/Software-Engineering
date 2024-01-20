@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 2011209304207624384}
   - component: {fileID: 6565229866793607345}
   - component: {fileID: 6348210224708624702}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Granite
   m_TagString: Character
   m_Icon: {fileID: 0}
@@ -123,6 +123,7 @@ Transform:
   m_Children:
   - {fileID: 344103583866899583}
   - {fileID: 3889505721449541296}
+  - {fileID: 6333936027362477822}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1904162149385205962
@@ -314,7 +315,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 2.909896
+  m_Mass: 3.0235498
   m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -513,6 +514,73 @@ MonoBehaviour:
   - {fileID: 8300000, guid: cae407b8bb2d90c43a829f5f8914f372, type: 3}
   - {fileID: 8300000, guid: 9a935c2c04c7e804eada8974600f65cd, type: 3}
   heavyattack: {fileID: 8300000, guid: 336badcccd645c64096b636385a295ea, type: 3}
+--- !u!1 &2022340172578427636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6333936027362477822}
+  - component: {fileID: 8255204472449241578}
+  m_Layer: 0
+  m_Name: PlayerCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6333936027362477822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022340172578427636}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.059, y: 0.366, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7709990537363601717}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &8255204472449241578
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022340172578427636}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: e118ae358e21c9741aaaec34f5d95ff3, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.05, y: 0.37}
+  m_Direction: 0
 --- !u!1 &6916519531836259886
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,7 +591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 344103583866899583}
   - component: {fileID: 2977537708231707794}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DamageBox
   m_TagString: DamageBox
   m_Icon: {fileID: 0}

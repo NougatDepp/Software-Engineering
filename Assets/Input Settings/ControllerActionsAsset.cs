@@ -143,15 +143,6 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""ResetAnimator"",
-                    ""type"": ""Button"",
-                    ""id"": ""eb529e00-2e13-482f-a923-133b98ac580c"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -473,17 +464,6 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""action"": ""Block"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""9cf5c5c0-e360-4908-8955-5149bed41037"",
-                    ""path"": ""<Gamepad>/leftTrigger"",
-                    ""interactions"": ""Hold(duration=3)"",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""ResetAnimator"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -717,7 +697,6 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         m_Player_DownB = m_Player.FindAction("Down B", throwIfNotFound: true);
         m_Player_DownA = m_Player.FindAction("Down A", throwIfNotFound: true);
         m_Player_Block = m_Player.FindAction("Block", throwIfNotFound: true);
-        m_Player_ResetAnimator = m_Player.FindAction("ResetAnimator", throwIfNotFound: true);
         // Menu
         m_Menu = asset.FindActionMap("Menu", throwIfNotFound: true);
         m_Menu_Move = m_Menu.FindAction("Move", throwIfNotFound: true);
@@ -802,7 +781,6 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
     private readonly InputAction m_Player_DownB;
     private readonly InputAction m_Player_DownA;
     private readonly InputAction m_Player_Block;
-    private readonly InputAction m_Player_ResetAnimator;
     public struct PlayerActions
     {
         private @ControllerActionsAsset m_Wrapper;
@@ -820,7 +798,6 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         public InputAction @DownB => m_Wrapper.m_Player_DownB;
         public InputAction @DownA => m_Wrapper.m_Player_DownA;
         public InputAction @Block => m_Wrapper.m_Player_Block;
-        public InputAction @ResetAnimator => m_Wrapper.m_Player_ResetAnimator;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -869,9 +846,6 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             @Block.started += instance.OnBlock;
             @Block.performed += instance.OnBlock;
             @Block.canceled += instance.OnBlock;
-            @ResetAnimator.started += instance.OnResetAnimator;
-            @ResetAnimator.performed += instance.OnResetAnimator;
-            @ResetAnimator.canceled += instance.OnResetAnimator;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -915,9 +889,6 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
             @Block.started -= instance.OnBlock;
             @Block.performed -= instance.OnBlock;
             @Block.canceled -= instance.OnBlock;
-            @ResetAnimator.started -= instance.OnResetAnimator;
-            @ResetAnimator.performed -= instance.OnResetAnimator;
-            @ResetAnimator.canceled -= instance.OnResetAnimator;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -1052,7 +1023,6 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
         void OnDownB(InputAction.CallbackContext context);
         void OnDownA(InputAction.CallbackContext context);
         void OnBlock(InputAction.CallbackContext context);
-        void OnResetAnimator(InputAction.CallbackContext context);
     }
     public interface IMenuActions
     {

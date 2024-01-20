@@ -52,6 +52,11 @@ namespace EasyTransition
         [Space(10)]
         public GameObject transitionIn;
         public GameObject transitionOut;
+
+        public void StartCoroutine(IEnumerator loadScene)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 
     public enum ColorTintMode { Multiply, Add }

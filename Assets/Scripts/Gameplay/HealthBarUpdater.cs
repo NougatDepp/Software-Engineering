@@ -23,14 +23,13 @@ public class HealthBarUpdater : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(player.transform.Find("Character").IsDestroyed());
-        if (player.transform.Find("Character").IsDestroyed())
+        if (player.transform.Find("Character") == null)
         {
             Destroy(gameObject);
         }
         else
         {
-            health = player.transform.Find("Character").GetComponent<GameplayScript>().hitpoint;
+            //health = player.transform.Find("Character").GetComponent<GameplayScript>().hitpoint;
             if (health != lastHealth)
             {
                 OnTextChange();

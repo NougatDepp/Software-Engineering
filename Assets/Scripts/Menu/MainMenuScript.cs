@@ -21,6 +21,10 @@ public class MainMenuScript : MonoBehaviour
     public Transform ButtonPosition1;
     public Transform ButtonPosition2;
     public Transform ButtonPosition3;
+    
+    public AudioClip buttonBack;
+    public AudioClip buttonSelect;
+    public AudioClip gameStart;
 
     public void Start()
     {
@@ -39,6 +43,8 @@ public class MainMenuScript : MonoBehaviour
         menu.FindAction("Choose").started += Choose;
         menu.FindAction("Up").started += Up;
         menu.FindAction("Down").started += Down;
+
+        menu.Enable();
     }
 
     public void OnDisable()
@@ -46,12 +52,15 @@ public class MainMenuScript : MonoBehaviour
         menu.FindAction("Choose").started -= Choose;
         menu.FindAction("Up").started -= Up;
         menu.FindAction("Down").started -= Down;
+        
+        menu.Disable();
     }
     private void Choose(InputAction.CallbackContext context)
     {
         if (SelectedButton == 1)
         {
-            SceneManager.LoadScene("CharacterSelect");
+            AudioManager.Instance.PlaySound(gameStart);
+            GameManager.instance.LoadCharacterSelect();
         }
         else if (SelectedButton == 2)
         {
@@ -99,13 +108,22 @@ public class MainMenuScript : MonoBehaviour
 
     public void ShowOptionsMenu()
     {
-        MainMenu.SetActive(false);
-        OptionsMenu.SetActive(true);
+        if (MainMenu.activeSelf)
+        {
+            MainMenu.SetActive(false);
+            OptionsMenu.SetActive(true);
+            AudioManager.Instance.PlaySound(buttonSelect);
+        }
     }
     public void ShowMainMenu()
     {
-        OptionsMenu.SetActive(false);
-        MainMenu.SetActive(true);
+        if (!MainMenu.activeSelf)
+        {
+            OptionsMenu.SetActive(false);
+            MainMenu.SetActive(true);
+            AudioManager.Instance.PlaySound(buttonBack);
+        }
+        
     }
 
 }
