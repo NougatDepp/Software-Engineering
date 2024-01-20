@@ -4306,6 +4306,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: WallRight
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 416
+        width: 16
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635436fa6b912dc448d3e6f724c31993
+      internalID: -863557186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallLeft
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 16
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30944a396ab500947a7e74e7bec26e53
+      internalID: 1721270729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -4482,6 +4524,8 @@ TextureImporter:
       TX Tileset Ground_97: 2391168199951930681
       TX Tileset Ground_98: 6553786546769284172
       TX Tileset Ground_99: 7887559656136022619
+      WallLeft: 1721270729
+      WallRight: -863557186
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
