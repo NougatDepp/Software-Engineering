@@ -22,8 +22,6 @@ public class Fighter : MonoBehaviour
             lastImmune = Time.time; 
             hitpoint += dmg.damageAmount; 
             pushDirection = (transform.position - dmg.origin).normalized * dmg.pushForce;
-
-            Debug.Log(transform.position - dmg.origin);
             
             if (hitpoint >= 999)
             {

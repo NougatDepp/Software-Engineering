@@ -376,4 +376,3 @@ public class GameplayScript : Fighter
         ChangeStateOnButtonPressed("Block");
     }
 }
-

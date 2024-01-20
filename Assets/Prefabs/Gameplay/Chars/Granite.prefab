@@ -194,8 +194,8 @@ MonoBehaviour:
   pushRecoverySpeed: 0.2
   pushDirection: {x: 0, y: 0}
   rb: {fileID: 0}
-  jumpForce: 18.7
-  maxSpeed: 10
+  jumpForce: 25
+  maxSpeed: 15
   isGrounded: 0
   isBlocking: 0
   currentDamage: 0
