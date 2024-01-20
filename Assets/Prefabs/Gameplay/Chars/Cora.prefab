@@ -182,7 +182,7 @@ MonoBehaviour:
   isGrounded: 0
   isBlocking: 0
   currentDamage: 0
-  playerLives: 1
+  playerLives: 3
   activeState: Idle
   oldState: Idle
   jumpCounter: 0
@@ -297,7 +297,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 2.6277225
+  m_Mass: 3.220832
   m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -479,7 +479,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.375}
+  m_Offset: {x: 0, y: 0.4634686}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -490,7 +490,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.53, y: 0.75}
+  m_Size: {x: 0.53, y: 0.9269372}
   m_EdgeRadius: 0
 --- !u!1 &5333006250779215090
 GameObject:

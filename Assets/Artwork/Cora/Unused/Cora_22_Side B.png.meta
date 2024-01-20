@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,7 +108,679 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_22_Side B_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1917
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834efb8239b52ca438469f46c943fcd3
+      internalID: 1066564032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1916
+        width: 58
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb695314e8226464db7fba77accc5a43
+      internalID: -477348997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1916
+        width: 68
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c3e4c0cb297e641b6fb75f10e04756
+      internalID: 1016485694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1916
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da7aa266f12a78479693d438791d401
+      internalID: 1555862535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_4
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1916
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7b1df4e4cb22344b2b73584ee9cf25
+      internalID: 1542950218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_5
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1916
+        width: 80
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863aa202dedb26643b4457fbd308342b
+      internalID: -1208024297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_6
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1916
+        width: 81
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2114f3f2123d5c64fb901fc16da5e7a6
+      internalID: 1466091366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_7
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1916
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33e868e3b54fd440b951f8e53769690
+      internalID: 778043410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1661
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4404bb7bd1240534693898670524aa36
+      internalID: -1914530889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1661
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f55b3ae328a43f46a6f98b1603d5001
+      internalID: -1848336609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_10
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1661
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3c99d5db98888448d3a67cbb8c75f3
+      internalID: -1749110608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_11
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1661
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9b02e9dfc3d2b45aa1d5bd86253ab8
+      internalID: 495976387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_12
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1661
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ada8b8032c319469c35088ffd7ecef
+      internalID: -208153521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_13
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1662
+        width: 59
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8ade6211c6e1c4cad92d2f9d03774a
+      internalID: -523250505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_14
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1661
+        width: 59
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c70fee80d3c9a543bc72ea67b86b4a6
+      internalID: -1545695313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_15
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1664
+        width: 68
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a525990f3b10143b2861065157eeda
+      internalID: 582644719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1408
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb16b88205a71046a3d8f3b2a792273
+      internalID: 345798851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_17
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1407
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106c48d5ba07d7547bbc277eb6d9b9b9
+      internalID: -98720402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_18
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1407
+        width: 79
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e98ca1d452a9443aa492f8c1c0d46e
+      internalID: -1360740592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_19
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1407
+        width: 78
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d1711ef986a524fa0d5e2aa80724bf
+      internalID: -244752350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_20
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1407
+        width: 77
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ffd7af5259bc44db4bea8bccd53c5f
+      internalID: 605627255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_21
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1407
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a30020fab6150499f30920b3a20871
+      internalID: 1313324429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_22
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1407
+        width: 78
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4cd1fbc774ad145856a536bb5f4031
+      internalID: -1015943377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_23
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1407
+        width: 78
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441c0100ea666564cb437e0491d58575
+      internalID: 274970319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1150
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25c8ad1abb63be41a61e6730543ed28
+      internalID: 864252053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1150
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee15aa4092e213841be0838f2d88d677
+      internalID: 1818545864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_26
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1150
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c0ee521f9b83b41890c9d2749d2e6c
+      internalID: 509315304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_27
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1150
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc5e4c7886a1634b8eeb859bc829e3b
+      internalID: 1317838131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_28
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1149
+        width: 73
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad6733b5ef51ca45b671c449dd981c5
+      internalID: -111599922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_29
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1149
+        width: 68
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8a67c742575374481532aebd3b3ba0
+      internalID: 2081954997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_30
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1149
+        width: 62
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d41d4bba5c12a4288cc977390f7ae9
+      internalID: 1674692476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_22_Side B_31
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1149
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78893e2feb3717b4eb52f2890909e377
+      internalID: -1652165117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +791,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_22_Side B_0: 1066564032
+      Cora_22_Side B_1: -477348997
+      Cora_22_Side B_10: -1749110608
+      Cora_22_Side B_11: 495976387
+      Cora_22_Side B_12: -208153521
+      Cora_22_Side B_13: -523250505
+      Cora_22_Side B_14: -1545695313
+      Cora_22_Side B_15: 582644719
+      Cora_22_Side B_16: 345798851
+      Cora_22_Side B_17: -98720402
+      Cora_22_Side B_18: -1360740592
+      Cora_22_Side B_19: -244752350
+      Cora_22_Side B_2: 1016485694
+      Cora_22_Side B_20: 605627255
+      Cora_22_Side B_21: 1313324429
+      Cora_22_Side B_22: -1015943377
+      Cora_22_Side B_23: 274970319
+      Cora_22_Side B_24: 864252053
+      Cora_22_Side B_25: 1818545864
+      Cora_22_Side B_26: 509315304
+      Cora_22_Side B_27: 1317838131
+      Cora_22_Side B_28: -111599922
+      Cora_22_Side B_29: 2081954997
+      Cora_22_Side B_3: 1555862535
+      Cora_22_Side B_30: 1674692476
+      Cora_22_Side B_31: -1652165117
+      Cora_22_Side B_4: 1542950218
+      Cora_22_Side B_5: -1208024297
+      Cora_22_Side B_6: 1466091366
+      Cora_22_Side B_7: 778043410
+      Cora_22_Side B_8: -1914530889
+      Cora_22_Side B_9: -1848336609
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

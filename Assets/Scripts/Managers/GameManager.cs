@@ -54,11 +54,7 @@ public class GameManager : MonoBehaviour
         readyToStartGame = cursors.All(player => player.gameObject.GetComponent<CursorScript>().ready && players.Count >= 2);
         if (SceneManager.GetActiveScene().name == "FirstMap" && GameObject.FindGameObjectsWithTag("Character").Length == 1)
         {
-            foreach (GameObject character in GameObject.FindGameObjectsWithTag("Character"))
-            {
-                Destroy(character);
-            }
-            StartCoroutine(LoadScene("WinningScreen"));
+            StartCoroutine(LoadWinnigScreen());
         }
     }
     
@@ -88,11 +84,20 @@ public class GameManager : MonoBehaviour
         StartCoroutine(LoadScene("CharacterSelect"));
     }
     
+    public IEnumerator LoadWinnigScreen()
+    {
+        yield return new WaitForSeconds(1);
+        foreach (GameObject character in GameObject.FindGameObjectsWithTag("Character"))
+        {
+            Destroy(character);
+        }
+        StartCoroutine(LoadScene("WinningScreen"));
+    }
+    
     public void LoadStartGame()
     {
         if (readyToStartGame)
         {
-            TransitionSettings transition2 = new TransitionSettings();
             StartCoroutine(LoadScene("FirstMap"));
         }
     }

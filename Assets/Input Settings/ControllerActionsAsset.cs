@@ -337,7 +337,7 @@ public partial class @ControllerActionsAsset: IInputActionCollection2, IDisposab
                     ""name"": """",
                     ""id"": ""2b82ae4d-6253-4e05-b8d0-fc29c0501ff9"",
                     ""path"": ""<Gamepad>/buttonEast"",
-                    ""interactions"": ""Hold"",
+                    ""interactions"": ""Hold(duration=1)"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Hold B"",

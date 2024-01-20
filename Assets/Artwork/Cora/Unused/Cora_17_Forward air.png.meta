@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,7 +108,1309 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cora_17_Forward air_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1918
+        width: 55
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59f6bad78d60c441ba8225ad387c9e1
+      internalID: 372498326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1919
+        width: 57
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd2d9d8660f69c4f8b3083c2ba229cc
+      internalID: 1879031025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_2
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1924
+        width: 70
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54b4f68317152a4bb4e339d4bc21c59
+      internalID: -1366594421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_3
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1931
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9300699edd8366a43abb919c8e5b4ab6
+      internalID: -1179212073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_4
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1917
+        width: 50
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb6f0f6ba7477642bc17b41a6212938
+      internalID: -292517666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_5
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1918
+        width: 48
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a320960226d24449bea157c37ab32d
+      internalID: -1414993687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_6
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1919
+        width: 49
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db70674d2ae7a384896972a87723e727
+      internalID: -1745891636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_7
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1924
+        width: 119
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09668d8a696194b4b91fa2c7dbad413e
+      internalID: -2056571732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1668
+        width: 119
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bd51b5a5dec6941933320410719e72
+      internalID: 299068405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_9
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1667
+        width: 112
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683ddb12c8beef74a865ed68d533b211
+      internalID: -1721297715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_10
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1662
+        width: 95
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3225ddd8a8f8f6b4a874cca38cedcc35
+      internalID: 1067534927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_11
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1660
+        width: 74
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f095ab5853ee3e14687695a70ff645f2
+      internalID: 1511922408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_12
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1662
+        width: 73
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cb96b2de6dad043b81cfa33ef28ab1
+      internalID: 385668867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_13
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1663
+        width: 45
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e1a9f8f60cd204eb737c11bc77c455
+      internalID: -1660935528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_14
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1666
+        width: 50
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d38098fe3c525a448e71647c4abba80
+      internalID: 389996248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_15
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1671
+        width: 52
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a086a7dc17ed64c4ca8d0ce0c0d0c2e5
+      internalID: -2006129997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1407
+        width: 46
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7289d367e4888674f96ec6d026f6e5d6
+      internalID: 1091914420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1406
+        width: 77
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15452f9b8d34384a87e422f3e483064
+      internalID: -1125055083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_18
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1406
+        width: 117
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178bd42288152ec49ae8df4569f02784
+      internalID: 1994437294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_19
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1406
+        width: 104
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ee512c0bb9f614fa2e77097ffc7eb3
+      internalID: 1946681453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_20
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1408
+        width: 97
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a293e61cafe9847b132edec21e07e9
+      internalID: -354965264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_21
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1412
+        width: 89
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e478d019eddfaba46bf0b728c78051ca
+      internalID: 1269337562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_22
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1407
+        width: 79
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6f58229f7f13a4aa44e3b16af89cd4
+      internalID: -1946449160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_23
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1404
+        width: 69
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a967c6ac2a5b6468b2862546383822
+      internalID: -1334457483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1150
+        width: 69
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaf9970738097f41ad2ebc4679f86f7
+      internalID: 250020422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_25
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1151
+        width: 72
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a853613a833f994b98ed5ba5d6308ed
+      internalID: -2046072616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_26
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1151
+        width: 77
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2831bddfe57df3e419b054dee7ae7e32
+      internalID: 484037599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_27
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1151
+        width: 78
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f23c0e116e65b48926d6eb4578d383
+      internalID: -1939341931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_28
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1151
+        width: 79
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb3c9108660a8748a5d16f7f2db66dd
+      internalID: -2066245541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_29
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1148
+        width: 81
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590a41df6acdd224c9b5ae91ec9c6063
+      internalID: 1695922725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_30
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1146
+        width: 83
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af17876b37ac8da4f910081624719b17
+      internalID: 223680232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_31
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1149
+        width: 71
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9038afb39ccd75044a2f6aa2e3f62bd9
+      internalID: 1899495606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 898
+        width: 60
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ce5bfd32dacf349a365c6526c1308a
+      internalID: -169266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 896
+        width: 53
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7847388843d1de44bdbfd646871e0bc
+      internalID: -885847802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_34
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 894
+        width: 55
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a91b1bd4002e34fbb94f1036686dad
+      internalID: -1011360557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_35
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 890
+        width: 80
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5b0e6d4b2aeb946bfb7ec3859ac48d
+      internalID: -710610949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_36
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 890
+        width: 80
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170efc3fc05e8ae4893b76c1f0513ac0
+      internalID: -1426999378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_37
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 890
+        width: 80
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79381502aa68224abd8e91352a7d718
+      internalID: 516806355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_38
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 890
+        width: 78
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f833ba1a400a1409281c8739d00339
+      internalID: 586166177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_39
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 634
+        width: 72
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dae29afd20ecb4b9369872abf2582e
+      internalID: -1443735188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_40
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 635
+        width: 62
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b519f019567572a43a772c2a5cfb3687
+      internalID: 2051781144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_41
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 637
+        width: 55
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29786cdffe54c7b409bbb23b2096d1b4
+      internalID: 1244075039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_42
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 637
+        width: 50
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf8da67117a2f44e8a8fb6bc8572a99
+      internalID: -1251033248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_43
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 637
+        width: 49
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787aee9853122d447a7002f9daf5134e
+      internalID: -128798640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_44
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 639
+        width: 49
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62eca85272e36b4285c2b703cd9e53a
+      internalID: -896022064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_45
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 644
+        width: 119
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fdf129195126041af72d7316a4701b
+      internalID: -704138162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_46
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 388
+        width: 119
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0b1ca5045201b419170377cd86c695
+      internalID: 2067635359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_47
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 387
+        width: 112
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1059147841f8f947bdf4d28700e9469
+      internalID: 1506964715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_48
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 382
+        width: 95
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb27128f7e638ec4282a01f073423124
+      internalID: 1008938676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_49
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 380
+        width: 74
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9154f7e11df84f4290387eef84c25c5
+      internalID: 615785342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_50
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 382
+        width: 73
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ed767f2ccc5854abb3fc03fe7abab1
+      internalID: -1189011287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_51
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 383
+        width: 45
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91132939b74360246918c32f64584f1d
+      internalID: 158392118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_52
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 386
+        width: 50
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b18ed623cbca9349b8fae6283414ef6
+      internalID: -1099006111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_53
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 391
+        width: 52
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630957abaaef9834b85518f5bb0509d7
+      internalID: -2062985608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_54
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 127
+        width: 46
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474b96db99dd4e84191b52333d07c5b7
+      internalID: 65849723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_55
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 126
+        width: 77
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59165da16fbdd5f44af4cedef8271360
+      internalID: -539339236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_56
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 126
+        width: 117
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb14c56a1ed7874b97dad4e1cfe1439
+      internalID: -567497486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_57
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 126
+        width: 104
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50183f12f7c3bd245b8c0fda9d2815c6
+      internalID: 354044334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_58
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 128
+        width: 97
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194df0089639d97478ebe7fd6f0db429
+      internalID: 1534392369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_59
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 132
+        width: 89
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea06aa4c9853834eac1ad8681987414
+      internalID: 990292248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_60
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 127
+        width: 79
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d2b2863f00a2c41a564d98d5d6310b
+      internalID: 2024016740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cora_17_Forward air_61
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 124
+        width: 69
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b4c8e4d5ec3714ab6ffe13adbde3da
+      internalID: -2129103360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1421,69 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cora_17_Forward air_0: 372498326
+      Cora_17_Forward air_1: 1879031025
+      Cora_17_Forward air_10: 1067534927
+      Cora_17_Forward air_11: 1511922408
+      Cora_17_Forward air_12: 385668867
+      Cora_17_Forward air_13: -1660935528
+      Cora_17_Forward air_14: 389996248
+      Cora_17_Forward air_15: -2006129997
+      Cora_17_Forward air_16: 1091914420
+      Cora_17_Forward air_17: -1125055083
+      Cora_17_Forward air_18: 1994437294
+      Cora_17_Forward air_19: 1946681453
+      Cora_17_Forward air_2: -1366594421
+      Cora_17_Forward air_20: -354965264
+      Cora_17_Forward air_21: 1269337562
+      Cora_17_Forward air_22: -1946449160
+      Cora_17_Forward air_23: -1334457483
+      Cora_17_Forward air_24: 250020422
+      Cora_17_Forward air_25: -2046072616
+      Cora_17_Forward air_26: 484037599
+      Cora_17_Forward air_27: -1939341931
+      Cora_17_Forward air_28: -2066245541
+      Cora_17_Forward air_29: 1695922725
+      Cora_17_Forward air_3: -1179212073
+      Cora_17_Forward air_30: 223680232
+      Cora_17_Forward air_31: 1899495606
+      Cora_17_Forward air_32: -169266
+      Cora_17_Forward air_33: -885847802
+      Cora_17_Forward air_34: -1011360557
+      Cora_17_Forward air_35: -710610949
+      Cora_17_Forward air_36: -1426999378
+      Cora_17_Forward air_37: 516806355
+      Cora_17_Forward air_38: 586166177
+      Cora_17_Forward air_39: -1443735188
+      Cora_17_Forward air_4: -292517666
+      Cora_17_Forward air_40: 2051781144
+      Cora_17_Forward air_41: 1244075039
+      Cora_17_Forward air_42: -1251033248
+      Cora_17_Forward air_43: -128798640
+      Cora_17_Forward air_44: -896022064
+      Cora_17_Forward air_45: -704138162
+      Cora_17_Forward air_46: 2067635359
+      Cora_17_Forward air_47: 1506964715
+      Cora_17_Forward air_48: 1008938676
+      Cora_17_Forward air_49: 615785342
+      Cora_17_Forward air_5: -1414993687
+      Cora_17_Forward air_50: -1189011287
+      Cora_17_Forward air_51: 158392118
+      Cora_17_Forward air_52: -1099006111
+      Cora_17_Forward air_53: -2062985608
+      Cora_17_Forward air_54: 65849723
+      Cora_17_Forward air_55: -539339236
+      Cora_17_Forward air_56: -567497486
+      Cora_17_Forward air_57: 354044334
+      Cora_17_Forward air_58: 1534392369
+      Cora_17_Forward air_59: 990292248
+      Cora_17_Forward air_6: -1745891636
+      Cora_17_Forward air_60: 2024016740
+      Cora_17_Forward air_61: -2129103360
+      Cora_17_Forward air_7: -2056571732
+      Cora_17_Forward air_8: 299068405
+      Cora_17_Forward air_9: -1721297715
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

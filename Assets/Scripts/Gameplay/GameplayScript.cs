@@ -83,13 +83,10 @@ public class GameplayScript : Fighter
 
         player.FindAction("Jump").started += Jump;
         
-        player.FindAction("Hold A").started += HoldA;
+        player.FindAction("Hold B").performed += HoldB;
         player.FindAction("Side A").started += SideA;
         player.FindAction("Up A").started += UpA;
         player.FindAction("Down A").started += DownA;
-        
-        player.FindAction("Hold B").performed += HoldBStart;
-        player.FindAction("Hold B").canceled += HoldBEnd;
 
         player.FindAction("Side B").started += SideB;
         player.FindAction("Up B").started += UpB;
@@ -107,18 +104,11 @@ public class GameplayScript : Fighter
     {
         player.FindAction("Jump").started -= Jump;
         
-        player.FindAction("Hold A").started -= HoldA;
-        player.FindAction("Hold A").performed -= HoldA;
-
-        
+        player.FindAction("Hold B").performed -= HoldB;
         player.FindAction("Side A").started -= SideA;
         player.FindAction("Up A").started -= UpA;
         player.FindAction("Down A").started -= DownA;
-        
-        player.FindAction("Hold B").started -= HoldBStart;
-        player.FindAction("Hold B").performed -= HoldBEnd;
 
-        
         player.FindAction("Side B").started -= SideB;
         player.FindAction("Up B").started -= UpB;
         player.FindAction("Down B").started -= DownB;
@@ -141,7 +131,7 @@ public class GameplayScript : Fighter
         }
         else if(rb.velocity.x < maxSpeed)
         {
-            rb.velocity += new Vector2(move.ReadValue<Vector2>().x/maxSpeed*2 , 0);
+            rb.velocity += new Vector2(move.ReadValue<Vector2>().x/2.5f , 0);
         }
 
 
@@ -155,11 +145,12 @@ public class GameplayScript : Fighter
             jumpCounter = 2;
         }
 
-        if (rb.velocity.x > 0.3f)
+        if (rb.velocity.x > 0.5f)
         {
             gameObject.transform.localScale = new Vector2(2.5f, 2.5f);
+            Debug.Log("Flip");
         }
-        else if (rb.velocity.x < -0.3f)
+        else if (rb.velocity.x < -0.5f)
         {
             gameObject.transform.localScale = new Vector2(-2.5f, 2.5f);
         }
@@ -210,11 +201,19 @@ public class GameplayScript : Fighter
     {
         if (!isInAnimation||newState == "Jump")
         {
+            if(isHurt) return;
             isInAnimation = true;
             oldState = newState;
             anim.Play(newState);
             Invoke("Delay",0.05f);
         }
+    }
+    
+    private void ChangeStateToHurt()
+    {
+            oldState = "Hurt";
+            anim.Play("Hurt");
+            Invoke("DelayHurt",0.05f);
     }
 
     private void Delay()
@@ -222,13 +221,19 @@ public class GameplayScript : Fighter
         float delay = anim.GetCurrentAnimatorStateInfo(0).length;
         Invoke("ResetAttackStatus", delay);
     }
+    
+    private void DelayHurt()
+    {
+        float delay = anim.GetCurrentAnimatorStateInfo(0).length;
+        Invoke("ResetHurtStatus", delay);
+    }
 
     public void ResetAttackStatus()
     {
         isInAnimation = false;
     }
 
-    public void SetHurtStatus()
+    public void ResetHurtStatus()
     {
         isHurt = false;
     }
@@ -265,6 +270,8 @@ public class GameplayScript : Fighter
 
     private IEnumerator OnDeath()
     {
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
+
         playerLives -= 1;
         if (playerLives <= 0)
         {
@@ -273,7 +280,6 @@ public class GameplayScript : Fighter
         }
         else
         {
-            Instantiate(deathEffect, transform.position, Quaternion.identity);
             spriteRenderer.enabled = false;
             hitpoint = 0;
             transform.position = GameObject.FindWithTag("Respawn").transform.position;
@@ -305,9 +311,7 @@ public class GameplayScript : Fighter
         if (((pushDirection+new Vector2(0,0.3f))*hitpoint/3).magnitude >= 10)
         {
             isHurt = true;
-            ChangeStateOnButtonPressed("Hurt");
-            Invoke("SetHurtStatus",0.3f);
-            Invoke("SetAttackStatus",0.3f);
+            ChangeStateToHurt();
         }
     }
 
@@ -339,17 +343,6 @@ public class GameplayScript : Fighter
     {
         ChangeStateOnButtonPressed("Side_B");
     }
-    
-    private void HoldBEnd(InputAction.CallbackContext obj)
-    {
-        anim.SetBool("Hold B", false);
-    }
-
-    private void HoldBStart(InputAction.CallbackContext obj)
-    {
-        anim.SetBool("Hold B",true);
-        anim.SetTrigger("B");
-    }
 
     private void DownA(InputAction.CallbackContext obj)
     {
@@ -366,9 +359,9 @@ public class GameplayScript : Fighter
         ChangeStateOnButtonPressed("Side_A");
     }
 
-    private void HoldA(InputAction.CallbackContext obj)
+    private void HoldB(InputAction.CallbackContext obj)
     {
-       //Attack("Down_A");
+       ChangeStateOnButtonPressed("B_Attack");
     }
 
     private void Block(InputAction.CallbackContext obj)

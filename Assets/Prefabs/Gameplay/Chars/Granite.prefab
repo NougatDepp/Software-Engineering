@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 3331288173858712114}
   - component: {fileID: 4130133418310991437}
   - component: {fileID: 2011209304207624384}
-  - component: {fileID: 6565229866793607345}
+  - component: {fileID: 3178114339354821651}
   m_Layer: 7
   m_Name: Granite
   m_TagString: Character
@@ -199,7 +199,7 @@ MonoBehaviour:
   isGrounded: 0
   isBlocking: 0
   currentDamage: 0
-  playerLives: 2
+  playerLives: 3
   activeState: Idle
   oldState: Idle
   jumpCounter: 0
@@ -314,7 +314,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 3.0235498
+  m_Mass: 5.48965
   m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -464,8 +464,8 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!70 &6565229866793607345
-CapsuleCollider2D:
+--- !u!61 &3178114339354821651
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -486,7 +486,7 @@ CapsuleCollider2D:
     m_Bits: 4294967295
   m_ForceReceiveLayers:
     serializedVersion: 2
-    m_Bits: 375
+    m_Bits: 4294967295
   m_ContactCaptureLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -496,9 +496,19 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01591046, y: 0.425}
-  m_Size: {x: 0.5580671, y: 0.94277245}
-  m_Direction: 0
+  m_Offset: {x: 0, y: 0.425}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1, y: 0.85}
+    newSize: {x: 0.390625, y: 0.33203125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.85}
+  m_EdgeRadius: 0
 --- !u!1 &2022340172578427636
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,4 +642,4 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.18138158}
   serializedVersion: 2
-  m_Radius: 0.6813817
+  m_Radius: 0.35
