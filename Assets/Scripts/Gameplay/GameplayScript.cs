@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
 
 public class GameplayScript : Fighter
@@ -26,6 +27,7 @@ public class GameplayScript : Fighter
     private bool isHurt;
     private bool isBlocking;
 
+    [SerializeField]
     private int currentDamage = 0;
     
     [SerializeField]
@@ -113,7 +115,7 @@ public class GameplayScript : Fighter
 
         if (isGrounded && !isInAnimation)
         {
-            if (0.85f < Math.Abs(move.ReadValue<Vector2>().x))
+            if (0.3f < Math.Abs(move.ReadValue<Vector2>().x))
             {
                 rb.velocity = new Vector2(move.ReadValue<Vector2>().x * maxSpeed, rb.velocity.y);
             }
@@ -134,12 +136,11 @@ public class GameplayScript : Fighter
             jumpCounter = 2;
         }
 
-        if (rb.velocity.x > 0.85f)
+        if (move.ReadValue<Vector2>().x > 0.3f)
         {
             gameObject.transform.localScale = new Vector2(2.5f, 2.5f);
-            Debug.Log("Flip" + rb.velocity.x);
         }
-        else if (rb.velocity.x < -0.85f)
+        else if (move.ReadValue<Vector2>().x < -0.3f)
         {
             gameObject.transform.localScale = new Vector2(-2.5f, 2.5f);
         }
