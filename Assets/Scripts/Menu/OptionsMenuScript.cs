@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UIElements;
 using Slider = UnityEngine.UI.Slider;
 
 public class OptionsMenuScript : MonoBehaviour
@@ -44,7 +41,16 @@ public class OptionsMenuScript : MonoBehaviour
         menu.FindAction("Left").started -= Left;
         menu.FindAction("Right").started -= Right;
     }
-
+    
+    //Aufgerufen vom Slider in Unity
+    public void SetVolume()
+    {
+        float volume = volumeSlider.value;
+        AudioManager.Instance.SetGlobalVolume(volume);
+        PlayerPrefs.SetFloat(VolumeKey, volume);
+        PlayerPrefs.Save();
+    }
+    
     private void Back(InputAction.CallbackContext obj)
     {
         gameObject.transform.parent.GetComponent<MainMenuScript>().ShowMainMenu();
@@ -72,14 +78,6 @@ public class OptionsMenuScript : MonoBehaviour
         }    
     }
 
-    //Aufgerufen vom Slider in Unity
-    public void SetVolume ()
-    {
-        float volume = volumeSlider.value;
-        AudioManager.Instance.SetGlobalVolume(volume);
-        PlayerPrefs.SetFloat(VolumeKey, volume);
-        PlayerPrefs.Save();
-    }
     
     
     

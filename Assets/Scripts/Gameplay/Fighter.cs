@@ -1,17 +1,12 @@
-using UnityEngine;
+ using UnityEngine;
 
 public class Fighter : MonoBehaviour
 {
     
     public float hitpoint = 0;
-    public int maxHitpoint = 999;
-    public float pushRecoverySpeed = 0.2f;
-    
-    
+
     protected float immuneTime = 0.1f;
     protected float lastImmune;
-
-    [SerializeField]
     protected Vector2 pushDirection;
 
     protected virtual void ReceiveDamage(Damage dmg)
@@ -31,10 +26,5 @@ public class Fighter : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity += ((pushDirection+new Vector2(0,0.3f))*hitpoint/3);
         }
 
-    }
-
-    protected virtual void Death()
-    {
-        
     }
 }

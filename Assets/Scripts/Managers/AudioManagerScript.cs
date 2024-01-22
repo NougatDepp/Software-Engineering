@@ -4,8 +4,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     private static AudioManager instance;
-
-
+    
     public AudioClip[] attacks;
     public AudioClip knockout;
     public AudioClip buttonBack;
@@ -61,8 +60,6 @@ public class AudioManager : MonoBehaviour
     public void SetGlobalVolume(float volume)
     {
         AudioListener.volume = volume;
-        
-        
     }
 }
 

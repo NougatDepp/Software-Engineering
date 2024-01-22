@@ -1,10 +1,5 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.Serialization;
+
 
 public class PlayerScript : MonoBehaviour
 {
@@ -12,6 +7,7 @@ public class PlayerScript : MonoBehaviour
     public Character playerCharacter;
     public int placement = 1;
     private GameObject player;
+    
     private void Awake()
     {
         GameManager.instance.UpdatePlayers(gameObject);

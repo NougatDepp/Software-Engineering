@@ -3,10 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using EasyTransition;
-using Unity.VisualScripting;
-using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -20,10 +17,14 @@ public class GameManager : MonoBehaviour
 
     private bool readyToStartGame;
 
-    public TransitionSettings transitionPrefab;
-    public float loadDelay;
-
-    public GameObject transitionObject;
+    [SerializeField]
+    private TransitionSettings transitionPrefab;
+    
+    [SerializeField]
+    private float loadDelay;
+    
+    [SerializeField]
+    private GameObject transitionObject;
 
     private void Awake()
     {
@@ -42,12 +43,7 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
     }
-    
-    public void UpdatePlayers(GameObject player)
-    {
-        players.Add(player);
-    }
-    
+
     void Update()
     {
         cursors = GameObject.FindGameObjectsWithTag("Cursor");
@@ -56,6 +52,11 @@ public class GameManager : MonoBehaviour
         {
             StartCoroutine(LoadWinnigScreen());
         }
+    }
+    
+    public void UpdatePlayers(GameObject player)
+    {
+        players.Add(player);
     }
     
     public void LoadMainMenu()
@@ -98,6 +99,7 @@ public class GameManager : MonoBehaviour
     {
         if (readyToStartGame)
         {
+            AudioManager.Instance.PlaySound(AudioManager.Instance.gameStart);
             StartCoroutine(LoadScene("FirstMap"));
         }
     }

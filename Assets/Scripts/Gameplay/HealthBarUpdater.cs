@@ -17,6 +17,7 @@ public class HealthBarUpdater : MonoBehaviour
     void Start()
     {
         healthText = gameObject.transform.Find("Health").GetComponent<TextMeshProUGUI>();
+        gameObject.transform.Find("Player").GetComponent<TextMeshProUGUI>().text = "P"+player.GetComponent<PlayerScript>().id;
         gameObject.transform.Find("Icon").GetComponent<Image>().sprite = player.GetComponent<PlayerScript>().playerCharacter.characterSprite;
         lastHealth = 0;
     }
@@ -44,7 +45,7 @@ public class HealthBarUpdater : MonoBehaviour
         gameObject.transform.DOPunchPosition(new Vector3(Random.value,Random.value,0).normalized * 10, .3f, 10,1);
     }
 
-    void UpdateHealthBar()
+    private void UpdateHealthBar()
     {
         Color newColor = new Color(1, 1 - health / 999, 1 - health / 333, 1);
         healthText.CrossFadeColor(newColor, 0.1f, true, false);

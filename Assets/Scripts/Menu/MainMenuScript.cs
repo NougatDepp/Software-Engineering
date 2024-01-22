@@ -4,31 +4,32 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 using UnityEditor;
+using UnityEngine.Serialization;
 
 public class MainMenuScript : MonoBehaviour
 {
     private InputActionAsset inputAsset;
     private InputActionMap menu;
 
-    [SerializeField] private GameObject MainMenu;
-    [SerializeField] private GameObject OptionsMenu;
+    [SerializeField] private GameObject mainMenu;
+    [SerializeField] private GameObject optionsMenu;
 
-    public GameObject Point;
+    public GameObject point;
   
-    private int SelectedButton = 1;
-    [SerializeField] private int NumberOfButtons;
+    private int selectedButton = 1;
+    [SerializeField] private int numberOfButtons;
 
-    public Transform ButtonPosition1;
-    public Transform ButtonPosition2;
-    public Transform ButtonPosition3;
+    public Transform buttonPosition1;
+    public Transform buttonPosition2;
+    public Transform buttonPosition3;
     
     private AudioManager src;
 
 
     public void Start()
     {
-        OptionsMenu.SetActive(false);
-        MainMenu.SetActive(true);
+        optionsMenu.SetActive(false);
+        mainMenu.SetActive(true);
     }
 
     private void Awake()
@@ -55,18 +56,54 @@ public class MainMenuScript : MonoBehaviour
         
         menu.Disable();
     }
+
+    private void MoveThePointer()
+    {
+        if (selectedButton == 1)
+        {
+            point.transform.position = buttonPosition1.position;
+        }
+        else if (selectedButton == 2)
+        {
+            point.transform.position = buttonPosition2.position;
+        }
+        else if (selectedButton == 3)
+        {
+            point.transform.position = buttonPosition3.position;
+        }
+    }
+
+    public void ShowOptionsMenu()
+    {
+        if (mainMenu.activeSelf)
+        {
+            src.PlaySound(src.buttonSelect);
+            mainMenu.SetActive(false);
+            optionsMenu.SetActive(true);
+        }
+    }
+    public void ShowMainMenu()
+    {
+        if (!mainMenu.activeSelf)
+        {
+            src.PlaySound(src.buttonBack);
+            optionsMenu.SetActive(false);
+            mainMenu.SetActive(true);
+        }
+    }
+    
     private void Choose(InputAction.CallbackContext context)
     {
-        if (SelectedButton == 1)
+        if (selectedButton == 1)
         {
             src.PlaySound(src.gameStart);
             GameManager.instance.LoadCharacterSelect();
         }
-        else if (SelectedButton == 2)
+        else if (selectedButton == 2)
         {
             ShowOptionsMenu();
         }
-        else if (SelectedButton == 3)
+        else if (selectedButton == 3)
         {
             src.PlaySound(src.buttonBack);
             Application.Quit();
@@ -74,55 +111,19 @@ public class MainMenuScript : MonoBehaviour
     }
     private void Up(InputAction.CallbackContext context)
     {
-        if (SelectedButton > 1)
+        if (selectedButton > 1)
         {
-            SelectedButton -= 1;
+            selectedButton -= 1;
         }
         MoveThePointer();
     }
     private void Down(InputAction.CallbackContext context)
     {
-        if (SelectedButton < NumberOfButtons)
+        if (selectedButton < numberOfButtons)
         {
-            SelectedButton += 1;
+            selectedButton += 1;
         }
         MoveThePointer();
-    }
-    private void MoveThePointer()
-    {
-        if (SelectedButton == 1)
-        {
-            Point.transform.position = ButtonPosition1.position;
-            
-        }
-        else if (SelectedButton == 2)
-        {
-            Point.transform.position = ButtonPosition2.position;
-        }
-        else if (SelectedButton == 3)
-        {
-            Point.transform.position = ButtonPosition3.position;
-        }
-    }
-
-    public void ShowOptionsMenu()
-    {
-        if (MainMenu.activeSelf)
-        {
-            src.PlaySound(src.buttonSelect);
-            MainMenu.SetActive(false);
-            OptionsMenu.SetActive(true);
-        }
-    }
-    public void ShowMainMenu()
-    {
-        if (!MainMenu.activeSelf)
-        {
-            src.PlaySound(src.buttonBack);
-            OptionsMenu.SetActive(false);
-            MainMenu.SetActive(true);
-        }
-        
     }
 
 }

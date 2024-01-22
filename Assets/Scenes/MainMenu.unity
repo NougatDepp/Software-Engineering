@@ -516,7 +516,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -244.32, y: 104}
+  m_AnchoredPosition: {x: -246.7, y: 172.1}
   m_SizeDelta: {x: 280.8778, y: 84.4479}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &351011650
@@ -1803,13 +1803,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb739a6a3ee8a554b9ebbd4ec1d32b97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainMenu: {fileID: 721302103}
-  OptionsMenu: {fileID: 1529703565}
-  Point: {fileID: 1014033678}
-  NumberOfButtons: 3
-  ButtonPosition1: {fileID: 402568709}
-  ButtonPosition2: {fileID: 101037066}
-  ButtonPosition3: {fileID: 19314858}
+  mainMenu: {fileID: 721302103}
+  optionsMenu: {fileID: 1529703565}
+  point: {fileID: 1014033678}
+  numberOfButtons: 3
+  buttonPosition1: {fileID: 402568709}
+  buttonPosition2: {fileID: 101037066}
+  buttonPosition3: {fileID: 19314858}
 --- !u!224 &1289488632
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2317,7 +2317,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 10d5d2a643e16334db17057e73c4f75d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7ae8b7d191dd5fa42ae5f59ef9938189, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

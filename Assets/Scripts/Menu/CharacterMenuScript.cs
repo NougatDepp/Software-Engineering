@@ -11,12 +11,9 @@ using Sequence = Unity.VisualScripting.Sequence;
 public class CharacterMenuScript : MonoBehaviour
 {
     public static CharacterMenuScript instance;
-
     public List<Character> characters = new List<Character>();
-
     public GameObject charCellPrefab;
     public Transform playerSlotsContainer;
-
     public Character confirmedCharacter;
 
     private void Awake()

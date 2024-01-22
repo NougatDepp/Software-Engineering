@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Dynamic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -14,14 +10,12 @@ public class CursorScript : MonoBehaviour
     private InputActionAsset inputAsset;
     private InputActionMap menu;
     private InputAction move;
-
-
+    
     //Cursor Detection
     private GameObject ui_canvas;
     private GraphicRaycaster gr;
     private PointerEventData pointerEventData = new PointerEventData(null);
-
-
+    
     public Transform currentCharacter;
     public bool ready;
 
@@ -110,7 +104,7 @@ public class CursorScript : MonoBehaviour
         }
     }
 
-    void SetCurrentCharacter(Transform t)
+    private void SetCurrentCharacter(Transform t)
     {
         currentCharacter = t;
 
@@ -126,7 +120,7 @@ public class CursorScript : MonoBehaviour
         }
     }
 
-    void TokenFollow(bool trigger)
+    private void TokenFollow(bool trigger)
     {
         hasToken = trigger;
     }
@@ -149,7 +143,6 @@ public class CursorScript : MonoBehaviour
 
     private void Go(InputAction.CallbackContext obj)
     {
-        src.PlaySound(src.gameStart);
         GameManager.instance.LoadStartGame();
     }
 

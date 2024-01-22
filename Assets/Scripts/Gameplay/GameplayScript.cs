@@ -1,57 +1,46 @@
 using System; 
 using System.Collections;
-using System.Collections.Generic;
-using Microsoft.Win32.SafeHandles;
-using TMPro;
-using Unity.VisualScripting;
-using UnityEditor.IMGUI.Controls;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.InputSystem;
 using Random = UnityEngine.Random;
 
 public class GameplayScript : Fighter
-{ 
+{
 
     private InputActionAsset inputAsset;
     private InputActionMap player;
     private InputAction move;
 
-    public Rigidbody2D rb;
+    private Rigidbody2D rb;
     
-    [SerializeField] public float jumpForce = 5f;
+    [SerializeField] private float jumpForce = 5f;
     [SerializeField] private float maxSpeed = 10f;
 
     private Animator anim;
     private SpriteRenderer spriteRenderer;
-    
-    [SerializeField] public bool isGrounded;
+
+    private bool isGrounded;
     private bool isMoving;
     private bool isAirborne;
     private bool isInAnimation;
     private bool isHurt;
-    
-    [SerializeField]
     private bool isBlocking;
 
-    [SerializeField]
     private int currentDamage = 0;
     
     [SerializeField]
-    private int playerLives = 0;
+    private int playerLives = 3;
 
     //Aktiver und Alter State
-    [SerializeField]
-    public string activeState = "Idle";
-    [SerializeField]
-    public string oldState = "Idle";
+    private string activeState = "Idle";
+    private string oldState = "Idle";
     
     //States in denen sich der Player befindet
     private const string PLAYER_IDLE = "Idle";
     private const string PLAYER_WALKING = "Walk";
     private const string PLAYER_FALLING = "Falling";
 
-    public int jumpCounter;
+    private int jumpCounter;
     
     
     //Effekte beim Blocken, Schlagen und beim Knockout
@@ -124,7 +113,7 @@ public class GameplayScript : Fighter
 
         if (isGrounded && !isInAnimation)
         {
-            if (0.2f < Math.Abs(move.ReadValue<Vector2>().x))
+            if (0.85f < Math.Abs(move.ReadValue<Vector2>().x))
             {
                 rb.velocity = new Vector2(move.ReadValue<Vector2>().x * maxSpeed, rb.velocity.y);
             }
@@ -145,12 +134,12 @@ public class GameplayScript : Fighter
             jumpCounter = 2;
         }
 
-        if (rb.velocity.x > 0.5f)
+        if (rb.velocity.x > 0.85f)
         {
             gameObject.transform.localScale = new Vector2(2.5f, 2.5f);
-            Debug.Log("Flip");
+            Debug.Log("Flip" + rb.velocity.x);
         }
-        else if (rb.velocity.x < -0.5f)
+        else if (rb.velocity.x < -0.85f)
         {
             gameObject.transform.localScale = new Vector2(-2.5f, 2.5f);
         }
@@ -165,7 +154,7 @@ public class GameplayScript : Fighter
         
         StateUpdate();
     }
-    void StateUpdate() 
+    private void StateUpdate() 
     {
 
         if (!isHurt && !isInAnimation)
@@ -184,9 +173,8 @@ public class GameplayScript : Fighter
             }
             ChangeCurrentState(activeState);
         }
-        
     }
-
+    
     private void ChangeCurrentState(string newState)
     {
         if (oldState == newState) return;

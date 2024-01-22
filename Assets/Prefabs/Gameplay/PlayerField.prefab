@@ -67,15 +67,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: P1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a2f63b6cf647394eb9f2734a92e1717, type: 2}
+  m_sharedMaterial: {fileID: 5986245624241552683, guid: 8a2f63b6cf647394eb9f2734a92e1717, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294907392
-  m_fontColor: {r: 0, g: 0.08543253, b: 1, a: 1}
+    rgba: 4278195711
+  m_fontColor: {r: 1, g: 0.0812667, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -441,7 +441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314184842984237836, guid: b4c34b6d6f2d46a4d8da7f386a48a52e, type: 3}
       propertyPath: m_Name
-      value: PlayerHealth Variant
+      value: PlayerField
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3772042919853542202, guid: b4c34b6d6f2d46a4d8da7f386a48a52e, type: 3}
