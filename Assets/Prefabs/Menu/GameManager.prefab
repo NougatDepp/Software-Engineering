@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 67028952551917436}
   - component: {fileID: 9053684726587461705}
   - component: {fileID: 2714568133419162491}
-  - component: {fileID: 7766648489093548750}
-  - component: {fileID: 8826323895222549094}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -64,59 +62,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab3e1102815bc6347a07bd8f90152d6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7766648489093548750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8680090379913069986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00cdab98c7422f543abc061ec6fe7635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8826323895222549094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8680090379913069986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 621567455fd1c4ceb811cc8a00b6a1a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_NotificationBehavior: 0
-  m_MaxPlayerCount: 4
-  m_AllowJoining: 1
-  m_JoinBehavior: 1
-  m_PlayerJoinedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_PlayerLeftEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_JoinAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Join
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: eb306358-83bb-4585-a09f-c4a169f39453
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 525689495096134270, guid: 9cf304e4465faf748a9ea543289a02de, type: 3}
-  m_PlayerPrefab: {fileID: 2618307632861771390, guid: b219aad4df0acef4280e72cd41ece06e, type: 3}
-  m_SplitScreen: 0
-  m_MaintainAspectRatioInSplitScreen: 0
-  m_FixedNumberOfSplitScreens: -1
-  m_SplitScreenRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1

@@ -34,7 +34,7 @@ public class GameplayScript : Fighter
     private int playerLives = 3;
 
     //Aktiver und Alter State
-    private string activeState = "Idle";
+    public string activeState = "Idle";
     private string oldState = "Idle";
     
     //States in denen sich der Player befindet

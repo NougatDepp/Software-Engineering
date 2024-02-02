@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WinningScreen.unity
     guid: 21ff194d088d86546834dc8cd5378caa
+  - enabled: 1
+    path: Assets/Tests/TestingScene.unity
+    guid: b0e66cecffd197641a8da945cef8a674
   m_configObjects: {}
