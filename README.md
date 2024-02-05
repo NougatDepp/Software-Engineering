@@ -10,4 +10,5 @@ Anleitung zur installierung der Software:
 8. Das Spiel wird gebuildet und ist spielbereit.
 9. Führen Sie SoftwareEngineering.exe aus.
 10. Sollte es wiedererwarten zu Fehlern beim Build kommen, können Sie mir gerne Schreiben.
-11. Alternativ lade ich noch eine fertige Version des Spiels im GitHub hoch.
+11. Alternativ lade ich noch eine fertige Version des Spiels im GitHub hoch. (SE Game.zip)
+    
