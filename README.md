@@ -12,4 +12,7 @@ Anleitung zur installierung der Software:
 10. Sollte es wiedererwarten zu Fehlern beim Build kommen, können Sie mir gerne Schreiben.
 11. Alternativ lade ich noch eine fertige Version des Spiels im GitHub hoch. (SE Game.zip)
 12. Der Commit Hash für die Abgabe ist: d091c6164b3ae6243ec840fd933cc667d30379b5
-    
+
+
+    Systemanforderungen: Windows 10
+    Andere Anforderungen: mindestens 2 Controller (PS3, PS4, XBox 360, etc.).
